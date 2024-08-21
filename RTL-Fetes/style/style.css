@@ -1,0 +1,658 @@
+.c-program-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 100%;
+}
+
+.c-program{
+    width: 100%;
+    max-width: 350px;
+}
+
+.c-program-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+    aspect-ratio: 1/1.41;
+    box-sizing: border-box;
+
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+
+    gap: 24px;
+
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.c-program-card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    box-sizing: border-box;
+    color: #fff;
+    z-index: 100;
+}
+
+.c-program-card__date {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+
+    opacity: 0;
+    transform: translate3d(0, 25px, 0);
+    transition: opacity 0.4s ease-in-out 0.3s, transform 0.4s ease-in-out 0.3s;
+}
+
+.c-program-card__title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    transform-origin: bottom center;
+    transition: transform 0.4s ease-in-out 0.1s;
+
+}
+
+.c-program-card__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.c-program-card__image {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    transition: transform 0.4s ease-in-out;
+}
+
+.c-program-card__media::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    bottom: -20px;
+    right: -20px;
+
+    background: linear-gradient(180deg, rgba(23, 28, 56, 0.00) 60%, rgba(18, 31, 47, 0.30) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 60%, rgba(0, 0, 0, 0.50) 100%);
+    mix-blend-mode: multiply;
+    filter: blur(10px);
+    z-index: 1;
+}
+
+/* Hover state */
+
+.c-program-card:hover .c-program-card__date {
+    opacity: 9;
+    transform: translate3d(0, 0, 0);
+    transition: opacity 0.4s ease-in-out 0.2s, transform 0.4s ease-in-out 0.2s;
+}
+
+.c-program-card:hover .c-program-card__title {
+    opacity: 9;
+    transform: scale(1.05);
+
+    transition: transform 0.4s ease-in-out 0.1s;
+}
+
+.c-program-card:hover .c-program-card__image {
+    transform: scale(1.05);
+    transition: transform 0.4s ease-in-out;
+}
+
+
+dialog {
+    border: none;
+    z-index: 1000;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.c-show-window[open] {
+    position: fixed;
+    padding: 0px 0 75px 0;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #0E1B3E00 49.9999%, #0E1B3E 50%);
+
+    color: #fff;
+    width: 85%;
+    max-width: 650px;
+    height: fit-content;
+    max-height: 90%;
+    border-radius: 25px;
+}
+
+@media all and (max-width: 750px) {
+    .c-show-window[open] {
+        width: 95%;
+        max-width: 100%;
+    }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.c-show-window[open]::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.c-show-window[open] {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.c-show-window[open]::before{
+    content: "";
+    position: absolute;
+    top: 200px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 25px;
+    background-color: #0E1B3E;
+}
+
+
+.c-show-window__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+    margin-top: 75px;
+    height: fit-content;
+    overflow-y: visible;
+}
+
+.c-show-window__focus {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+
+.c-show-window__media {
+    position: relative;
+
+    width: 85%;
+    min-height: 200px;
+    height: 30vh;
+    overflow: hidden;
+    margin-bottom: 24px;
+    z-index: 1000;
+    filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.5));
+}
+
+.c-show-window__image {
+    width: 10%;
+    height: 100%;
+    border-radius: 5px !important;
+}
+
+
+.c-show-window__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 75px;
+    gap: 42px;
+    z-index: 900;
+    background-color: #0E1B3E;
+}
+.c-show-window__content::before{
+    content: "";
+    position: absolute;
+    top: -150px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #0E1B3E;
+}
+
+@media all and (max-width: 750px) {
+    .c-show-window__content {
+        padding: 0 60px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .c-show-window__content {
+        padding: 0 24px;
+    }
+}
+
+.c-show-window__title-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+
+.c-show-window__date {
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: .9;
+    margin: 0;
+    text-align: center;
+}
+
+.c-show-window__name {
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+    text-align: center;
+}
+
+.c-show-window__presentators {
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: .7;
+    margin: 0;
+    text-align: center;
+    width: 75%;
+}
+
+.c-show-window__description {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 0;
+
+    transition: max-height 0.4s ease-out;
+}
+
+.c-show-window__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.c-show-window__link {
+    margin-left: auto;
+    padding: 12px;
+}
+
+.c-show-window__link svg {
+    transition: all 0.3s ease-in-out;
+}
+
+.c-show-window__link:hover>svg {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.c-show-window__channels {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 35px !important;
+    gap: 18px;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.c-show-window__channel {
+    height: 100%;
+}
+
+.c-show-window__channel-link:hover .c-show-window__channel-icon {
+    transform: scale(1.02);
+    transition: all 0.4s ease-in-out;
+}
+
+.c-show-window__channel-icon {
+    height: 100% !important;
+    transition: all 0.4s ease-in-out;
+} 
+
+
+
+.c-horoscope-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.c-horoscope-card {
+    position: relative;
+    width: 300px;
+    height: 450px;
+    border-radius: 25px;
+    cursor: pointer;
+
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.c-horoscope-card__face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    border-radius: 25px;
+
+
+    padding: 12px 24px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E1B3E;
+    border: solid 2px #CCA552;
+}
+
+.c-horoscope-card__face::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url(http://dossiersdepresse.be/wp-content/uploads/2023/12/b-w_boket-scaled.jpg) 50% 50% no-repeat;
+    background-size: 350%;
+    mix-blend-mode: luminosity;
+    opacity: .4;
+}
+
+.c-horoscope-card__back::after {
+    opacity: .2;
+}
+
+.c-horoscope-card__back-deco {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 300%;
+    height: auto;
+    object-fit: contain;
+    z-index: 0;
+    opacity: .03;
+}
+
+.c-horoscope-card__front {
+    transform: rotateY(0deg);
+}
+
+.c-horoscope-card__back {
+    gap: 24px;
+    transform: rotateY(180deg);
+}
+
+.c-horoscope-card__img,
+.c-horoscope-card__main-title,
+.c-horoscope-card__title,
+.c-horoscope-card__short,
+.c-horoscope-card__prediction {
+    z-index: 1;
+}
+
+.c-horoscope-card__img {
+    width: 100%;
+    height: auto;
+    max-width: 170px;
+    max-height: 170px;
+    object-fit: contain;
+}
+
+.c-horoscope-card__main-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.c-horoscope-card__title-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+}
+
+.c-horoscope-card__title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.c-horoscope-card__short {
+    font-size: 1.2rem;
+    text-align: center;
+    text-wrap: balance;
+    font-weight: 500;
+    margin: 0;
+}
+
+.c-horoscope-card__prediction {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media all and (max-width: 250px) {
+    .c-horoscope-card__main-title {
+        font-size: 1.5rem;
+    }
+
+    .c-horoscope-card__title {
+        font-size: 1rem;
+    }
+
+    .c-horoscope-card__prediction {
+        font-size: .7rem;
+    }
+
+}
+
+.c-horoscope-card:hover .c-horoscope-card__front,
+.c-horoscope-card--active .c-horoscope-card__front {
+    transform: rotateY(180deg);
+}
+
+.c-horoscope-card:hover .c-horoscope-card__back,
+.c-horoscope-card--active .c-horoscope-card__back {
+
+    transform: rotateY(0deg);
+}
+
+
+.c-category-container {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.c-category {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+
+    scroll-padding-top: 10vh;
+}
+
+.c-category__title-wrapper {
+    position: relative;
+    width: fit-content;
+    text-wrap: balance;
+}
+
+.c-category__title-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: calc(100% - 12px);
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 100;
+    height: 250%;
+    aspect-ratio: 4/3;
+    background: url(http://dossiersdepresse.be/wp-content/uploads/2023/11/LENS-FLARE-img.png) 50% 50% no-repeat;
+    background-size: contain;
+    mix-blend-mode: screen;
+}
+
+@media all and (max-width: 540px) {
+
+    .c-category__title-wrapper::before {
+        left: calc(0% + 6px);
+    }
+
+}
+
+.c-category__title-wrapper::after {
+    /* underline */
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-primary);
+}
+
+.c-category__title {
+    position: relative;
+    width: fit-content;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800 !important;
+    text-wrap: balance;
+    margin: 0;
+}
+
+.c-category__title::before {
+
+    content: attr(data-text);
+    position: absolute;
+    top: -200%;
+    left: 0;
+    transform: translate3d(-10vw, 0, 0);
+
+    text-align: center;
+    z-index: -1;
+    opacity: .05;
+
+
+
+    font-size: clamp(8rem, 30vw, 25rem);
+    line-height: 100%;
+    width: 110vw;
+    text-wrap: nowrap;
+
+
+    color: #0E1B3E;
+    /* text shadow that make 1px stroke */
+    text-shadow: var(--stroke-size--invert) var(--stroke-size--invert) 0 var(--color-primary), var(--stroke-size) var(--stroke-size--invert) 0 var(--color-primary), var(--stroke-size--invert) var(--stroke-size) 0 var(--color-primary), var(--stroke-size) var(--stroke-size) 0 var(--color-primary);
+}
+
+@media all and (min-width: 1040px) {
+
+    .c-category__title::before {
+        transform: translate3d(-25vw, 0, 0);
+    }
+
+}
+
+.c-type__title {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+/*Video player style*/
+
+.c-video-module {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 16/9;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-video-module__miniature {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.c-video-module__img {
+    width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+}
+
+.c-video-module__miniature:hover .c-video-module__img {
+    transform: scale(1.02);
+    transition: all 0.4s ease-in-out;
+}
+
+.c-video-module__miniature:hover .c-video-module__play-button {
+    transform: translate3D(-50%, -50%, 0) scale(1.1);
+    transition: all 0.4s ease-in-out;
+    background-color: transparent;
+}
+
+.c-video-module__vimeo {
+    display: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #000;
+}
+
+.c-video-module__play-button {
+    position: absolute;
+    width: calc(42px + 5%);
+    box-sizing: content-box;
+    top: 50%;
+    left: 50%;
+    transform: translate3D(-50%, -50%, 0);
+    padding: 10px 20px;
+    padding: 550px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}

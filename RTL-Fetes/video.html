@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/style-reset.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <script defer src="https://player.vimeo.com/api/player.js"></script>
+</head>
+
+<body>
+        <div class="c-video-module">
+            <div class="c-video-module__miniature">
+                <img class="c-video-module__img" src="http://dossiersdepresse.be/wp-content/uploads/2023/12/miniature.jpg" alt="miniature" loading="lazy">
+                <button onclick="playVideo(event)" class="c-video-module__play-button">
+                    <svg width="100%" height="100%" viewBox="0 0 171 172" fill="none"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path d="M85.5616 171.285C53.1145 171.285 32.7225 165.363 19.4409 152.119C6.15919 138.876 0.275391 118.455 0.275391 85.9986C0.275391 53.5418 6.19752 33.1594 19.4409 19.8778C32.6842 6.59611 53.1049 0.712311 85.5616 0.712311C118.018 0.712311 138.401 6.63444 151.682 19.8778C164.964 33.1211 170.848 53.5418 170.848 85.9986C170.848 118.455 164.926 138.838 151.682 152.119C138.439 165.401 118.038 171.285 85.5616 171.285ZM85.5616 15.0288C57.2255 15.0288 39.9767 19.6476 29.6082 30.0161C19.2397 40.3847 14.6208 57.6338 14.6208 85.9699C14.6208 114.306 19.2397 131.555 29.6082 141.923C39.9767 152.292 57.2255 156.911 85.5616 156.911C113.898 156.911 131.147 152.292 141.515 141.923C151.884 131.555 156.503 114.306 156.503 85.9699C156.503 57.6338 151.884 40.3847 141.515 30.0161C131.147 19.6476 113.917 15.0288 85.5616 15.0288Z"
+                              fill="white" />
+                        <path d="M70.1344 48.6323C80.2599 50.7848 89.7972 55.1104 98.0871 61.3102C118.709 75.0614 118.709 81.5683 118.709 84.0119C118.709 86.4555 118.709 92.962 98.4609 106.713C90.1798 113.02 80.5878 117.385 70.3932 119.487C69.0933 119.533 67.7975 119.315 66.5838 118.848C65.3702 118.38 64.2638 117.672 63.3307 116.766C61.7783 115.223 57.6579 111.102 57.7729 83.8297C57.8879 56.7105 61.8357 52.7625 63.3211 51.2484C64.2215 50.3753 65.2895 49.6934 66.4604 49.2438C67.6314 48.7942 68.881 48.5861 70.1344 48.6323V48.6323ZM103.511 84.0885C99.049 79.583 94.0547 75.6377 88.6386 72.3399C83.8272 69.1362 78.7374 66.3716 73.4308 64.0796C72.533 70.6753 72.1071 77.3266 72.1563 83.9829C72.0314 90.7764 72.4417 97.5691 73.3831 104.298C78.7937 102.021 83.9649 99.212 88.8208 95.9134C94.1903 92.5793 99.1248 88.5912 103.511 84.0405V84.0885Z"
+                              fill="white" />
+                    </svg>
+                </button>
+            </div>
+            <div class="c-video-module__vimeo">
+                <iframe src="https://player.vimeo.com/video/892285632?h=93c3663643" width="100%" height="100%"
+                        frameborder="0" allowfullscreen allow="autoplay"></iframe>
+            </div>
+        </div>
+
+
+    <script>
+        // Function to initialize and play the Vimeo video
+        function playVideo(event) {
+
+            var button = event.currentTarget;
+            var miniature = button.parentElement;
+            var vimeoContainer = miniature.nextElementSibling;
+
+            // Hide the miniature image
+            miniature.style.display = 'none';
+            vimeoContainer.style.display = 'block';
+
+            // Create a new Vimeo player instance
+            var iframe = vimeoContainer.querySelector('iframe');
+            var player = new Vimeo.Player(iframe);
+
+            // Start playing the video
+            player.play().catch(function (error) {
+                console.error('Error playing the video:', error);
+            });
+        }
+    </script>
+</body>
+
+</html>

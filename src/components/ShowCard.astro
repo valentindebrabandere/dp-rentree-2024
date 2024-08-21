@@ -1,0 +1,77 @@
+---
+const show = Astro.props;
+---
+
+<div class="c-show-card">
+    <div class="c-show-card___content">
+        <img src={`/img/data-test/${show.slug}.jpg`} alt={`Image de ${show.title}`}>
+        <p>{show.date}</p>
+        <h2>{show.title}</h2>
+    </div>
+    <img class="c-show-card__backdrop" src={`/img/data-test/${show.slug}.jpg`} alt={`Image de ${show.title}`}>
+</div>
+
+<script>
+	import { openModal } from '../utils/openModal';
+	// Find all buttons with the `alert` class on the page.
+	const showCards = document.querySelectorAll('.c-show-card');
+  
+	// Handle clicks on each button.
+	showCards.forEach((card) => {
+	  card.addEventListener('click', (e) => {
+		openModal(e);
+	  });
+	});
+
+</script>
+
+<style lang="scss">
+    .c-show-card {
+        position: relative;
+        aspect-ratio: 1/1.50;
+        width: 400px;
+		cursor: pointer;
+
+        &___content {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 42px;
+            box-sizing: border-box;
+            border-radius: 12px;
+            overflow: hidden;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: -1;
+            }
+
+            p {
+                font-size: 14px;
+                color: white;
+                padding: 4px 8px;
+                border-radius: 4px;
+            }
+        }
+
+        &__backdrop {
+            position: absolute;
+            z-index: -2;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: blur(60px);
+        }
+    }
+</style>

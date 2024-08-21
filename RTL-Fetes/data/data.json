@@ -1,0 +1,1015 @@
+{
+    "RTL_Belgium_Press_Kit": {
+        "categories": {
+            "fetes": {
+                "title": "Les fêtes 2023",
+                "id": "fetes",
+                "type": {
+                    "musique": {
+                        "title": "Musique",
+                        "id": "musique",
+                        "programs": [
+                            {
+                                "title": "Matt Pokora : 20 ans d’amour avec les Belges",
+                                "channels": ["tvi", "play"],
+                                "date": "29/12",
+                                "presenters": ["Maria Del Rio"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/matt-pokora.jpg",
+                                "video": null,
+                                "description": "En 20 ans, Matt Pokora a su s’imposer comme un artiste incontournable de la scène francophone. De l’émission “Popstars” à son “Epicentre tour”, récemment récompensé, le chanteur s’est réinventé sans cesse. Son public belge a d’ailleurs toujours été au rendez-vous. \n \n  Durant trois jours, Maria Del Rio a pu le suivre et s’immiscer dans sa vie en tournée ! Matt Pokora lui a ouvert les portes des coulisses et des loges du Palais 12 lors de ses deux concerts sold out à Bruxelles. Rien n’a échappé à l’œil de Maria et à celui de nos caméras ! À travers les témoignages de ses équipes les plus proches, nous parcourons ses 20 ans de carrière. \n En exclusivité pour RTL tvi, Matt Pokora s’est confié comme jamais sur les moments forts de ces 2 dernières décennies comme, par exemple, sa paternité ou encore les périodes où le public était un peu moins au rendez-vous. Toutefois, il a toujours pu compter sur le soutien de la Belgique !",
+                                "link": null
+                            },
+                            {
+                                "title": "Florent Pagny, le combattant !",
+                                "channels": ["tvi", "play"],
+                                "date": "27/12",
+                                "presenters": ["Laura Beyne"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/florent.jpg",
+                                "video": "https://vimeo.com/892276914?share=copy",
+                                "description": "Avec une vente de plus de 10 millions d'albums, Florent Pagny demeure, à l'âge de 62 ans, l'un des artistes français les plus bankable. \n\n Laura Beyne explore le parcours de ce rebelle de la chanson, de ses amours avec Vanessa Paradis et la femme de sa vie Azucena, à ses problèmes avec le fisc, en passant par ses choix musicaux audacieux ou encore ses amis célèbres, rien ne vous échappera. \n En 2022, il annonce publiquement sa maladie et son combat contre ce mal. Ce documentaire inédit dresse le portrait de cet artiste qui assume et qui impressionne par sa volonté de contrôler sa vie.",
+                                "link": null
+                            },
+                            {
+                                "title": "Abba Mania, 50 ans de tubes",
+                                "channels": ["tvi", "play"],
+                                "date": "05/01",
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/50-ans-tubes.jpg",
+                                "video": null,
+                                "description": "Référence mondiale du disco avec 400 millions d’albums vendus, des titres inoubliables comme “Waterloo”, “Mamma Mia !” ou “Dancing Queen”, ABBA est un véritable succès planétaire. \n Depuis 50 ans, le monde danse au rythme de ce groupe mythique et rien ne semble pouvoir arrêter Agnetha, Björn, Benny et Anni-Frid qui se retrouvent dans un documentaire retraçant la recette de leur incroyable longévité. Entre comédies musicales, innovations, films et concerts avec leurs hologrammes, ABBA, emblème de la Suède, vous dévoile le secret de leur longévité. Le documentaire s’aventure même jusqu’à Charleroi à la rencontre de Giacomo Genovese, fan et collectionneur du groupe, qui nous fait visiter la pièce de sa maison dédiée à ABBA. Une plongée dans un univers qui n’a jamais été si moderne qu’en 2024.\n\n Cette soirée spéciale ABBA sera suivie de la diffusion du film “Mamma Mia!” avec Meryl Streep.",
+                                "link": null
+                            },
+                            {
+                                "title": "La SuperFrancoFête",
+                                "channels": ["tvi", "play"],
+                                "date": " 29/12",
+                                "presenters": ["Emilie Dupuis"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Pierre-de-Maere-1-by-YanTurcotte.jpg",
+                                "video": null,
+                                "description": "La ville de Québec reçoit les accents francophones du monde entier pour “Le Grand concert de la SuperFrancoFête” ! \n Retrouvez sur une même scène une vingtaine d'artistes issus de tous les pays de la francophonie qui se donnent rendez-vous pour célébrer la musique et la chanson francophone. Ce grand show sera présenté par Roch Voisine, Cœur de Pirate, Gims et Mentissa. Ils seront entourés d’Axelle Red, Bilal Hassani, Claudio Capéo, Pierre de Maere et beaucoup d’autres. Ils reprendront leurs plus grands tubes en solo, en duo et en collégiale ! Poussez les meubles, le Grand Concert de la SuperFrancoFête va vous faire danser. \n\n Durant toute la semaine qui précède ce concert évènement à Québec, Emilie Dupuis vous fera vivre les coulisses de ce grand show et partagera avec vous toutes les indiscrétions des artistes qu’elle y a croisés !",
+                                "link": null
+                            },
+                            {
+                                "title": "Contact on Stage",
+                                "channels": ["contact", "plug", "play"],
+                                "date": "01/01",
+                                "presenters": ["David Antoine", "Mentissa", "Pierre De Maere", "Matt Pokora"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/contact-on-stage.jpg",
+                                "video": null,
+                                "description": "Radio Contact invite régulièrement ses auditeurs à vivre des moments musicaux inoubliables lors des “Contact on Stage” ! Ces showcases exclusifs permettent de découvrir ou de redécouvrir des artistes talentueux dans une ambiance intimiste et conviviale. \n \n  David Antoine s’est glissé dans les coulisses des concerts de Matt Pokora, Mentissa et Pierre de Maere et a recueilli les confidences de ces artistes et de leurs fans. Revivez leurs prestations lors de ces Contact On Stage sur RTL plug et RTL play !",
+                                "link": null
+                            },
+                            {
+                                "title": "Pascal Obispo \n 30ans de succès sur bel RTL",
+                                "channels": ["bel"],
+                                "date": "Dans bel RTL matin, du mardi au vendredi",
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Pascal-1.jpg",
+                                "video": null,
+                                "description": "Durant les fêtes, retrouvez un des tauliers de la chanson française chaque jour sur bel RTL. Pascal Obispo se raconte au micro de Serge Jonckers. \n Anecdotes, petites histoires ou moments insolites, il revient sur ses plus grands succès et les titres qui ont marqué ses 30 ans de carrière !",
+                                "link": null
+                            }
+                        ]
+                    },
+                    "humour": {
+                        "title": "Humour",
+                        "id": "humour",
+                        "programs": [
+                            {
+                                "title": "Pablo Andres",
+                                "channels": ["play"],
+                                "date": "12/12",
+                                "presenters": ["Pablo Andres"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/CAPSULE-PABLO.jpg",
+                                "video": null,
+                                "description": "Ne reculant devant aucun danger, \n l’agent Verhaegen part en mission avec son collègue Marc dans une zone de non-droit remplie de suspects plus louches les uns que les autres : une école primaire. Interrogatoires musclés, démantèlement de réseaux de trafiquants de kinder et patrouilles dans les cours de récré les plus coupe-gorge du pays sont au menu de cet épisode qui ferait passer Jack Bauer pour Mère Teresa.\n\nJerem Floquet - Knokke le Zoute love\n\n Après qu’un Français lui ai manqué de respect, Jerem se transforme en véritable thug de Knokke-Le-Zoute. Alors oui, il y a le East Coast et le West Coast mais maintenant il faut aussi compter sur le mer du Nord Coast. On remplace les fringues de Tupac par des petits cachemires framboise sur les épaules et la weed par des Gin To et qu’est-ce que ça donne ? Après le California Love, on a le Knokke-le-Zoute love.\n\n Ramon - L’interview\n\n Découvrez le charmant Ramon Culo, l’homme qui a fait fortune de manière légale et sans violence et même que si quelqu’un dit le contraire il lui fracture les dix doigts et kidnappe son poisson rouge. Ramon nous présente aujourd’hui sa maison et ses employés. Et si vous voyez de la farine partout, c’est sûrement qu’ils sont en train de faire un gâteau. Inutile de poser des questions.\n\nJerem & Anne-So - Les joies du golf (avec la participation de Sarah Grosjean)\n\n Pour Jerem et Anne-So la vie est pleine de difficultés. Comment réussir à dépenser tout le pognon de papa ? Quelle Porsche choisir aujourd’hui ? Et surtout, comment faire du sport tout en évitant les horribles ploucs qui transpirent ? Rendez-vous sur le terrain de golf ou entre les moments pour picoler et les moments pour dire du mal des autres, il ne reste finalement pas beaucoup de temps pour jouer au golf.",
+                                "link": null
+                            },
+                            {
+                                "title": "Drôles d’animaux",
+                                "channels": ["tvi", "play"],
+                                "date": "23/12",
+                                "presenters": ["Sophie Pendeville"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/droles-annimaux.jpg",
+                                "video": null,
+                                "description": "Qu’ils soient loufoques, mignons ou bien grognons, nous raffolons tous des animaux. Sur scène, à la télévision ou sur le web, ils nous inspirent et nous font rire. Aux côtés d'Alex Vizorek, Patrick Bouchitey ou encore Rémi Gaillard, Sophie Pendeville vous propose des sketchs 100% déjantés qui nous rappellent que les animaux n’ont pas fini de nous étonner !",
+                                "link": null
+                            },
+                            {
+                                "title": "Drôles de couples",
+                                "channels": ["tvi", "play"],
+                                "date": "30/12",
+                                "presenters": ["Sophie Pendeville"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/droles-couples.jpg",
+                                "video": null,
+                                "description": "Du premier bisou à la rencontre avec la belle famille, en passant par la première fois, l’amour et les couples sont une grande source d’inspiration pour nos humoristes préférés. Au travers des témoignages de Virginie Hocq, Olivier de Benoist ou encore Anne Roumanoff, Sophie Pendeville vous propose une plongée pleine d’humour dans l’univers des relations amoureuses.",
+                                "link": null
+                            },
+                            {
+                                "title": "Virginie Hocq ou presque",
+                                "channels": ["tvi", "play"],
+                                "date": "25/12",
+                                "presenters": ["Sophie Pendeville", "Virginie Hocq"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Virginie-Hocq-BQ8A3472.jpg",
+                                "video": null,
+                                "description": "A l'occasion de la dernière représentation de son spectacle au Cirque Royal de Bruxelles, Sophie Pendeville en a profité pour retrouver Virginie Hocq et faire le point sur sa tournée triomphale en France et en Belgique. Cet entretien teinté de souvenirs, d’émotions, de rires et de larmes sera suivi de la diffusion du spectacle de Virginie enregistrée à La Cigale, à Paris, début 2023. Dans ce one-woman-show, Virginie nous entraîne dans l’appartement de son père décédé, où elle découvre des objets qui lui rappellent les différentes étapes de sa vie. De l’enfance à la vieillesse, en passant par l’adolescence et la maladie de son papa, elle nous raconte avec humour et tendresse ses anecdotes, ses interrogations, ses joies et ses peines. Elle nous fait ainsi réaliser que la vie est un cycle, une fête, et que le rire est le meilleur remède à tous les maux.",
+                                "link": null
+                            },
+                            {
+                                "title": "Le grand bêtisier des enfants",
+                                "channels": ["tvi", "play"],
+                                "date": "25/12",
+                                "presenters": ["Jill", "Ludo", "Loïc"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Family-Shoot.jpg",
+                                "video": null,
+                                "description": "Cette année, le grand bêtisier de Noël a choisi pour thème : les enfants. Pour cette soirée festive, Jill, Ludo et Loïc se sont donnés rendez-vous dans un lieu féerique avec leurs enfants pour partager un bon moment placé sous le ton de l'humour, de la malice et de l'espièglerie.\n \n Entre catastrophes et surprises, vous verrez que les enfants ont plus d'un tour dans leur sac !",
+                                "link": null
+                            },
+                            {
+                                "title": "Le grand bêtisier",
+                                "channels": ["tvi", "play"],
+                                "date": "01/01",
+                                "presenters": ["Maria", "Sandrine Dans"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/grand-betisier.jpg",
+                                "video": null,
+                                "description": "Pour commencer en beauté l’année 2024, Sandrine Dans et Maria Del Rio se sont vu confier la présentation du bêtisier de fin d’année. Une mission que nos deux animatrices vont assurer pour le meilleur et pour le rire. Autour de la machine à café de RTL, et entourées de leurs collègues, elles vont, bien malgré elles, enchaîner les gaffes et les fous rires. Pour votre plus grand plaisir.\n\nTout au long de ce rendez-vous incontournable à consommer sans modération, Sandrine et Maria vont vous offrir une bonne dose de rire pour célébrer la nouvelle année dans la joie et la bonne humeur. Lapsus, gaffes, problèmes techniques... Revivez en leur compagnie les moments les plus drôles de 2023.",
+                                "link": null
+                            }
+                        ]
+                    },
+                    "speciales": {
+                        "title": "Spéciales",
+                        "id": "speciales",
+                        "programs": [
+                            {
+                                "title": "Bertrand Caroy sur la route 66",
+                                "channels": ["tvi", "play"],
+                                "date": "22/12",
+                                "incarnants": ["Bertrand Caroy"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/BERTRAND-CAROY-ROUTE-66.jpg",
+                                "video": null,
+                                "description": "Bertrand Caroy, le plus célèbre policier de Wallonie est passionné de moto. Dans cette émission spéciale, Bertrand dirige un groupe de motards lors d’une aventure dont rêvent tous les bikers : parcourir la mythique Route 66 en Harley-Davidson. Tous se connaissent à peine et pourtant, ils vont ensemble devoir parcourir plus de 3500 km en 10 jours sous une chaleur écrasante.\n\nPannes mécaniques, conditions de route dangereuses, fatigue… le groupe va devoir repousser ses limites et surpasser ses peurs lors d’un périple qui va mettre à l'épreuve leur endurance, leur sens du pilotage et leur cohésion de groupe.\n\nEnsemble, ils vont traverser des lieux emblématiques de l'Ouest américain, de Los Angeles au Grand Canyon, en passant par Las Vegas, Monument Valley et la Vallée de la Mort, lors d’une aventure où la moindre seconde d’inattention pourrait leur coûter très cher."
+                            },
+                            {
+                                "title": "Donovan bluffe les stars",
+                                "channels": ["tvi", "play"],
+                                "date": "28/12",
+                                "incarnants": ["Donovan"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/donovan.jpg",
+                                "video": null,
+                                "description": "Entrez dans l'univers de la magie avec Donovan, notre magicien charismatique et bluffeur de stars ! Dans ce nouvel épisode inédit, Donovan part à la rencontre des plus grandes stars pour les surprendre avec des tours de magie toujours plus spectaculaires. Après Will Smith, Gad Elmaleh, Angèle, Jarry et bien d’autres, Donovan revient chatouiller les stars, avec un casting exceptionnel : de la star du foot Eden Hazard à l’iconique Jean-Claude Van Damme, en passant par Mentissa, Booder, Dany Boon et l’incontournable Camille Lellouche. Ces stars ont un point commun : elles sont toutes bluffées par l’incroyable Donovan. Il ne s’arrête pas là et veut aussi surprendre les jurés de “Starmaker”, et Agustin, Anggun, Michael Gregorio et Maria del Rio, qui n’en reviendront pas..."
+                            },
+                            {
+                                "title": "Vu à la télé rétro 2023",
+                                "channels": ["tvi", "play"],
+                                "date": "Les 24/12 et 31/12",
+                                "incarnants": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Vu-a-la-tele.jpg",
+                                "video": null,
+                                "description": "“Vu à la Télé” revient pendant les fêtes pour deux épisodes inédits. Les canapés préférés des Belges se sont penchés sur les événements télévisuels forts qui les ont marqués durant cette année 2023. Nos accros du petit écran vous réservent bien des surprises pour cette rétrospective ! Entre rires, émotions et parfois même révolte, retrouvez-les devant votre télévision ou sur RTL play pour découvrir leurs réactions les plus spontanées face aux programmes que vous avez vous aussi adorés en 2023!"
+                            },
+                            {
+                                "title": "La Parade de Noël",
+                                "channels": [],
+                                "date": "22/12 La Louvière",
+                                "incarnants": ["Personnalités RTL"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Noel-Parade.jpg",
+                                "video": null,
+                                "description": "Venez vivre la Parade RTL en compagnie de vos animateurs préférés ! Pour l’édition 2023, la Parade RTL sillonnera les rues de La Louvière. Le train du Pôle Express, le Père Noël en chair et en os, la Reine des Glaces, les lutins… C’est en tout une vingtaine de chars sonorisés, scénarisés, illuminés et animés par près de 180 comédiens qui vous feront vivre un spectacle inoubliable. Sans oublier les deux chars qui emmèneront les animateurs vedettes et les journalistes de RTL. C’est à chaque fois la même magie qui règne dans les rues où passe la Parade, pour le plus grand bonheur des petits et des grands. Et pour la première, Ludovic Daxhelet et son célèbre cuistax du Télévie seront présents dans le cortège !\n\nRendez-vous le 22 décembre dès 16h30 à La Louvière : De 16h30 à 17h30 pour la séance dédicaces avec nos animateurs à l’hôtel de Ville de La Louvière. À 18h30 pour le cortège de la Parade RTL ! Chance exceptionnelle cette année ! Un auditeur de bel RTL se verra offrir la chance de participer à la Parade avec nos personnalités lors de l’émission de Jean-Michel Zecca “Le grand Kiff” du 15 décembre."
+                            },
+                            {
+                                "title": "Retour à l’école des fans",
+                                "channels": ["tvi"],
+                                "date": "27/12",
+                                "incarnants": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/RETOUR-ECOLE-DES-FANS.jpg",
+                                "video": null,
+                                "description": "Imaginée et présentée par Jacques Martin, « L’École des Fans » a marqué l’histoire de la télévision.\nDiffusée pendant plus de vingt ans le dimanche après-midi sur Antenne 2 puis sur France 2, cette émission mythique a permis à de nombreux enfants de vivre un moment unique et inoubliable. Ces petits chanteurs en herbe, venus pousser la chansonnette en public au Théâtre de l’Empire à Paris, devant leurs stars préférées et leurs parents, ont fait rêver des millions d’enfants, de parents et de grands-parents présents devant leur petit écran. Véritable « Madeleine de Proust » de la télévision, « L’École des Fans » était un programme familial réconfortant et bienveillant. Aujourd’hui encore, notre mémoire collective est intacte. À l’occasion de deux documentaires événementiels, empreints de nostalgie et de bonne humeur, nous replongeons dans les meilleures archives de « L’École des Fans », riches d'imprévus, de fous rires, de moments d’émotion, de gêne et de grâce."
+                            },
+                            {
+                                "title": "S.O.S Réveillon",
+                                "channels": ["bel"],
+                                "date": "31/12",
+                                "incarnants": ["Vincent Maréchal", "Eric Boschman", "Alain Tholl & Antoine Guillaume"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/SOS-REVEILLON.jpg",
+                                "description": "À quelques heures du réveillon de nouvel an, bel RTL vous réserve une matinée de fête et répond à toutes vos questions de dernière minute pour réussir votre soirée ! Comment cuisiner les scampis que vous avez dans le frigo pour bluffer vos convives ? Comment s’habiller sans rien dépenser pour être la plus belle pour aller danser ? Comment égailler votre repas avec belle maman pour en faire une soirée exceptionnelle ? Quels sont les petits jeux à faire avec vos amis pour finir 2023 en fou rire ? N’hésitez-pas… nos experts sont là pour vous aider avec toute la folie qu’on leur connaît ! Vincent Maréchal est accompagné par Eric Boschman, Alain Tholl et Antoine Guillaume pour un SOS réveillon d’exception."
+                            },
+                            {
+                                "title": "La Bonne Année",
+                                "channels": ["bel"],
+                                "date": "du 26/12 au 05/01",
+                                "incarnants": ["Bérénice et Tom"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/LA-BONNE-ANNEE.jpg",
+                                "video": "https://vimeo.com/891857680/3795af226a?share=copy",
+                                "description": "Bonne humeur et positive attitude sont de rigueur sur bel RTL pendant les fêtes ! Retrouvez Bérénice pour parler des 3 meilleurs moments de votre année 2023. Famille, vacances, concerts, belles rencontres ou situations cocasses, tout est possible ! Comptez sur Bérénice, elle ne manquera pas de vous surprendre. Chaque jour, elle accueille Tom, son fils de 15 ans en studio. Le plus jeune animateur radio de Belgique nous raconte le monde des ados.\n\nVous voulez parler de vos 3 meilleurs moments de l’année ? Envoyez 2023 par SMS au 6679 (55 centimes par SMS envoyé et reçu)\n\nL’un d’entre vous repartira avec une année de bonheur. (Un séjour en famille à Disneyland Paris, des places de concerts, 50 entrées de cinéma,…)\n\nC’est Cadeau !"
+                            },
+                            {
+                                "title": "C'est cadeau !",
+                                "channels": ["bel"],
+                                "date": "30/12 dès 09h00",
+                                "incarnants": ["Sophie Pendeville & Renaud Rutten"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/C-EST-CADEAU.jpg",
+                                "description": "C’est cadeau… mais c’est surprise ! Sophie Pendeville et Renaud Rutten vous promettent un samedi matin que vous n’oublierez pas de sitôt ! Humour et folie ont rendez-vous sur bel RTL !"
+                            },
+                            {
+                                "title": "La Tête dans les Étoiles",
+                                "channels": ["bel"],
+                                "date": "01/01 de 9h à midi",
+                                "incarnants": ["Fabrice Collignon et Patricia Millis"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/LA-TETE-DANS-LES-ETOILES.jpg",
+                                "description": "Que vous réservent les astres pour l’année à venir ? Quels événements pourraient marquer votre quotidien en 2024 ? Fabrice Collignon reçoit Patricia Millis qui vous dévoile ses prévisions pour les 12 signes du Zodiaque."
+                            },
+                            {
+                                "title": "bel RTL, c’est Noël au soleil",
+                                "channels": ["bel"],
+                                "date": "23/12 et 24/12",
+                                "incarnants": ["Léon"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/BEL-RTL-NOEL-AU-SOLEIL.jpg",
+                                "description": "bel RTL vous offre vos prochaines vacances et met de la vitamine D dans votre valise pour Noël ! Vous voulez remporter un séjour pour 4 au soleil ? Tentez votre chance ! Léon viendra peut-être sonner à votre porte durant le weekend de Noël. Aux 3 coups de sonnettes de Léon, criez “C’est Noël au soleil” et ouvrez la valise bel RTL pour découvrir votre destination ! Vous n’êtes pas à la maison… c’est un voisin qui en profitera !\n\nPour tenter votre chance, inscrivez-vous sur le site www.belrtl.be"
+                            },
+                            {
+                                "title": "Les Webradios",
+                                "channels": ["bel", "contact"],
+                                "date": "bel RTL : 16/11 \n Radio Contact : 8/12",
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/webradio-1.jpg",
+                                "description": "Nos 2 radios, chacune dans leur style, vous plongent dans l’ambiance de Noël avec leur webradio 100% Noël et 100% musique.\n\nÀ retrouver sur belrtl.be et radiocontact.be ou sur l’application de chaque radio !"
+                            },
+                            {
+                                "title": "bel RTL sur son 31",
+                                "channels": ["bel"],
+                                "date": "31/12",
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/bel-rtl.jpg",
+                                "description": "Paillettes, cotillons et bonne humeur, bel RTL vous promet les plus grands tubes de fête pour votre réveillon. Poussez les meubles, montez le son, bel RTL met de l’ambiance dans votre salon !"
+                            },
+                            {
+                                "title": "Le Good Morning sur son 31",
+                                "channels": ["contact"],
+                                "date": "31/12, 20h-00h",
+                                "incarnants": ["Tonton, équipe Good Morning"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/good-morn.jpg",
+                                "description": "Terminez l’année 2023 en beauté avec l’équipe du Good Morning et notre tonton national. Il occupera le rôle d'invité d'honneur lors de cette émission spéciale, entouré de Maria, Olivier, Gary et Valentino. Les animateurs de Radio Contact seront également de la fête ! Tonton viendra pimenter les jeux cultes du Good Morning et nous compilera sa meilleure playlist de réveillon."
+                            },
+                            {
+                                "title": "Les 20 Meilleurs de Noël",
+                                "channels": ["bel"],
+                                "date": "24/12 de 18h00 à 20h00",
+                                "incarnants": ["Sandrine Dans, Antoine Guillaume, Axelle Red, Serge Jonkers, Georges Lang"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/LES-20-MEILLEURS-DE-NOEL.jpg",
+                                "description": "Pour votre soirée de réveillon, bel RTL met les petits plats dans les grands ! Sandrine Dans et Antoine Guillaume débutent la soirée avec les 20 meilleurs de Noël. De Mariah Carey à Wham en passant par Michaël Bublé et Garou … retrouvez la magie des chansons de Noël !\n\nAxelle Red vous invite dans son Grand Studio avec son “Very Special Christmas”.\n\nSerge Jonckers et ses invités vous offrent les plus grands crooners de tous les temps.\n\nGeorges Lang clôture la soirée à sa manière et vous propose ses pépites musicales."
+                            },
+                            {
+                                "title": "La Chanson de l'année bel RTL",
+                                "channels": ["bel"],
+                                "date": "31/12",
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/La-chanson-de-lannee-bel.jpg",
+                                "description": "Calogero, Angèle, Ed Sheeran, Miley Cyrus, Pierre de Maere, Dua Lipa, Mika, Mylène Farmer, Patrick Bruel, les Rolling Stones … quel est l’artiste ou le groupe qui a chanté LA chanson de l’année 2023 ! À vous de le décider en votant pour vos chansons préférées. Pour participer, rendez-vous sur le site www.belrtl.be. Le 31 décembre, on remonte le classement sur bel RTL pour découvrir VOTRE titre préféré.\n\nbel RTL vous propose de voter, à partir du samedi 9 décembre sur belrtl.be pour votre chanson de l’année !"
+                            },
+                            {
+                                "title": "En route pour le réveillon",
+                                "channels": ["bel"],
+                                "date": "24/12",
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/EN-ROUTE-POUR-LE-REVEILLON.jpeg",
+                                "description": "Qui de mieux que Sophie Pendeville et Sandrine Corman pour vous ambiancer à quelques heures du passage à l’an neuf ? \n  Que vous soyez sur la route ou dans les derniers préparatifs, à la maison ou chez des amis, Sandrine et Sophie vous accompagnent avec leur humour et leur folie pour votre pré-réveillon de Saint-Sylvestre."
+                            },
+                            {
+                                "title": "Le Réveillon de Max et Valentino",
+                                "channels": ["contact"],
+                                "date": "24/12, 20h-00h",
+                                "incarnants": ["Max, Valentino"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/MAX-ET-VALENTINO-NOEL.jpg",
+                                "description": "Max et Valentino accompagnent les auditeurs tout au long de leur réveillon de Noël. Au menu : des jeux, des anecdotes festives et une playlist agrémentée de quelques incontournables de Noël !"
+                            },
+                            {
+                                "title": "Les Étoiles Radio Contact",
+                                "channels": ["contact"],
+                                "date": "Du 13/11 au 24/12",
+                                "incarnants": ["David Antoine"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/LES-ETOILES-RADIO-CONTACT.jpg",
+                                "video": "https://vimeo.com/891771642/c57a65da1a?share=copy",
+                                "description": "À l'approche des fêtes de fin d’année, cette période empreinte de générosité et de partage, il est essentiel de se rappeler que chaque enfant mérite un Noël rempli de joie. Malheureusement, certains d'entre eux passent encore cette période sans magie et sans le moindre cadeau. C'est pourquoi l'équipe du 15/19 et Radio Contact ont lancé une nouvelle fois l’'opération 'Les Étoiles Radio Contact' en faveur de l'association Pêcheur de Lune.\n\nDu 13 novembre au 24 décembre, nous vous invitons à aider le Père Noël en achetant votre étoile pour seulement 5€ ou en faisant monter le compteur d’étoiles en achetant des étoiles virtuelles en ligne (nouveau cette année). Tous les bénéfices seront intégralement reversés à l'association Pêcheur de Lune, qui s'efforce d'offrir des cadeaux aux enfants malmenés par la vie. Pour trouver les points de vente ou faire un don : www.lesetoilesradiocontact.be.\n\nAprès seulement 1 mois d’opération, le pallier des 12.000 étoiles vendues a été franchi. Nous comptons sur vous pour faire exploser ce record.\n\nNos équipes télés ont suivi David, Lucile, Thibaut et Max tout au long de l'opération depuis la fabrication des étoiles jusqu'à la distribution des cadeaux par le Père Noël en personne. Découvrez le magazine “Le cœur dans les étoiles” le 27 décembre à 19h50 sur RTL tvi."
+                            }
+                        ]
+                    },
+                    "fictions": {
+                        "title": "Fictions",
+                        "id": "fictions",
+                        "type":"gallery",
+                        "gallery": [
+                            {
+                                "title": "Uncharted",
+                                "channels": ["club", "play"],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Uncharted.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Marsupilami",
+                                "channels": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/RTL-Belgium-Marsu.jpg",
+                                "date": "30/12",
+                                "description": null
+                            },
+                            {
+                                "title": "Miracle sur la 34e Rue",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Miracle.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Astérix et Obélix mission Cléopatre",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Asterix-AND-Obelix.Mission-Cleopatre-Affiche-A.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Astérix et Obélix contre César",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Asterix-et-Obelix-contre-Cesar_001.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Astérix et Obélix au service de sa Majestée",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Asterix-et-obelix-au-serviice-de-sa-Majeste.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Astérix et Obélix aux Jeux Olympiques",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Asterix-aux-Jeux-Olympiques-Affiche.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Le Nounou avec Bouder",
+                                "channels": [],
+                                "date": "23/12",
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/LE-NOUNOU.jpg",
+                                "description": "LE NOUNOU"
+                            },
+                            {
+                                "title": "Le père Noël est une ordure",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Le-pere-Noel-est-une-ordure.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Fatman",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/FATMAN_HR_Final_1SHTA_Bleed_HR.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Les Visiteurs",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Les-visiteurs-affiche.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Rabbi Jacob",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Rabbi-Jacob.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "West Side Story",
+                                "channels": [],
+                                "date": "22/12",
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/WestSideStory_Dom_P143_FireEscape_MariaTony_FinalArtwork.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Cendrillon",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/CENDRILLON.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Collection de Noël RTL play",
+                                "channels": ["play"],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/COLLECTION-NOEL-2.jpg",
+                                "description": "COLLECTION NOEL"
+                            },
+                            {
+                                "title": "Roi Lion",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/LE-ROI-LION.jpg",
+                                "description": null
+                            },
+                           
+                            {
+                                "title": "Mamma Mia",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/MammaMia_800x1200_FR_FRA_Keyart_DIGITAL_DIG_Clean_RGB.jpg",
+                                "description": null
+                            }
+                        ]
+                    }
+                }
+            },
+            "retours": {
+                "title": "Les grands retours de 2024",
+                "id": "retours",
+                "type": {
+                    "les_tant_attendus": {
+                        "title": "",
+                        "programs": [
+                            {
+                                "title": "Les Traîtres \n saison 3",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Frédéric Etherlinck"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/LES-TRAITRES.jpg",
+                                "video": null,
+                                "description": "Dans ce jeu animé par Frédéric Etherlinck et rythmé par les mensonges, les manipulations et les trahisons, les joueurs vont vivre une expérience qu'ils ne sont pas prêts d'oublier...\n\n14 personnalités comprenant des animateurs, des chanteurs, des sportifs, des youtubeurs, des pâtissiers et des aventuriers doivent collaborer pour résoudre des énigmes et remporter de l’argent.\n\nMais attention ! Parmi eux se cachent des traîtres, qui ont pour mission de saboter le jeu et de détourner les gains. Les candidats devront faire preuve de stratégie, de déduction et de confiance pour démasquer les traîtres et les éliminer. Jour et nuit, les Traîtres devront mentir sur leur véritable identité, élaborer des stratégies pour tromper les Loyaux et assurer leur place dans le jeu. Pour y parvenir, ils devront remporter des épreuves, résister à la pression psychologique, déjouer des stratégies, tromper et manipuler l’ennemi...\n\nAlors, les Traîtres seront-ils démasqués ? Qui des Traîtres ou des Loyaux gagnera ce jeu ? Une chose est sûre, tous les coups sont permis et les stratégies de chacun vont plus que jamais bouleverser cette 3ème saison. Que la partie commence !",
+                                "link": null
+                            },
+                            {
+                                "title": "Top Chef \n saison 15",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/TOP-CHEF.jpg",
+                                "video": null,
+                                "description": "La 15ème saison de “Top Chef”, le concours culinaire culte, fera son retour sur nos antennes en 2024, avec un panel de six jurés. Parmi eux, Dominique Crenn, la première femme à obtenir trois étoiles au Guide Michelin aux Etats-Unis. À l'âge de 58 ans, la Cheffe vient d'inaugurer son premier restaurant à Paris, marquant ainsi son retour en France après l'avoir quittée à l'âge de 21 ans. À ses côtés, Stéphanie Le Quellec, la lauréate de la saison 2 de “Top Chef” en 2011, désormais doublement étoilée. Ces deux femmes se joindront aux quatre jurés de la saison précédente, à savoir Hélène Darroze, Paul Perret, Glenn Viel et Philippe Etchebest, qui demeurent fidèles à leur rôle. Ensemble, ils vont juger, coacher et challenger les candidats qui vont s’affronter dans des épreuves toujours plus créatives, techniques et spectaculaires.",
+                                "link": null
+                            },
+                            {
+                                "title": "Mariés au premier regard \n saison 7",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Maries-au-premier-regard-B-s6.jpg",
+                                "video": null,
+                                "description": "Pour la 7ème année consécutive, \"Mariés au premier regard\" est de retour sur RTL tvi. Quatre experts ont décidé de mettre leurs compétences au service de l'expérience. Des célibataires des quatre coins de la Belgique se sont déplacés à Bruxelles pour rencontrer ces professionnels de l'amour et passer de nombreux tests. Après de longs mois d'analyses et de recherches, 10 personnes ont finalement appris que leur destin allait basculer.\n\nCette année, le panel de sélection a été élargi afin de refléter plus fidèlement encore notre société. Les histoires sont plus riches qu'elles ne l'ont jamais été. Vous suivrez notamment l'expérience d'un couple d'hommes d'une trentaine d'années qui ne demande qu'à vivre sa plus belle relation. Vous découvrirez également l'aventure de parents pour qui le défi est de former non seulement un couple, mais aussi une famille recomposée.\n\nCette 7ème saison sera forte en rebondissements. Les angoisses des futur.e.s marié.e.s, et les appréhensions de leurs proches seront au rendez-vous. Certains participants seront bouleversés aux portes de leur mariage et devront prendre la décision de continuer ou de tout abandonner.\n\nCette saison, c'est donc 5 couples qui découvriront qu'ils partagent une compatibilité scientifique d'au moins 70%.\n\nSi les couples décident de s'unir devant la loi, c'est en voyage de noces qu'ils commenceront à se découvrir. Sous les tropiques, et au milieu de paysages magiques, les jeunes mariés auront tout le loisir de bâtir leur relation. Une fois de retour en Belgique, ils devront s'adapter au quotidien de leur époux(se).\n\nAu terme de l'expérience, chaque couple devra prendre la décision ultime de rester marié ou de divorcer. Alors, qui décidera de rester uni à celui ou celle qui lui était encore inconnu quelques semaines plus tôt ?",
+                                "link": null
+                            },
+                            {
+                                "title": "Loïc, fou de cuisine",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Loïc Van Impe"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/LOIC-FOU-DE-CUISINE.jpg",
+                                "video": null,
+                                "description": "Loïc n'est pas un « Chef », mais un fou de cuisine ! Il revient dans un décor tout neuf et un nouvel horaire pour nous proposer ses recettes, rapides, faciles et super gourmandes ! Ses grands-parents et parents sont à la base de son éducation culinaire et c'est grâce aux livres, aux réseaux sociaux et à la télévision avec des programmes tels que Top Chef, que Loïc a poursuivi son apprentissage. Sa personnalité sympathique, son esprit bon vivant et sa popularité font de lui un chef apprécié de tous.",
+                                "link": null
+                            },
+                            {
+                                "title": "Appel d’urgence \n saison 10",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/APPEL-URGENCE.jpg",
+                                "video": null,
+                                "description": "Chaque jour, ils traitent les appels des numéros 112 et 101. Pour nombre d'entre nous, ce sont des voix. Des voix qui nous guident, nous dirigent et nous épaulent dans des moments souvent très difficiles et de détresse intense. \"Appel d'urgence\" nous fait vivre le quotidien des \"calltakers\" et le destin de ceux qui les appellent face à leur détresse. Grâce aux caméras installées au cœur des centres d'appels, cette nouvelle saison nous promet des moments rares, forts et émouvants. Vous découvrirez de nouveaux calltakers et des histoires toujours plus dingues mais bien ancrées au cœur de la réalité !\n\n",
+                                "link": null
+                            },
+                            {
+                                "title": "Face au juge \n saison 10",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Julie Denayer"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Face-au.jpg",
+                                "video": null,
+                                "description": "L'équipe de \"Face au juge\" a installé ses caméras au cœur des salles d'audiences pour assister aux interrogatoires des prévenus qui viennent juste d'être arrêtés par la police avant qu'ils ne soient présentés face à un juge. Des images uniques et rares. Julie Denayer se glisse dans les tribunaux pour faire découvrir le destin de citoyens face à la Justice. Vous retrouverez les personnalités emblématiques du programme comme Marco Ossena (Juge de police à Verviers), Denis Goeman (Juge au Tribunal de Bruxelles) ou Damien Vervaeren (Parquet de Charleroi).\n\n",
+                                "link": null
+                            },
+                            {
+                                "title": "Véto & Co \n saison 10",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/veto-and-co.jpg",
+                                "video": null,
+                                "description": "Nos vétérinaires ont des personnalités fortes et attachantes, leur professionnalisme est au cœur de l'aventure. Chaque jour, ce sont eux qui se battent pour soigner et sauver nos compagnons animaux, qui sont de plus en plus souvent considérés comme des membres de la famille à part entière. “Véto & Co” témoigne des rencontres du quotidien, chargées en émotions, entre des maîtres attachés à leur animal et des vétérinaires dévoués et humains.\n\n",
+                                "link": null
+                            },
+                            {
+                                "title": "La maison de mes rêves \n saison 6",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Sabrina Jacobs"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/MAISON-DE-MES-REVES.jpg",
+                                "video": null,
+                                "description": "“La Maison de mes Rêves” fait son grand retour !\n\nQuand certains rêvent de trouver la maison idéale, d’autres entreprennent, bâtissent leur foyer, leur nouveau chez eux ! Un rêve, un objectif, ils sont tous portés par l’envie fougueuse d’entreprendre. Pour cette 6ème saison, Sabrina Jacobs est au plus proche et à l'écoute des candidats, parfois inquiets, parfois trop ambitieux. Elle leur rendra visite et trouvera les mots justes afin que tous vivent enfin dans la maison de leurs rêves !\n\n",
+                                "link": null
+                            },
+                            {
+                                "title": "Les apprentis aventuriers",
+                                "channels": ["play", "plug"],
+                                "date": null,
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/apprentis-aventuriers.jpg",
+                                "video": null,
+                                "description": "Isolés au cœur de la nature hostile, déconnectés de tout et sans rien d’autre que le strict nécessaire pour survivre : c’est l’incroyable défi qu’ont décidé de relever les courageux Apprentis Aventuriers ! Loin de leur mode de vie habituel, pour gagner, ils vont devoir se transformer. Mais tous vont vivre l’aventure de leur vie ! Répartis en équipe de 2, ils sont loin d’imaginer ce qui les attend. Tous n’auront qu’un seul objectif chaque jour : tenir bon, coûte que coûte... et ce n’est vraiment pas gagné ! Pour ceux qui manqueront de courage, une seule option : abandonner en sonnant la cloche !\n\n",
+                                "link": null
+                            }
+                        ]
+                    },
+                    "televie": {
+                        "title": "Télévie",
+                        "id": "televie",
+                        "programs": [
+                            {
+                                "title": "Chez Arsène",
+                                "channels": ["belgium"],
+                                "date": "1/02, 2/02 et 3/02",
+                                "presenters": ["Arnaud Delvenne, Ben & Adé / Valériane"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Chez-Arsene-Couleur.jpg",
+                                "video": null,
+                                "description": "RTL Belgium et les écoles provinciales du Brabant wallon présentent “Chez Arsène”, le restaurant éphémère au profit du Télévie qui vous accueillera du 1er au 3 février 2024 au domaine de la bataille de Waterloo, au pied de la butte du Lion.\n\nCe projet solidaire est porté par Arnaud (finaliste Top Chef saison 13), Benjamin et Adelina (finaliste et demi-finaliste Meilleur Pâtissier saison 11) et Valériane (finaliste Meilleur Pâtissier saison 7), qui ont décidé de mettre leur talent et leur générosité au service de la lutte contre le cancer.\n\nLe 1 et 2 février, 2 services (midi – 19h), menu bistronomique (40€ hors vin).\n\nLe 3 février, service unique à 19h. Menu gastronomique (80€ hors vin).\n\nRéservation : www.televie.be",
+                                "link": null
+                            },
+                            {
+                                "title": "Télévie en folie \n 2ème édition",
+                                "channels": ["belgium"],
+                                "date": "Partout en Belgique, \n du 23/03 au 06/04",
+                                "presenters": ["Personnalités RTL et Mister Cover"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/TELEVIE-EN-FOLIE.jpg",
+                                "video": "https://vimeo.com/891834694/f8235ce943?share=copy",
+                                "description": "Le “Télévie en folie”, c’est le spectacle humoristique et musical qui réunit les personnalités de RTL tvi, bel RTL et Radio Contact au profit du Télévie.\n\nPour cette 2ème édition, les personnalités de RTL vont vous faire rire et chanter comme des fous en reprenant les plus grands sketchs et les plus grands tubes du moment !\n\nSur les planches, retrouvez Sandrine Corman, Sophie Pendeville, Sandrine Dans, Olivier Schoonejans, Emilie Dupuis, Luc Gilson, Caroline Fontenoy, Jacques van den Biggelaar, Anne Ruwet, Thomas de Bergeyck et bien d’autres encore !\n\nIls seront accompagnés par Mister Cover et le grand gagnant de l’émission Starmaker. Olivier Leborgne continuera d'assurer la mise en scène.\n\n4 représentations exceptionnelles sont d’ores et déjà programmées à Charleroi, Marche-en-Famenne et Malmedy. Réservez vos places à partir du 13 décembre sur Ticketmaster. Ne tardez pas, il n’y en aura pas pour tout le monde !\n\nEn parallèle, Jean-Michel Zecca ravira l'un des auditeurs de bel RTL en concrétisant son grand Kiff sur la scène du Télévie en Folie.",
+                                "link": null
+                            },
+                            {
+                                "title": "Télévie \n A table !",
+                                "channels": ["belgium"],
+                                "date": "9/12",
+                                "presenters": ["voir texte"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/A-Table.jpg",
+                                "video": "une vidéo promo sera dispo, ou capsules tv",
+                                "description": "Vous aimez cuisiner ? La 3ème édition du livre de recettes “À table!” est désormais disponible et vous allez l’adorer !\n\nCette année, grande nouveauté : nos personnalités RTL, accompagnées d’invités spéciaux tels que Matt Pokora et Frédéric François ont intégré trois brigades menées par trois grands spécialistes de la cuisine : le chef étoilé Yves Mattagne, le Top Chef Arnaud Delvenne et Loïc Fou de Cuisine.\n\nEnsemble, ils ont revêtu leur tablier pour vous concocter pas moins de 21 recettes gourmandes et variées, pour tous les goûts et toutes les occasions.\n\nCe livre vous réserve des anecdotes, des confidences et des recettes coups de cœur : une combinaison d'ingrédients qui vous ravira !\n\nLe livre est disponible au prix de 20€ dans toutes les librairies Club et sur le site du Télévie à partir du 1er janvier.\n\nUne séance de dédicaces est prévue le 13 décembre de 15h30 à 17h au magasin Club de Belle-Ile à Liège. En présence de : Arnaud Delvenne, Benjamin et Adelina, Benjamin Maréchal, Bertrand Caroy et Salima Belabbas. Une seconde séance de dédicaces est prévue en 2024.",
+                                "link": null
+                            },
+                            {
+                                "title": "Télévie \n soirée de clôture",
+                                "channels": ["tvi"],
+                                "date": "20/04",
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/televie-cloture.jpg",
+                                "video": null,
+                                "description": "Depuis 35 ans, grâce au Télévie, les Belges se rejoignent dans un même élan de solidarité pour combattre le cancer. Des centaines d'activités sont organisées par les bénévoles, RTL Belgium et le FNRS afin de récolter des dons pour soutenir la recherche.\n\nChaque édition du Télévie s'achève en apothéose lors d'une grande soirée de clôture diffusée en direct sur RTL tvi et RTL play et qui rassemble les personnalités RTL, les chercheurs, les bénévoles, les témoins, les artistes ainsi que d’autres invités.\n\nCette année, l’événement de clôture aura lieu le samedi 20 avril 2024, en direct de Tournai. Une soirée exceptionnelle, qui marquera le 35ème anniversaire du Télévie."
+                            }
+                        ]
+                    },
+                    "fictions": {
+                        "title": "Séries RTL play",
+                        "id": "play",
+                        "type": "gallery",
+                        "gallery": [
+                            {
+                                "title": "Spartacus",
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Spartacus_S1_ENG_2000x3000.jpg",
+                                "description": null,
+                                "channels": null
+                            },
+                            {
+                                "title": "Une famille pas si parfaite",
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/unefamillepassiparfaite.jpeg",
+                                "description": null,
+                                "channels": null
+                            },
+                            {
+                                "title": "Singletown",
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/single-town.webp",
+                                "description": null,
+                                "channels": null
+                            },
+                            {
+                                "title": "Secret&Lies",
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/SECRETSANDLIES_Y2_AdArt_Horz2_NoTuneIn.jpg",
+                                "description": null,
+                                "channels": null
+                            },
+                            {
+                                "title": "Sissi",
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/sissi-portrait.jpg",
+                                "description": null,
+                                "channels": null
+                            }
+                        ]
+                    }                    
+                }
+            },
+
+            "indédits": {
+                "title": "Les nouveautés de 2024",
+                "id": "inedits",
+                "type":{
+                    "emissions": {
+                        "title": "",
+                        "id": "emissions",
+                        "programs": [
+                            {
+                                "title": "Starmaker",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Présenté par :", "Sandrine Corman", "\n\n Jury : Anggun", "Agustin Galiana", "Maria Del Rio", "Michaël Gregorio", "Jarry"],
+                                "photo": "https://dossiersdepresse.be/wp-content/uploads/2024/01/starmaker-header-img-1-scaled.jpg",
+                                "video": null,
+                                "description": "«Starmaker », c’est le retour des divertissements 100% belges et à grand spectacle sur RTL.\n\n72 candidats âgés de 15 à 64 ans vont devoir tout donner pour incarner au mieux les plus grandes icônes de la pop, dans ce qui pourrait bien être le show de leur vie.\n\nAnimé par Sandrine Corman, ce concours de chant en forme de spectacle total deviendra une expérience humaine unique pour ces amateurs qui vivront, le temps d’un soir, l’accomplissement de leur rêve.\n\nEn foulant la scène, ces anonymes transporteront le public à travers une performance de haut niveau en forme d’hommage à l’artiste qu’ils ont choisi de représenter, par équipe de trois. Avec beaucoup d'émotion, ils partageront également leur histoire personnelle. Une histoire remplie de joie, mais aussi d'épreuves et de dépassement de soi.\n\nChaque semaine, 12 talents inconnus du public se succèderont sous le feu des projecteurs. Chacun se retrouvera dans la peau de son idole afin d'interpréter ses plus grands tubes face à un jury international d'exception : Anggun, Agustín Galiana, Maria Del Rio et Michaël Gregorio. Jarry fera également partie de l’aventure le temps d’une soirée.\n\nLes jurés et le public vivront une expérience totale, riche en émotions, où le travail acharné de ces stars d’un soir leur réserve bien des surprises...\n\nDéroulement du concours\n\nChaque participant sera jugé sur sa capacité à ressembler le plus possible à son idole, tant sur le critère vocal que sur les plans physiques et scéniques.\n\nPendant plusieurs mois, les talents ont été coachés par des professionnels pour évoquer au mieux leurs idoles. Un coaching vocal précis, des cours de danse intenses, et une équipe de relooking vont métamorphoser ces inconnus en stars de la chanson.\n\nLors des éliminatoires, trois talents, fans du même artiste, formeront une équipe. Ils s’affronteront devant nos jurés qui éliront le meilleur soliste de chacune des 4 équipes.\n\nCeux-ci s’opposeront aux autres talents sélectionnés dans la seconde épreuve : les solos.\n\nMais c’est le public qui départagera les 4 solos en votant pour celui ou celle qui continuera l’aventure et accèdera à la grande finale.\n\nMais le jury n’a pas dit son dernier mot. Après chaque prime, RTL PLAY diffusera en exclusivité « STAR MAKER, la nouvelle chance » la compétition complémentaire au Prime. Grâce aux caméras présentes en coulisses et lors des répétitions, on y découvrira le parcours complet des solistes. Le jury pourra alors affiner son jugement, pour sauver un des trois solistes restants.\n\nPour la grande finale, ce sont 9 candidats qui joueront le tout pour le tout pour remporter Starmaker, son trophée unique, la somme de 20.000 euros, et la chance de se produire en live lors de l’événement du « Télévie en Folie » accompagné de véritables musiciens.",
+                                "link": null
+                            },
+                            {
+                                "title": "Plus belle la vie, encore plus belle",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Sylvie Flepp", "Léa François", "Stéphane Hénon", "Cécilia Hornus", "Laurent Kérusoré"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/plus-belle-la-vie.jpg",
+                                "video": null,
+                                "description": "Un an après l’effondrement du quartier du Mistral, ses anciens habitants ont dû repartir à zéro dans un tout nouveau quartier. Nouveaux voisins, nouveaux lieux et nouvelles habitudes… leur vie a doucement pris un nouveau départ dans le Panier. Tout le monde est d’ailleurs très heureux de se retrouver pour l’inauguration du nouveau bar de Thomas, Kilian et Barbara. Cependant, la soirée tourne mal lorsque Francesco s’écroule sous les yeux des convives.\n\nUne possible intoxication suscite la paranoïa parmi les habitants, partagés entre la crainte d’une négligence du bar et celle d’un empoisonnement délibéré. Une enquête est ouverte par la police, dévoilant la présence d’un individu suspect sur la place. En parallèle, des éléments troublants impliquant Estelle et Djawad émergent…\n\nEntre coups de foudres, nouveaux arrivants et guest-stars, profitez de ce retour événement, en preview de 24 heures, pour la première fois en exclusivité sur RTL tvi et RTL play !\n\nLa saison 18 est d’ores et déjà disponible en exclusivité sur RTL play.",
+                                "link": null
+                            },
+                            {
+                                "title": "Maintenant ou jamais",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Emilie Dupuis"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/maintenantoujamais22.jpg",
+                                "video": "https://vimeo.com/892159362/9d17f9772a?share=copy",
+                                "description": "Découvrez \"Maintenant ou Jamais\", la nouvelle émission d'Émilie Dupuis qui vous confronte à ceux qui ont marqué votre vie. À une époque où se parler est devenu difficile et où les conflits naissent souvent sur des malentendus, nous avons décidé de provoquer des rencontres pour que renaisse enfin l’échange et le partage.\n\nÀ toutes celles et ceux qui campent sur leurs positions, et qui pensent que rien n’est possible en cas de conflit, nous leur avons ouvert le Salon des Réconciliations. Renouer le dialogue, explication, pardon, amour renouvelé ou adieu, tout se décide maintenant ! Une expérience qui vous fera vivre des instants intenses, bouleversants, parfois drôles, parfois tristes mais toujours authentiques.\n\nÀ l’issue de cette discussion, nos témoins devront faire un choix : accepter de continuer leur histoire ensemble ou séparément. Parce que le dialogue est la seule et unique solution pour résoudre les problèmes, mais aussi pour dénouer les plus belles des situations.",
+                                "link": null
+                            },
+                            {
+                                "title": "Place Royale",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Alix Battard"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/place-royale.jpg",
+                                "video": null,
+                                "description": "2024 sera royale ou ne sera pas ! Place Royale, l’émission d’actualités des têtes couronnées revient dès janvier sur RTL tvi et RTL play. Tous les samedis, Alix Battard vous donne rendez-vous pour décrypter l’actualité, les tendances et l’histoire des monarchies européennes et internationales.\n\nPassionnée par le sujet, Alix Battard a couvert nombre d'événements royaux exceptionnels tels que le jubilé de la reine Elizabeth II et ses funérailles, les couronnements de Philippe de Belgique, Charles III et Willem-Alexander ainsi que le mariage de Kate et William.\n\nLa monarchie, c'est démodé ? Pas si on en croit le nombre d'articles de presse, de magazines, de séries ou d'émissions de télévision qui explorent les coulisses et l'histoire de la royauté. Il se passe toujours quelque chose dans le monde des têtes couronnées !\n\nComment les monarchies évoluent-elles avec leur temps ? Quelles seront les futures générations de reines et de rois ? Que se passe-t-il derrière les portes fermées des palais ? Quelles anecdotes se cachent derrière l’histoire avec un grand H ? Qui sont les célibataires les plus en vue du gotha? Le magazine répondra à toutes ces questions, tout en mêlant glamour et information !",
+                                "link": null
+                            },
+                            {
+                                "title": "Destination X",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Philippe Bas"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/destinationx.jpg",
+                                "video": null,
+                                "description": "Destination X, le premier road-trip à l’aveugle. Un jeu d’aventure dans lequel une seule question compte : où êtes-vous ? “Destination X” est un jeu d’aventure immersif, ambitieux et innovant. Un tout nouveau format addictif qui associe voyage d'aventure spectaculaire à jeu d’enquête ultime. Dans “Destination X”, des candidats s'embarquent pour le voyage d'une vie, mais n'ont aucune idée de l'endroit où ils vont et où ils se trouvent. Pendant plusieurs semaines, ils vont parcourir l’Europe à l’aveugle à bord d’un bus géant aux vitres opaques sans aucune possibilité de se repérer dans l’espace. En montant dans cet étrange véhicule noir, ils partent dans l’inconnue la plus totale.",
+                                "link": null
+                            },
+                            {
+                                "title": "L’île de la Tentation",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Delphine Wespiser"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/ile-de-la-tentation.jpg",
+                                "video": null,
+                                "description": null,
+                                "link": null
+                            },
+                            {
+                                "title": "Lego Master",
+                                "channels": ["tvi", "play"],
+                                "date": null,
+                                "presenters": ["Eric Antoine"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Lego-Masters-s4-1920x1080-1.jpg",
+                                "video": null,
+                                "description": "Lego Master est de retour pour une quatrième saison inédite avec des épreuves encore plus grandioses et exceptionnelles.\n\n8 nouveaux binômes passionnés et attachants seront confrontés à des défis inédits. Nouveauté cette année : ils devront se plier aux règles de l’invention la plus terrible imaginée par Éric Antoine : La machine infernale. Cette machine, source de rebondissements, mettra les nerfs des candidats à rude épreuve, promettant des moments de tension et d’excitation. Pour arriver au bout de cette compétition, les candidats devront affronter le feu, défier les lois de la gravité, explorer le monde exigeant de la mode… Mais ils devront aussi répondre aux demandes d’un invité exceptionnel : Amixem, le célèbre youtubeur français comptant plus de 8 millions d’abonnés, qui lancera un défi aux participants. La finale réservera une belle surprise aux deux binômes qualifiés qui se verront attribuer chacun une brigade de candidats éliminés cette saison avec comme objectif, construire l’œuvre la plus spectaculaire jamais réalisée en briques. Durant toute la compétition, leur seul but sera de créer les œuvres les plus incroyables, repoussant les frontières de l’imagination et de la technique. Le meilleur binôme aura la chance de remporter la somme de 20 000 euros. Bienvenue dans la quatrième saison du plus grand jeu de constructions de briques au monde !\n\nLes “BRICKMASTERS” : La nouvelle recrue belge.\n\nAux côtés d’Éric Antoine, les brickmasters sont présents pour juger les candidats sur leur créativité et leur technique. Cette année, grande nouveauté : une nouvelle brickmaster sera là pour juger les binômes en duo avec la légende de la brique et brickmaster depuis la saison 1, Georg Schmitt.\n\nAVELINE STOKART, LA NOUVELLE JURÉE ET STAR DE LA BD\n\nIllustratrice belge et auteure à succès, Aveline a marqué l’industrie de la BD et des films d'animation. En autodidacte, elle perfectionne ses compétences, et attire l’attention de Dreamworks et Netflix qui la contactent pour du développement visuel. Aveline s’épanouit désormais dans le monde de la bande dessinée et publie “ELLES”. Son secret et sa force résident dans la magie des couleurs, qu’elle considère essentielles pour donner vie à l’art. Elle recherche des binômes capables de créer des images captivantes, de raconter des histoires puissantes, et sera particulièrement attentive à la mise en scène, au storytelling, et aux couleurs utilisées."
+                            }
+                        ]
+                    },
+                    "grandes_premieres": {
+                        "title": "Les Grandes Premières",
+                        "id": "grandes_premieres",
+                        "type": "gallery",
+                        "gallery": [
+                            {
+                                "title": "Batman",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/The-Batman.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Les animaux fantastiques 3",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Les-animaux-fanstatiques-3.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Elvis",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Elvis.jpeg",
+                                "description": null
+                            },
+                            {
+                                "title": "Qu'est-ce qu'on a tous fait au bon dieu",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Quest-quon-a-tous-fait-au-Bon-Dieu.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Maison de Retraite",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Maison-de-retraite.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Marry me",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/marry-me.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Ambulance",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/Ambulance.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Notre-Dame brûle",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/NOTREDAMEBRULE_120_PLANTU_RVB.jpg",
+                                "description": null
+                            },
+                            {
+                                "title": "Bullet Train",
+                                "channels": [],
+                                "date": null,
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/BULLETTRAIN_EnglishUS.jpg",
+                                "description": null
+                            }
+                        ]
+                    }
+                }
+            },
+
+            "sport": {
+                "title": "Nouveautés Sport",
+                "id": "sport",
+                "type": {
+                    "nouveautés": {
+                        "title": "",
+                        "id": "nouveautes",
+                        "programs": [
+                            {
+                                "title": "Cyclo Cross",
+                                "channels": ["club", "play"],
+                                "date": "Dès le 9/12",
+                                "presenters": ["Mathieu Istace", "Kévin Van Melsen"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/cyclo-cross.jpg",
+                                "video": null,
+                                "description": "Après le succès du lancement de la nouvelle programmation “cyclisme” en 2023, comprenant le Giro, le Tour de Wallonie et le GP de Wallonie, RTL sports est heureux d'annoncer une extension de son offre cycliste, avec la diffusion de 7 manches de cyclo-cross sur RTL club et RTL play. Des manches qui promettent une concurrence féroce et qui mettront en vedette deux géants de ce sport : le talentueux Belge Wout Van Aert et le champion du monde sur route, Mathieu Van der Poel. Mathieu Istace prendra le micro aux côtés de Marion Norbert-Riberolle ou Kévin Van Melsen pour commenter cette compétition.\n\n"
+                            },
+                            {
+                                "title": "Championnat du monde de fléchettes",
+                                "channels": ["club", "play"],
+                                "date": "Du 15/12 au 03/01",
+                                "presenters": ["Marc Delire", "Alex Vizorek"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/darts.jpg",
+                                "video": "https://vimeo.com/892158854/ab55a3cd46?share=copy",
+                                "description": "RTL sports accueillera pour la première fois le Championnat du Monde de fléchettes sur RTL club et RTL play. Considéré comme le tournoi le plus prestigieux de la discipline, découvrez cette compétition rassemblant des joueurs et joueuses du monde. Parmi ceux-ci, 4 représentants belges dont Dimitri van den Bergh et Kim Huybrechts, prendront part à la compétition masculine du tournoi. Le Championnat sera commenté par un duo inédit composé du comédien Alex Vizorek et du commentateur sportif Marc Delire.\n\n"
+                            },
+                            {
+                                "title": "Hockey",
+                                "channels": ["club", "play"],
+                                "date": "13/01 au 21/01",
+                                "presenters": [
+                                    "Renaud Terreur & Emilie Sinia (Red Panthers)",
+                                    "Vincenzo Ciuro & Maxime Luycx (Red Lions)",
+                                    "Interview sur place – Laurent Toussaint"
+                                ],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/hockey.jpg",
+                                "video": null,
+                                "description": "En route pour les JO 2024 ! RTL club et RTL play vous proposent en exclusivité le tournoi qualificatif de hockey pour les Jeux olympiques de Paris 2024. Les Red Lions, champions olympiques en titre et les Red Panthers, fières représentantes de la Belgique, s'apprêtent à en découdre à Valence pour décrocher leur ticket olympique. Seules les trois meilleures équipes de ce tournoi auront le privilège de fouler les terrains des JO 2024. Nos experts, Renaud Terreur et Emilie Sinia ainsi que Vincenzo Ciuro et Maxime Luycx, vous commenteront ces matchs en direct et vous proposeront en studio une préface et un débrief de chaque rencontre. Laurent Toussaint sera notre envoyé spécial pour recueillir toutes les interviews à chaud.\n\n"
+                            },
+                            {
+                                "title": "Pablo L’équipe B",
+                                "channels": ["play"],
+                                "date": "12/12 à 20h50",
+                                "presenters": ["Pablo Andres & Jean Jass"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/pablo-equipe-b.jpg",
+                                "video": null,
+                                "description": "Pour la première fois, Pablo Andres accompagné du rappeur JeanJass se réunissent pour commenter un match de choc de la prestigieuse Ligue des Champions : Manchester United VS Bayern ! Entre expertise et humour, ce duo promet une analyse hors du commun. En fervent supporter de Manchester United, Pablo risque de rendre ce match unique... Un moment à vivre sur RTL play le 12 décembre à 20h50.\n\n"
+                            }
+                        ]
+                    },
+                    "rdv": {
+                        "title": "Les rendez-vous football",
+                        "description": "RTL sports fait le plein de football ! En 2024, pas moins de 75 soirées dédiées au football sont programmées, incluant 8 rencontres mettant en scène les Diables Rouges. Parmi les moments forts, figurent également 2 matchs amicaux préparatoires à l'Euro, dont le face-à-face entre l'Angleterre et la Belgique le 26 mars, ainsi que 6 matchs de la phase de groupe de la Nations League prévus à l'automne.",
+                        "id": "rdv",
+                        "programs": [
+                            {
+                                "title": "Champions League",
+                                "channels": ["club", "play", "tvi"],
+                                "date": null,
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/champions-league.jpg",
+                                "video": null,
+                                "description": "L’UEFA Champions League est un rendez-vous immanquable pour les fans de football ! Les équipes RTL sports, journalistes et consultants sont prêts pour vous faire vivre le plein d’émotions sur l’ensemble de nos médias tout au long de la saison. Au programme : rencontres en direct, analyses, et débats, le tout dans la bonne humeur ! À partir de 2024, préparez-vous à vivre non pas 34 soirées comme précédemment, mais bel et bien 38 soirées exceptionnelles qui seront diffusées en live sur RTL club er RTL play.\n\nÀ noter que les fans de football pourront profiter des sensations de l’UEFA Champions League jusqu’en 2027 sur nos antennes. Avec cette acquisition, RTL Belgium fêtera, en 2024, un quart de siècle de diffusion de la crème de la crème du football européen avec les clubs les plus prestigieux et leurs stars, dont de nombreux Diables Rouges."
+                            },
+                            {
+                                "title": "Nations League",
+                                "channels": ["club", "play"],
+                                "date": null,
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/nations.jpg",
+                                "video": null,
+                                "description": "L’UEFA Nations League revient bientôt sur RTL club et RTL play ! Une occasion à ne pas manquer pour suivre les performances de nos Diables Rouges lors de cette compétition. Après la victoire de l'Espagne cette année, le prochain volet promet encore plus d'émotions. Les quarts de finale font leur apparition, ajoutant dix rencontres palpitantes où les équipes s'affronteront pour remporter le précieux titre. \n\n Phase de groupe : Matchs 1 et 2 entre le 2 et le 10 septembre 2024, matchs 3 et 4 entre le 7 et le 15 octobre 2024, match 5 et 6 entre le 11 et le 19 novembre\nQuarts de finale et phases finales (demis et finale) en 2025 (respectivement mars et juin)"
+                            },
+                            {
+                                "title": "Super Copa",
+                                "channels": ["club", "play"],
+                                "date": null,
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/supercopa.jpg",
+                                "video": null,
+                                "description": "La Super Copa met en lice les 4 meilleures équipes espagnoles de la saison écoulée. Un derby madrilène se tiendra le mercredi 10 janvier entre le Real Madrid, dirigé par Thibaut Courtois, et son voisin, l'Atletico Madrid, où évolue l'ancien Diable Rouge Axel Witsel. Le 11 janvier, les fans de foot pourront suivre la 1/2 finale entre le Barca et Osasuna. Qui sait, un premier Clasico en 2024 dès le dimanche 14 janvier ? Ne manquez pas ces rendez-vous exceptionnels sur RTL club et RTL play ! \n \n Demi-finales : 10 et 11 janvier 2024\nFinale : 14 janvier 2024" 
+                            },
+                            {
+                                "title": "Carabao Cup",
+                                "channels": ["play"],
+                                "date": null,
+                                "presenters": ["Renaud Terreur", "Emiliano Bonfigli"],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/carabao-cup.jpg",
+                                "video": null,
+                                "description": "L’équipe RTL sports vous propose de suivre la Carabao Cup sous l’expertise de nos commentateurs sportifs. Retrouvez des affiches d’exception avec les plus grands noms de la Premier League."
+                            },
+                            {
+                                "title": "Copa Del Rey",
+                                "channels": ["club", "play"],
+                                "date": "Dès le 06/01",
+                                "presenters": [],
+                                "photo": "https://raw.githubusercontent.com/valentin-deB/RTL-Ressorces/main/on-est-la-fetes/copa-del-rey.jpg",
+                                "video": null,
+                                "description": "Assistez aux matchs de la Coupe d'Espagne de football sur RTL club et RTL play ! Vous retrouverez les plus grands clubs du championnat espagnol : le Real Madrid, le FC Barcelone, l'Atlético Madrid, Séville, et bien d’autres encore. Tous seront au rendez-vous pour des affiches incroyables !"
+                            }
+                            
+                        ]
+                    }
+                }
+            },
+
+            "info": {
+                "title": "Élections 2024",
+                "id": "info"
+            },
+
+            
+            "horoscope": {
+                "title": "Horoscope 2024",
+                "id": "horoscope",
+                "horoscopes": [
+                    {
+                        "sign": "BELIER",
+                        "horoscope": "Finances et projets en hausse !",
+                        "prediction": "Vous récoltez le fruit de vos efforts, les finances sont en hausse en première partie d’année, après, vous passez à l’action, vous travaillez ce que vous avez mis en place en optant pour des projets innovants et porteurs. Des remises en questions profondes sont toutefois nécessaires au niveau projets et amitiés, une joyeuse renaissance vous est promise !"
+                    },
+                    {
+                        "sign": "TAUREAU",
+                        "horoscope": "Surprises en vue, accrochez-vous !",
+                        "prediction": "Soyez au rendez-vous, la chance s’invite dans votre signe, un nouveau cycle se prépare ! L’année s’annonce gorgée de surprises, de rebondissements et d’inattendus ! Vous qui n’aimez pas les changements, attendez-vous à être secoué, mais dans le bons sens du terme. Vos qualités professionnelles sont reconsidérées à la hausse, croyez en vous !"
+                    },
+                    {
+                        "sign": "GEMEAUX",
+                        "horoscope": "Nouveau cycle, nouveau départ !",
+                        "prediction": "Première partie d’année réservée à la réflexion et au nettoyage afin de repartir sur des bases saines et porteuses pour un avenir social et professionnel à la hausse, ça fait du bien ! Préparez-vous à mieux évaluer vos qualités intellectuelles, ouvrez votre esprit à la nouveauté et aux changements. Ne restez plus bloqué sur des idées obsolètes, on avance pour un monde et une vie meilleure !"
+                    },
+                    {
+                        "sign": "CANCER",
+                        "horoscope": "Année de réflexion et de mise au point !",
+                        "prediction": "Première partie d’année consacrée à la réalisation de projets, les amitiés et les aides extérieures suivent, tout se met en place se répand et fleurit positivement autour de vous. Ensuite vient le temps de l’introspection, vous faites le point sur les années précédentes afin de vous préparer au mieux au nouveau cycle qui vous attend en 2025. De grosses remises en questions se préparent, soyez prêt à les accueillir !"
+                    },
+                    {
+                        "sign": "LION",
+                        "horoscope": "Projets en construction !",
+                        "prediction": "Excellente année pour démarrer une nouvelle activité professionnelle, un projet qui vous tient à cœur, quand la chance passe dans ces domaines, il faut la saisir et surtout ne pas la laisser filer ! Les engagements font du bien, vous pouvez vous projeter, assurer une meilleure gestion et viser la sécurité avant tout ! De profondes remises en questions s’organisent au niveau couple et relationnel, tout change !"
+                    },
+                    {
+                        "sign": "VIERGE",
+                        "horoscope": "Année créative, relationnel plus réaliste !",
+                        "prediction": "L’année démarre sous le signe de la réflexion, le mental s’oriente vers l’envie d’apprendre, de réussir, de mettre vos capacités et vos potentiels en avant. Votre but, améliorer votre carrière, vous retrouver tout là haut au sommet de la réussite afin de pouvoir mieux manœuvrer vos potentiels. Les changements se dessinent au niveau des habitudes alimentaires, des horaires, on tient la forme, on se renforce physiquement."
+                    },
+                    {
+                        "sign": "BALANCE",
+                        "horoscope": "Etudiez, voyagez, bougez !",
+                        "prediction": "L’année est placée sous le signe de la transformation et du changement. Le but est d’améliorer les finances, en gardant le contrôle, super ! L’envie d’apprendre, d’étudier, de voyager, de s’éclater joyeusement, permet au mental de s’ouvrir, d’apporter des idées et concepts différents, C’est du côté des amours et de la créativité que les transformations jaillissent, extra, tout avance !"
+                    },
+                    {
+                        "sign": "SCORPION",
+                        "horoscope": "Ouvrez la porte aux changements !",
+                        "prediction": "Les rencontres, les contacts et les engagements quels qu’ils soient permettent des accords intéressants et évolutifs. C’est le moment de régler les conflits qu’ils soient juridiques ou administratifs. Attendez-vous à de meilleures entrées financières, des règlements légaux, des questionnements immobiliers et familiaux. Vous décidez de changer votre mode de vie de gros changements s’imposent en mieux bien entendu !"
+                    },
+                    {
+                        "sign": "SAGITTAIRE",
+                        "horoscope": "Vous vous engagez à fond !",
+                        "prediction": "Prenez soin de vous en première partie d’année, veillez à équilibrer travail et forme afin d’être en totale harmonie avec vous-même ! On se soigne, on change ses habitudes alimentaires, sportives, etc… Ensuite, prêt à s’engager, tant d’un point de vue personnel que professionnel. La communication est profonde, plus entière, vous vous investissez à fond dans l’apprentissage, la curiosité est à son apogée !"
+                    },
+                    {
+                        "sign": "CAPRICORNE",
+                        "horoscope": "Mental et idées bien structurés !",
+                        "prediction": "Vous misez tout sur les amours, les plaisirs, les jeux, les enfants. Vous êtes vraiment au top au niveau créatif en 2024 ! Vous redéfinissez les acquis, vous révisez les finances en profondeur, vous réévaluez vos besoins. En seconde partie d’année, vous bossez mieux, belle expansion en vue, la chance vous sourit. Vous veillez à garder ce bel équilibre entre travail et forme en évitant toute forme d’excès !"
+                    },
+                    {
+                        "sign": "VERSEAU",
+                        "horoscope": "Libérez-vous des vieux schémas !",
+                        "prediction": "Les remises en questions sont profondes, tout change, vous vous libérez des vieux schémas et en adoptez des nouveaux. Légèrement rebelle, mais c’est pour la bonne cause ! La vie privée et familiale est votre priorité en 2024, vous visez un meilleur confort de vie. Les amours prennent forme dès l’été, vive les enfants, les plaisirs, les amusements ! Tout change en mieux !"
+                    },
+                    {
+                        "sign": "POISSON",
+                        "horoscope": "Allez à l’essentiel !",
+                        "prediction": "L’année 2024 est placée sous le signe de la patience, du travail bien fait avec des émotions mieux gérées, vous reprenez la main ! Belle ouverture sur la communication, l’apprentissage, beaucoup de mouvements, de déplacements. La famille est prioritaire en seconde partie d’année, on déménage, on achète, on vend, on loue,… Les remises en questions sont intérieures et profondes, tout va bien !"
+                    }
+                ]                 
+            },
+
+
+            "contact": {
+                "title": "Nous contacter",
+                "id": "contact",
+                "contacts": [
+                    {
+                        "name": "Eddy Duhoux",
+                        "email": "eduhoux@rtl.be",
+                        "phone": "0487 33 62 66"
+                    },
+                    {
+                        "name": "Ophélie Marcil",
+                        "email": "omarcil@rtl.be",
+                        "phone": "0475 43 24 00"
+                    },
+                    {
+                        "name": "Arnaud Bergmann",
+                        "email": "Abergmann@rtl.be",
+                        "phone": "0472 57 31 30"
+                    },
+                    {
+                        "name": "RTL Presse",
+                        "email": "presse@rtl.be"
+    
+                    },
+                    {
+                        "name": "EPG",
+                        "email": "epg@rtl.be"
+                    }
+                ]
+            }
+        },
+
+        "programsChannels": {
+            "tvi": {
+              "name": "RTL TVI",
+              "link": "https://www.rtlplay.be/tvi"
+            },
+            "play": {
+              "name": "RTL Play",
+              "link": "https://www.rtlplay.be/"
+            },
+            "belgium": {
+              "name": "RTL Belgium",
+              "link": "https://www.rtl.be/"
+            },
+            "contact": {
+              "name": "Radio Contact",
+              "link": "https://www.radiocontact.be/"
+            },
+            "club": {
+              "name": "Club RTL",
+              "link": "https://www.rtlplay.be/club/"
+            },
+            "sports": {
+              "name": "RTL Sport",
+              "link": "https://www.rtl.be/sport/"
+            },
+            "bel": {
+              "name": "Bel RTL",
+              "link": "https://www.rtl.be/belrtl/"
+            },
+            "plug": {
+              "name": "Plug RTL",
+              "link": "https://www.rtlplay.be/plug/"
+            },
+            "podcasts": {
+              "name": "RTL Podcasts",
+              "link": "https://www.rtl.be/podcasts/"
+            }
+        }
+
+    }
+}

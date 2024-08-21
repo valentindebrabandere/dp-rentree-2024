@@ -1,0 +1,38 @@
+{
+  "tvi": {
+    "name": "RTL TVI",
+    "link": "https://www.rtlplay.be/tvi"
+  },
+  "play": {
+    "name": "RTL Play",
+    "link": "https://www.rtlplay.be/"
+  },
+  "belgium": {
+    "name": "RTL Belgium",
+    "link": "https://www.rtl.be/"
+  },
+  "contact": {
+    "name": "Radio Contact",
+    "link": "https://www.radiocontact.be/"
+  },
+  "club": {
+    "name": "Club RTL",
+    "link": "https://www.rtlplay.be/club/"
+  },
+  "sports": {
+    "name": "RTL Sport",
+    "link": "https://www.rtl.be/sport/"
+  },
+  "bel": {
+    "name": "Bel RTL",
+    "link": "https://www.rtl.be/belrtl/"
+  },
+  "plug": {
+    "name": "Plug RTL",
+    "link": "https://www.rtlplay.be/plug/"
+  },
+  "podcasts": {
+    "name": "RTL Podcasts",
+    "link": "https://www.rtl.be/podcasts/"
+  }
+}

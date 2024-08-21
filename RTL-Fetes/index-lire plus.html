@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vimeo Video Example</title>
+    <script defer src="https://player.vimeo.com/api/player.js"></script>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+
+    <div class="c-category-container"></div>
+
+    <style>
+        .c-horoscope-card-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .c-horoscope-card {
+            position: relative;
+            width: 300px;
+            height: 450px;
+            border-radius: 25px;
+            cursor: pointer;
+
+            filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+        }
+
+        .c-horoscope-card__face {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            transition: all 0.4s ease-in-out;
+            border-radius: 25px;
+
+
+            padding: 12px 24px;
+            box-sizing: border-box;
+            overflow: hidden;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #0E1B3E;
+            border: solid 2px #CCA552;
+        }
+
+        .c-horoscope-card__face::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: url(http://dossiersdepresse.be/wp-content/uploads/2023/12/b-w_boket-scaled.jpg) 50% 50% no-repeat;
+            background-size: 350%;
+            mix-blend-mode: luminosity;
+            opacity: .4;
+        }
+
+        .c-horoscope-card__back::after {
+            opacity: .2;
+        }
+
+        .c-horoscope-card__back-deco {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%, -50%, 0);
+            width: 300%;
+            height: auto;
+            object-fit: contain;
+            z-index: 0;
+            opacity: .03;
+        }
+
+        .c-horoscope-card__front {
+            transform: rotateY(0deg);
+        }
+
+        .c-horoscope-card__back {
+            gap: 24px;
+            transform: rotateY(180deg);
+        }
+
+        .c-horoscope-card__img,
+        .c-horoscope-card__main-title,
+        .c-horoscope-card__title,
+        .c-horoscope-card__short,
+        .c-horoscope-card__prediction {
+            z-index: 1;
+        }
+
+        .c-horoscope-card__img {
+            width: 100%;
+            height: auto;
+            max-width: 170px;
+            max-height: 170px;
+            object-fit: contain;
+        }
+
+        .c-horoscope-card__main-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .c-horoscope-card__title-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+        }
+
+        .c-horoscope-card__title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .c-horoscope-card__short {
+            font-size: 1.2rem;
+            text-align: center;
+            text-wrap: balance;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .c-horoscope-card__prediction {
+            font-size: 1rem;
+            line-height: 1.2;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        @media all and (max-width: 250px) {
+            .c-horoscope-card__main-title {
+                font-size: 1.5rem;
+            }
+
+            .c-horoscope-card__title {
+                font-size: 1rem;
+            }
+
+            .c-horoscope-card__prediction {
+                font-size: .7rem;
+            }
+
+        }
+
+        .c-horoscope-card:hover .c-horoscope-card__front,
+        .c-horoscope-card--active .c-horoscope-card__front {
+            transform: rotateY(180deg);
+        }
+
+        .c-horoscope-card:hover .c-horoscope-card__back,
+        .c-horoscope-card--active .c-horoscope-card__back {
+
+            transform: rotateY(0deg);
+        }
+
+
+        .c-category-container {
+            display: flex;
+            flex-direction: column;
+            gap: 120px;
+        }
+
+        .c-category {
+            display: flex;
+            flex-direction: column;
+            gap: 42px;
+
+            scroll-padding-top: 10vh;
+        }
+
+        .c-category__title-wrapper {
+            position: relative;
+            width: fit-content;
+            text-wrap: balance;
+        }
+
+        .c-category__title-wrapper::before {
+            content: "";
+            position: absolute;
+            top: 10px;
+            left: calc(100% - 12px);
+            transform: translate3d(-50%, -50%, 0);
+            z-index: 100;
+            height: 250%;
+            aspect-ratio: 4/3;
+            background: url(http://dossiersdepresse.be/wp-content/uploads/2023/11/LENS-FLARE-img.png) 50% 50% no-repeat;
+            background-size: contain;
+            mix-blend-mode: screen;
+        }
+
+        @media all and (max-width: 540px) {
+
+            .c-category__title-wrapper::before {
+                left: calc(0% + 6px);
+            }
+
+        }
+
+        .c-category__title-wrapper::after {
+            /* underline */
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: var(--color-primary);
+        }
+
+        .c-category__title {
+            position: relative;
+            width: fit-content;
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 800 !important;
+            text-wrap: balance;
+            margin: 0;
+        }
+
+        .c-category__title::before {
+
+            content: attr(data-text);
+            position: absolute;
+            top: -200%;
+            left: 0;
+            transform: translate3d(-10vw, 0, 0);
+
+            text-align: center;
+            z-index: -1;
+            opacity: .05;
+
+
+
+            font-size: clamp(8rem, 30vw, 25rem);
+            line-height: 100%;
+            width: 110vw;
+            text-wrap: nowrap;
+
+
+            color: #0E1B3E;
+            /* text shadow that make 1px stroke */
+            text-shadow: var(--stroke-size--invert) var(--stroke-size--invert) 0 var(--color-primary), var(--stroke-size) var(--stroke-size--invert) 0 var(--color-primary), var(--stroke-size--invert) var(--stroke-size) 0 var(--color-primary), var(--stroke-size) var(--stroke-size) 0 var(--color-primary);
+        }
+
+        @media all and (min-width: 1040px) {
+
+            .c-category__title::before {
+                transform: translate3d(-25vw, 0, 0);
+            }
+
+        }
+
+        .c-type__title {
+            font-size: clamp(1.5rem, 5vw, 2rem);
+        }
+
+        .c-program-card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 72px;
+        }
+
+        .c-program-card {
+            display: flex;
+            flex-direction: column;
+
+            gap: 24px;
+        }
+
+        @media (max-width: 1040px) {
+            .c-program-card {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .c-program-card__media {
+            position: relative;
+            border-radius: 25px;
+            overflow: hidden;
+            width: 100%;
+            height: auto;
+        }
+
+        .c-program-card__content {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .c-program-card__img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .c-program-card__date {
+            font-size: 1.5rem;
+            font-weight: 500;
+            opacity: .9;
+            margin: 0;
+        }
+
+        .c-program-card__name {
+            font-size: 2rem;
+            font-weight: 800;
+            margin: 0;
+        }
+
+        .c-program-card__presentators {
+            font-size: 1rem;
+            font-weight: 500;
+            opacity: .7;
+            margin: 0;
+        }
+
+        .c-program-card__description {
+            font-size: 1rem;
+            font-weight: 500;
+            margin: 0;
+
+            display: inline-block;
+            text-overflow: ellipsis;
+            word-wrap: break-word;
+            overflow: hidden;
+            max-height: 3.6em;
+            transition: max-height 0.4s ease-out;
+        }
+
+        .c-program-card__read-more {
+            background: none;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+            padding: 5px 0;
+            text-decoration: underline;
+            font-size: 1rem;
+            display: block;
+
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .c-program-card__read-more:hover {
+            transition: all 0.3s ease-in-out;
+            color: #CCA552;
+        }
+
+        .c-program-card__footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+        }
+
+        .c-program-card__link {
+            margin-left: auto;
+            padding: 12px;
+        }
+
+        .c-program-card__link svg {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .c-program-card__link:hover>svg {
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .c-program-card__channels {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: 35px !important;
+            gap: 18px;
+
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .c-program-card__channel {
+            height: 100%;
+        }
+
+        .c-program-card__channel-link:hover .c-program-card__channel-icon {
+            transform: scale(1.02);
+            transition: all 0.4s ease-in-out;
+        }
+
+        .c-program-card__channel-icon {
+            height: 100% !important;
+            transition: all 0.4s ease-in-out;
+        }
+
+
+        /*Video player style*/
+
+        .c-video-module {
+            position: relative;
+            border-radius: 25px;
+            overflow: hidden;
+            height: auto;
+            width: 100%;
+            aspect-ratio: 16/9;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .c-video-module__miniature {
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .c-video-module__img {
+            width: 100%;
+            height: 100% !important;
+            object-fit: cover;
+            transition: all 0.4s ease-in-out;
+        }
+
+        .c-video-module__miniature:hover .c-video-module__img {
+            transform: scale(1.02);
+            transition: all 0.4s ease-in-out;
+        }
+
+        .c-video-module__miniature:hover .c-video-module__play-button {
+            transform: translate3D(-50%, -50%, 0) scale(1.1);
+            transition: all 0.4s ease-in-out;
+            background-color: transparent;
+        }
+
+        .c-video-module__vimeo {
+            display: none;
+            width: 100%;
+            height: 100%;
+            border-radius: 25px;
+            background-color: #000;
+        }
+
+        .c-video-module__play-button {
+            position: absolute;
+            width: calc(42px + 5%);
+            box-sizing: content-box;
+            top: 50%;
+            left: 50%;
+            transform: translate3D(-50%, -50%, 0);
+            padding: 10px 20px;
+            padding: 550px;
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.4s ease-in-out;
+            filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+        }
+    </style>
+    <script>
+        // online datas
+        const iconPath = "http://dossiersdepresse.be/wp-content/uploads/2023/11/";
+        const dataURL = "https://gist.githubusercontent.com/valentin-deB/115e1d9b2cfc6470544f118a8a65b3bd/raw/rtl-dp-data.json";
+
+        // local datas
+        // const dataURL = "/clean/Untitled/rtl-dp-data.json"
+
+
+        const categoryContainer = document.querySelector('.c-category-container');
+        let programChannels = {};
+
+
+        // Fetching JSON data and rendering it
+        fetch(dataURL)
+            .then(response => response.json())
+            .then(data => {
+                programChannels = data.RTL_Belgium_Press_Kit.programsChannels;
+
+                const categories = data.RTL_Belgium_Press_Kit.categories;
+                renderCategories(categories);
+
+                const horoscope = data.RTL_Belgium_Press_Kit;
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+
+
+        // Function to initialize and play the Vimeo video
+        function playVideo(event) {
+
+            var button = event.currentTarget;
+            var miniature = button.parentElement;
+            var vimeoContainer = miniature.nextElementSibling;
+
+            // Hide the miniature image
+            miniature.style.display = 'none';
+            vimeoContainer.style.display = 'block';
+
+            // Create a new Vimeo player instance
+            var iframe = vimeoContainer.querySelector('iframe');
+            var player = new Vimeo.Player(iframe);
+
+            // Start playing the video
+            player.play().catch(function (error) {
+                console.error('Error playing the video:', error);
+            });
+        }
+
+
+        function noPropertyWarn(program, missingProperty, objectToReturn = '') {
+            console.warn(`No ${missingProperty} for this program: ${program.title}`);
+            return objectToReturn;
+        }
+
+        function toggleReadMore(button) {
+
+            const description = button.previousElementSibling;
+            description.style.maxHeight = description.style.maxHeight ? null : description.scrollHeight + "px";
+            let textContent = ['Lire plus', 'Lire moins'];
+            button.textContent = textContent[textContent.indexOf(button.textContent) ^ 1];
+
+        }
+
+        // Function to render categories and types
+        function renderCategories(categories) {
+            const container = document.querySelector('.c-category-container');
+            let htmlContent = '';
+            for (const categoryKey in categories) {
+                const category = categories[categoryKey];
+                htmlContent += `<div class="c-category c-category--${category.id}" id="${category.id}">
+                    <div class="c-category__title-wrapper">
+                        <h2 class="c-category__title" data-text="${category.title}">${category.title}</h2>
+                    </div>`;
+                if (category.programs) {
+                    htmlContent += '<div class="c-program-card-container">';
+                    category.programs.forEach(program => {
+                        htmlContent += createProgramCard(program);
+                    });
+                    htmlContent += '</div>';
+                }
+                else if (category.horoscopes) {
+                    htmlContent += '<div class="c-horoscope-card-container">';
+                    category.horoscopes.forEach(horoscope => {
+                        htmlContent += createHoroscopeCard(horoscope);
+                    });
+                    htmlContent += '</div>';
+                }
+                else {
+                    for (const typeKey in category.type) {
+                        const type = category.type[typeKey];
+                        htmlContent += `<div class="type"><h4 class="c-type__title">${type.title}</h4><div class="c-program-card-container">`;
+                        type.programs.forEach(program => {
+                            htmlContent += createProgramCard(program);
+                        });
+                        htmlContent += '</div></div>'; // Closing c-program-card-container and type
+                    }
+                }
+
+                htmlContent += '</div>'; // Closing category
+            }
+
+            container.innerHTML = htmlContent;
+        }
+
+        function createHoroscopeCard(horoscope) {
+            return `
+                <div class="c-horoscope-card" onclick="this.classList.toggle('c-horoscope-card--active')">
+                    <div class="c-horoscope-card__front c-horoscope-card__face">
+                        <img class="c-horoscope-card__img"
+                            src="${"http://dossiersdepresse.be/wp-content/uploads/2023/12/" + horoscope.sign + ".svg"}" alt="${horoscope.sign} icon"
+                            loading="lazy">
+                        <h3 class="c-horoscope-card__main-title">${horoscope.sign}</h3>
+                    </div>
+                    <div class="c-horoscope-card__back c-horoscope-card__face">
+                        <div class="c-horoscope-card__title-group">
+                            <h4 class="c-horoscope-card__title">${horoscope.sign}</h4>
+                            <h5 class="c-horoscope-card__short">${horoscope.horoscope}</h5>
+                        </div>
+                        <p class="c-horoscope-card__prediction">${horoscope.prediction}</p>
+                        <img class="c-horoscope-card__back-deco"
+                            src="${"http://dossiersdepresse.be/wp-content/uploads/2023/12/" + horoscope.sign + ".svg"}" alt="${horoscope.sign} icon"
+                            loading="lazy">
+                    </div>
+                </div>`;
+        }
+
+        // Function to create a program card
+        function createProgramCard(program) {
+            return `
+                <div class="c-program-card">
+                    <div class="c-program-card__media">
+                        ${program.video ? `
+                            <div class="c-video-module">
+                                <div class="c-video-module__miniature">
+                                    ${program.photo ? `
+                                        <img class="c-video-module__img" src="${program.photo}" alt="${program.title}" loading="lazy">
+                                        `:
+                        `<img class="c-video-module__img" src="https://placehold.co/600x400" alt="placeholder" loading="lazy">`}
+                                    <button onclick="playVideo(event)" class="c-video-module__play-button">
+                                        <svg width="100%" height="100%" viewBox="0 0 171 172" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M85.5616 171.285C53.1145 171.285 32.7225 165.363 19.4409 152.119C6.15919 138.876 0.275391 118.455 0.275391 85.9986C0.275391 53.5418 6.19752 33.1594 19.4409 19.8778C32.6842 6.59611 53.1049 0.712311 85.5616 0.712311C118.018 0.712311 138.401 6.63444 151.682 19.8778C164.964 33.1211 170.848 53.5418 170.848 85.9986C170.848 118.455 164.926 138.838 151.682 152.119C138.439 165.401 118.038 171.285 85.5616 171.285ZM85.5616 15.0288C57.2255 15.0288 39.9767 19.6476 29.6082 30.0161C19.2397 40.3847 14.6208 57.6338 14.6208 85.9699C14.6208 114.306 19.2397 131.555 29.6082 141.923C39.9767 152.292 57.2255 156.911 85.5616 156.911C113.898 156.911 131.147 152.292 141.515 141.923C151.884 131.555 156.503 114.306 156.503 85.9699C156.503 57.6338 151.884 40.3847 141.515 30.0161C131.147 19.6476 113.917 15.0288 85.5616 15.0288Z"
+                                                fill="white" />
+                                            <path d="M70.1344 48.6323C80.2599 50.7848 89.7972 55.1104 98.0871 61.3102C118.709 75.0614 118.709 81.5683 118.709 84.0119C118.709 86.4555 118.709 92.962 98.4609 106.713C90.1798 113.02 80.5878 117.385 70.3932 119.487C69.0933 119.533 67.7975 119.315 66.5838 118.848C65.3702 118.38 64.2638 117.672 63.3307 116.766C61.7783 115.223 57.6579 111.102 57.7729 83.8297C57.8879 56.7105 61.8357 52.7625 63.3211 51.2484C64.2215 50.3753 65.2895 49.6934 66.4604 49.2438C67.6314 48.7942 68.881 48.5861 70.1344 48.6323V48.6323ZM103.511 84.0885C99.049 79.583 94.0547 75.6377 88.6386 72.3399C83.8272 69.1362 78.7374 66.3716 73.4308 64.0796C72.533 70.6753 72.1071 77.3266 72.1563 83.9829C72.0314 90.7764 72.4417 97.5691 73.3831 104.298C78.7937 102.021 83.9649 99.212 88.8208 95.9134C94.1903 92.5793 99.1248 88.5912 103.511 84.0405V84.0885Z"
+                                                fill="white" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="c-video-module__vimeo">
+                                    <iframe src="${program.video}" width="100%" height="100%"
+                                            frameborder="0" allowfullscreen allow="autoplay"></iframe>
+                                </div>
+                            </div>
+                            ` : program.photo ? `
+                                <img class="c-program-card__img" src="${program.photo}" alt="${program.title}" loading="lazy">
+                            ` : noPropertyWarn(program, 'image/video', `<img class="c-program-card__img" src="https://placehold.co/600x400" alt="placeholder" loading="lazy">`)}
+                    </div>
+
+                    <div class="c-program-card__content">
+                        <div class="c-program-card__title-group">
+                            ${program.date ? `<h4 class="c-program-card__date">${program.date}</h4>` : noPropertyWarn(program, 'date')}
+                            ${program.title ? `<h3 class="c-program-card__name">${program.title}</h3>` : noPropertyWarn(program, 'title')}
+                            ${program.presenters ? `<h4 class="c-program-card__presentators">Présenté par ${program.presenters.join(', ')}</h4>` : noPropertyWarn(program, 'presenters')}
+                        </div>
+
+                        ${program.description ? `
+                            <div class"c-program-card__description-container">
+                                <p class="c-program-card__description">${program.description}</p>
+                                <button class="c-program-card__read-more" onclick="toggleReadMore(this)">Lire plus</button>` : noPropertyWarn(program, 'description')}
+                            </div> 
+                            <div class="c-program-card__footer">
+                                <ul class="c-program-card__channels">
+                                    ${program.channels.map(channel => `
+                                        <li class="c-program-card__channel">
+                                            <a class="c-program-card__channel-link" href="${programChannels[channel].link}" target="_blank">
+                                                <img class="c-program-card__channel-icon" src="${iconPath + "RTL_" + channel}.svg" alt="${programChannels[channel].name} logo" loading="lazy">
+                                            </a>
+                                    `).join('')}
+                                </ul>
+
+                                ${program.link ? `
+                                <a class="c-program-card__link" href="${program.link}" target="_blank">
+                                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_460_3585)">
+                                        <path d="M-131.304 22.564H-124.154V24.5H-133.35V9.1H-124.264V11.036H-131.304V15.766H-124.814V17.68H-131.304V22.564ZM-116.404 13.214C-115.113 13.214 -114.079 13.6247 -113.302 14.446C-112.525 15.2527 -112.136 16.3527 -112.136 17.746V24.5H-114.05V17.856C-114.05 16.9613 -114.292 16.272 -114.776 15.788C-115.26 15.2893 -115.927 15.04 -116.778 15.04C-117.731 15.04 -118.501 15.3407 -119.088 15.942C-119.675 16.5287 -119.968 17.438 -119.968 18.67V24.5H-121.882V13.5H-119.968V15.084C-119.191 13.8373 -118.003 13.214 -116.404 13.214ZM-102.314 16.47C-102.314 16.8953 -102.101 17.24 -101.676 17.504C-101.251 17.7533 -100.737 17.9587 -100.136 18.12C-99.5347 18.2667 -98.9333 18.4427 -98.332 18.648C-97.7307 18.8387 -97.2173 19.176 -96.792 19.66C-96.3667 20.1293 -96.154 20.738 -96.154 21.486C-96.154 22.4833 -96.5427 23.2827 -97.32 23.884C-98.0827 24.4853 -99.0653 24.786 -100.268 24.786C-101.339 24.786 -102.255 24.5513 -103.018 24.082C-103.781 23.6127 -104.323 22.9893 -104.646 22.212L-102.996 21.266C-102.82 21.794 -102.49 22.212 -102.006 22.52C-101.522 22.828 -100.943 22.982 -100.268 22.982C-99.6373 22.982 -99.1167 22.8647 -98.706 22.63C-98.2953 22.3807 -98.09 21.9993 -98.09 21.486C-98.09 21.0607 -98.3027 20.7233 -98.728 20.474C-99.1533 20.21 -99.6667 20.0047 -100.268 19.858C-100.869 19.6967 -101.471 19.5133 -102.072 19.308C-102.673 19.1027 -103.187 18.7653 -103.612 18.296C-104.037 17.8267 -104.25 17.2253 -104.25 16.492C-104.25 15.5387 -103.883 14.754 -103.15 14.138C-102.402 13.522 -101.471 13.214 -100.356 13.214C-99.4613 13.214 -98.6693 13.4193 -97.98 13.83C-97.276 14.226 -96.748 14.7833 -96.396 15.502L-98.002 16.404C-98.398 15.4653 -99.1827 14.996 -100.356 14.996C-100.899 14.996 -101.361 15.128 -101.742 15.392C-102.123 15.6413 -102.314 16.0007 -102.314 16.47ZM-85.0806 13.5H-83.1666V24.5H-85.0806V22.608C-86.034 24.06 -87.42 24.786 -89.2386 24.786C-90.7786 24.786 -92.0913 24.2287 -93.1766 23.114C-94.262 21.9847 -94.8046 20.6133 -94.8046 19C-94.8046 17.3867 -94.262 16.0227 -93.1766 14.908C-92.0913 13.7787 -90.7786 13.214 -89.2386 13.214C-87.42 13.214 -86.034 13.94 -85.0806 15.392V13.5ZM-88.9966 22.938C-87.882 22.938 -86.9506 22.564 -86.2026 21.816C-85.4546 21.0533 -85.0806 20.1147 -85.0806 19C-85.0806 17.8853 -85.4546 16.954 -86.2026 16.206C-86.9506 15.4433 -87.882 15.062 -88.9966 15.062C-90.0966 15.062 -91.0206 15.4433 -91.7686 16.206C-92.5166 16.954 -92.8906 17.8853 -92.8906 19C-92.8906 20.1147 -92.5166 21.0533 -91.7686 21.816C-91.0206 22.564 -90.0966 22.938 -88.9966 22.938ZM-72.5667 13.5H-70.4987L-74.8987 24.5H-77.1427L-81.5427 13.5H-79.4747L-76.0207 22.454L-72.5667 13.5ZM-60.0257 23.114C-61.1551 24.2287 -62.5264 24.786 -64.1397 24.786C-65.7531 24.786 -67.1244 24.2287 -68.2537 23.114C-69.3684 21.9993 -69.9257 20.628 -69.9257 19C-69.9257 17.372 -69.3684 16.0007 -68.2537 14.886C-67.1244 13.7713 -65.7531 13.214 -64.1397 13.214C-62.5264 13.214 -61.1551 13.7713 -60.0257 14.886C-58.8964 16.0007 -58.3317 17.372 -58.3317 19C-58.3317 20.628 -58.8964 21.9993 -60.0257 23.114ZM-64.1397 22.916C-63.0397 22.916 -62.1157 22.542 -61.3677 21.794C-60.6197 21.046 -60.2457 20.1147 -60.2457 19C-60.2457 17.8853 -60.6197 16.954 -61.3677 16.206C-62.1157 15.458 -63.0397 15.084 -64.1397 15.084C-65.2251 15.084 -66.1417 15.458 -66.8897 16.206C-67.6377 16.954 -68.0117 17.8853 -68.0117 19C-68.0117 20.1147 -67.6377 21.046 -66.8897 21.794C-66.1417 22.542 -65.2251 22.916 -64.1397 22.916ZM-55.1073 11.498C-55.474 11.498 -55.782 11.3733 -56.0313 11.124C-56.2807 10.8747 -56.4053 10.574 -56.4053 10.222C-56.4053 9.87 -56.2807 9.56933 -56.0313 9.32C-55.782 9.056 -55.474 8.924 -55.1073 8.924C-54.7553 8.924 -54.4547 9.056 -54.2053 9.32C-53.956 9.56933 -53.8313 9.87 -53.8313 10.222C-53.8313 10.574 -53.956 10.8747 -54.2053 11.124C-54.4547 11.3733 -54.7553 11.498 -55.1073 11.498ZM-56.0753 24.5V13.5H-54.1613V24.5H-56.0753ZM-49.3274 15.348C-48.6967 13.984 -47.5527 13.302 -45.8954 13.302V15.304C-46.834 15.26 -47.6407 15.5093 -48.3154 16.052C-48.99 16.5947 -49.3274 17.4673 -49.3274 18.67V24.5H-51.2414V13.5H-49.3274V15.348ZM-32.4506 13.214C-30.9106 13.214 -29.5979 13.7787 -28.5126 14.908C-27.4273 16.0227 -26.8846 17.3867 -26.8846 19C-26.8846 20.6133 -27.4273 21.9847 -28.5126 23.114C-29.5979 24.2287 -30.9106 24.786 -32.4506 24.786C-34.2693 24.786 -35.6553 24.06 -36.6086 22.608V28.9H-38.5226V13.5H-36.6086V15.392C-35.6553 13.94 -34.2693 13.214 -32.4506 13.214ZM-32.6926 22.938C-31.5926 22.938 -30.6686 22.564 -29.9206 21.816C-29.1726 21.0533 -28.7986 20.1147 -28.7986 19C-28.7986 17.8853 -29.1726 16.954 -29.9206 16.206C-30.6686 15.4433 -31.5926 15.062 -32.6926 15.062C-33.8073 15.062 -34.7386 15.4433 -35.4866 16.206C-36.2346 16.954 -36.6086 17.8853 -36.6086 19C-36.6086 20.1147 -36.2346 21.0533 -35.4866 21.816C-34.7386 22.564 -33.8073 22.938 -32.6926 22.938ZM-24.6007 24.5V8.44H-22.6867V24.5H-24.6007ZM-12.1767 13.5H-10.2627V24.5H-12.1767V22.916C-12.9541 24.1627 -14.1421 24.786 -15.7407 24.786C-17.0314 24.786 -18.0654 24.3827 -18.8427 23.576C-19.6201 22.7547 -20.0087 21.6473 -20.0087 20.254V13.5H-18.0947V20.144C-18.0947 21.0387 -17.8527 21.7353 -17.3687 22.234C-16.8847 22.718 -16.2174 22.96 -15.3667 22.96C-14.4134 22.96 -13.6434 22.6667 -13.0567 22.08C-12.4701 21.4787 -12.1767 20.562 -12.1767 19.33V13.5ZM-5.72027 16.47C-5.72027 16.8953 -5.5076 17.24 -5.08227 17.504C-4.65693 17.7533 -4.1436 17.9587 -3.54227 18.12C-2.94093 18.2667 -2.3396 18.4427 -1.73827 18.648C-1.13693 18.8387 -0.623599 19.176 -0.198265 19.66C0.227068 20.1293 0.439735 20.738 0.439735 21.486C0.439735 22.4833 0.0510684 23.2827 -0.726265 23.884C-1.48893 24.4853 -2.4716 24.786 -3.67427 24.786C-4.74493 24.786 -5.6616 24.5513 -6.42427 24.082C-7.18693 23.6127 -7.7296 22.9893 -8.05227 22.212L-6.40227 21.266C-6.22627 21.794 -5.89627 22.212 -5.41227 22.52C-4.92827 22.828 -4.34893 22.982 -3.67427 22.982C-3.0436 22.982 -2.52293 22.8647 -2.11227 22.63C-1.7016 22.3807 -1.49627 21.9993 -1.49627 21.486C-1.49627 21.0607 -1.70893 20.7233 -2.13427 20.474C-2.5596 20.21 -3.07293 20.0047 -3.67427 19.858C-4.2756 19.6967 -4.87693 19.5133 -5.47827 19.308C-6.0796 19.1027 -6.59293 18.7653 -7.01827 18.296C-7.4436 17.8267 -7.65627 17.2253 -7.65627 16.492C-7.65627 15.5387 -7.2896 14.754 -6.55627 14.138C-5.80827 13.522 -4.87693 13.214 -3.76227 13.214C-2.8676 13.214 -2.0756 13.4193 -1.38626 13.83C-0.682265 14.226 -0.154265 14.7833 0.197735 15.502L-1.40827 16.404C-1.80427 15.4653 -2.58893 14.996 -3.76227 14.996C-4.30493 14.996 -4.76693 15.128 -5.14827 15.392C-5.5296 15.6413 -5.72027 16.0007 -5.72027 16.47Z" fill="var(--color-primary)"/>
+                                        <path d="M18 24L24 18M24 18L18 12M24 18H12" stroke="var(--color-primary)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                        <rect x="0.5" y="0.5" width="35" height="35" rx="17.5" stroke="var(--color-primary)"/>
+                                        <defs>
+                                        <clipPath id="clip0_460_3585">
+                                        <rect width="36" height="36" rx="18" fill="white"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            ` : ''}
+                            </div>
+                    </div>
+                </div>
+            `;
+        }
+
+    </script>
+
+</body>
+
+</html>
