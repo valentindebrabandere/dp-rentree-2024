@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import ShowCard from '../components/show-card/ShowCard.astro';
 import DialogWindow from '../components/show-card/DialogWindow.astro';
 
+import ShowListing from '../components/ShowListing.astro';
+
 import type { Show } from '../types/show';
 
 import shows from '../data/shows.json';
@@ -11,33 +13,38 @@ import shows from '../data/shows.json';
 
 <Layout title="RTL POP CORN SHOW">
   <main>
-    <h1>Shows</h1>
-    <ul>
-		{shows.map((show: Show) => (
-			<li>
-				<ShowCard {...show} />
-				<DialogWindow {...show} />
-			</li>
-		))}
-    </ul>
+    <div class="l-container">
+      <ShowListing shows={shows} />
+    </div>
   </main>
 </Layout>
 
 <style>
-  main {
-    margin: auto;
-    padding: 1rem;
-    width: 800px;
-    max-width: calc(100% - 2rem);
-    color: white;
-    font-size: 20px;
-    line-height: 1.6;
+
+  /* colors variables */
+
+  :root {
+    --color-accent: #EB413D;
+    --color-white: #FFFAF2;
+
+    --colors-deco: #FFEECE;
+
+    --color-dark-900: #110806;
+    --color-dark-500: #201512;
+    --color-dark-300: #3B312E;
   }
 
-  ul {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1rem;
+  body{
+    background-color: var(--color-white);
+
+    color: var(--color-dark-500);
   }
+
+
+  .l-container {
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 1440px;
+  }
+
 </style>

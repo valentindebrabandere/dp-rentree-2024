@@ -1,0 +1,70 @@
+---
+// ShowListing.astro
+
+import ShowCard from './show-card/ShowCard.astro';
+import DialogWindow from './show-card/DialogWindow.astro';
+
+import type { Show } from '../types/show';
+
+const shows: Show[] = Astro.props.shows;
+---
+
+<ul class="c-show-list">
+  {shows.map((show: Show) => (
+    <li class="c-show-list__item">
+      <ShowCard {...show} />
+      <DialogWindow {...show} />
+    </li>
+  ))}
+</ul>
+
+<style>
+  .c-show-list {
+    --grid-twist: 30px;
+
+    display: grid;
+    width: 100%;
+    
+    grid-template-columns: 1fr;
+    gap: 24px;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    list-style: none;
+    padding: 0;
+  }
+
+  .c-show-list__item {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 750px) {
+    .c-show-list {
+      grid-template-columns: 1fr 1fr;
+    }
+    
+    .c-show-list__item:nth-child(2n-1) {
+      margin-top: 0;
+    }
+    .c-show-list__item:nth-child(2n) {
+      margin-top: var(--grid-twist);
+    }
+  }
+  
+  @media screen and (min-width: 1040px) {
+    .c-show-list {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .c-show-list__item:nth-child(3n-2) {
+      margin-top: 0;
+    }
+    .c-show-list__item:nth-child(3n-1) {
+      margin-top: var(--grid-twist);
+    }
+
+    .c-show-list__item:nth-child(3n) {
+      margin-top: calc(var(--grid-twist) * 2);
+    }
+  }
+</style>
