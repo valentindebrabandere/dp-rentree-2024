@@ -26,6 +26,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
   <div class="c-show-window__container">
     <div class="c-show-window__media">
       <Image class="c-show-window__image" src={imageSrc} alt={imageAlt}  loading="lazy"  decoding="async"  width=1200 height=1800 />
+      <Image class="c-show-window__image c-show-window__image--blurred" src={imageSrc} alt={imageAlt}  loading="lazy"  decoding="async"  width=1200 height=1800 />
     </div>
     <div class="c-show-window__content">
       <div class="c-show-window__title-group">
@@ -72,32 +73,27 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
 
         {
           show.link && (
-            <a class="c-show-window__link" href={show.link} target="_blank">
-              <img
-                decoding="async"
-                class="c-show-window__link-icon"
-                tabindex="-1"
-                src="https://dossiersdepresse.be/wp-content/uploads/2023/12/arrow-right-circle.svg"
-                alt="right arrow svg"
-                loading="lazy"
-              />
-            </a>
+            <a class="c-show-window__link" href={show.link} target="_blank">En voir plus</a>
           )
         }
       </div>
     </div>
+    <button class="c-show-window__retour" onclick="this.closest('dialog').close()">← Retour</button>
   </div>
-  <button class="c-show-window__retour" onclick="this.parentElement.close()">← Retour</button>
 </dialog>
 
-<style>
+<style lang="scss">
 
-  dialog {
+@import "../../scss/mq.scss";
+
+.c-show-window {
     border: none;
-    z-index: 1000;
+    z-index: 10;
+
+    isolation: isolate;
   }
 
-  dialog::backdrop {
+  .c-show-window::backdrop {
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5px);
   }
@@ -106,11 +102,11 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     position: fixed;
     padding: 0px 0 75px 0;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #0e1b3e00 49.9999%, #0e1b3e 50%);
+    background: linear-gradient(180deg, #0e1b3e00 49.9999%, var(--colors-deco) 50%);
 
-    color: #fff;
+    color: var(--color-dark-300);
     width: 85%;
-    max-width: 650px;
+    max-width: 750px;
     box-sizing: border-box;
     border-radius: 25px;
 
@@ -146,10 +142,11 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     bottom: 0;
     right: 0;
     border-radius: 25px;
-    background-color: #0e1b3e;
+    background-color: var(--colors-deco);
   }
 
   .c-show-window__container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,29 +154,34 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     width: 100%;
     height: fit-content;
     overflow-y: visible;
+    box-sizing: border-box;
+
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   bottom: -75px;
+    //   left: 0;
+    //   width: 100%;
+    //   height: calc(150px + 75px );
+
+    //   background: linear-gradient(180deg, #00000000 0%,  #000 100%);
+    //   z-index: 10;
+    // }
   }
 
-  .c-show-window__focus {
-    position: absolute;
-    opacity: 0;
-    height: 0;
-    padding: 0;
-    margin: 0;
-    outline: none;
-  }
 
   .c-show-window__media {
     position: relative;
     display: flex;
     justify-content: center;
 
-    width: 85%;
+    width: 90%;
     min-height: 200px;
-    height: 40vh;
+    height: 50vh;
     margin-top: 5vh;
     margin-bottom: 24px;
 
-    z-index: 1000;
+    z-index: 10;
 
     filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.5));
   }
@@ -190,6 +192,18 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     object-fit: contain;
     border-radius: 25px;
     transition: transform 0.4s ease-in-out;
+
+    &--blurred {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 25px;
+      z-index: -1;
+      filter: blur(8px);
+    }
   }
 
   .c-show-window__content {
@@ -199,8 +213,8 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     align-items: center;
     padding: 0px 75px;
     gap: 42px;
-    z-index: 900;
-    background-color: #0e1b3e;
+    z-index: 1;
+    background-color: var(--colors-deco);
   }
   .c-show-window__content::before {
     content: "";
@@ -210,7 +224,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     bottom: 0;
     right: 0;
     z-index: -1;
-    background-color: #0e1b3e;
+    background-color:var(--colors-deco);
   }
 
   @media all and (max-width: 750px) {
@@ -235,6 +249,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
   .c-show-window__date {
     font-size: 1.5rem;
     font-weight: 500;
+    line-height: 1;
     opacity: 0.9;
     margin: 0;
     text-align: center;
@@ -244,12 +259,13 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     font-size: clamp(2rem, 5vw, 4rem);
     font-weight: 800;
     line-height: 1;
+    text-wrap: balance;
     margin: 0;
     text-align: center;
   }
 
   .c-show-window__presentators {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
     opacity: 0.7;
     margin: 0;
@@ -258,8 +274,8 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
   }
 
   .c-show-window__description {
-    font-size: 1rem;
-    line-height: 1.5;
+    font-size: 1.1rem;
+    line-height: 1.75;
     font-weight: 500;
     margin: 0;
 
@@ -272,6 +288,8 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     justify-content: center;
     align-items: center;
     width: 100%;
+    
+    filter: drop-shadow(0px 5px 12px rgba(0, 0, 0, 0.5));
   }
 
   .c-show-window__link {
@@ -292,7 +310,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 35px !important;
+    height: 35px;
     gap: 18px;
 
     list-style: none;
@@ -310,13 +328,22 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
   }
 
   .c-show-window__channel-icon {
-    height: 100% !important;
+    height: 100%;
     transition: all 0.4s ease-in-out;
   }
 
   .c-show-window__retour {
     position: relative;
     margin: 0 75px;
+  }
+
+  .c-show-window__focus {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    outline: none;
   }
   
 </style>
