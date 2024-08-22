@@ -1,20 +1,31 @@
 ---
 // Dialog-window.astro
+import Image from "astro/components/Image.astro";
+import Channels from "../../data/channels.json";
 
 const show = Astro.props;
+
+const imageSrc: string = `/assets/images/show-posters/${show.slug}.jpg`;
+const imageAlt: string = `Affiche de ${show.title}`;
+
+interface Channel {
+  slug: string;
+  name: string;
+  link: string;
+}
+
+// Find the channel data that matches the show's channels
+const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) => 
+  Channels.find((channel: Channel) => channel.slug === showChannelSlug)
+).filter((channel: Channel) => channel !== undefined);
+
 ---
 
 <dialog class="c-show-window">
   <button class="c-show-window__focus"></button>
   <div class="c-show-window__container">
     <div class="c-show-window__media">
-      <img
-        decoding="async"
-        class="c-show-window__image"
-        src={`/img/data-test/${show.slug}.jpg`}
-        alt={show.title}
-        loading="lazy"
-      />
+      <Image class="c-show-window__image" src={imageSrc} alt={imageAlt}  loading="lazy"  decoding="async"  width=1200 height=1800 />
     </div>
     <div class="c-show-window__content">
       <div class="c-show-window__title-group">
@@ -37,26 +48,26 @@ const show = Astro.props;
 
       <div class="c-show-window__footer">
         <ul class="c-show-window__channels">
-          {
-            show.channels.map((channel) => (
-              <li class="c-show-window__channel">
-                <a
-                  class="c-show-window__channel-link"
-                  href="#"
-                  target="_blank"
-                >
-                  <img
-                    decoding="async"
-                    tabindex="-1"
-                    class="c-show-window__channel-icon"
-                    src={`/img/data-test/${channel}.svg`}
-                    alt={`${channel} logo`}
-                    loading="lazy"
-                  />
-                </a>
-              </li>
-            ))
-          }
+          {matchedChannels.map((channel: Channel) => (
+            <li class="c-show-window__channel">
+              <a
+                class="c-show-window__channel-link"
+                href={channel.link}
+                target="_blank"
+              >
+                <Image
+                  class="c-show-window__channel-icon"
+                  src={`/assets/icons/channels/${channel.slug}.svg`}
+                  alt={`${channel.name} logo`}
+                  loading="lazy"
+                  decoding="async"
+                  width=72
+                  height=72
+                />
+              </a>
+            </li>
+          ))}
+
         </ul>
 
         {
@@ -76,134 +87,10 @@ const show = Astro.props;
       </div>
     </div>
   </div>
-  <button class="c-show-window__retour" onclick="this.parentElement.close()"
-    >← Retour</button
-  >
+  <button class="c-show-window__retour" onclick="this.parentElement.close()">← Retour</button>
 </dialog>
 
 <style>
-  .c-program-card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 60px;
-    width: 100%;
-  }
-
-  .c-program {
-    width: 100%;
-    max-width: 350px;
-  }
-
-  .c-program-card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-
-    width: 100%;
-    aspect-ratio: 1/1.41;
-    box-sizing: border-box;
-
-    border-radius: 25px;
-    overflow: hidden;
-    cursor: pointer;
-
-    gap: 24px;
-
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
-  }
-
-  .c-program-card__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px;
-    box-sizing: border-box;
-    color: #fff;
-    z-index: 100;
-  }
-
-  .c-program-card__date {
-    font-size: 1.5rem;
-    font-weight: 500;
-    margin: 0;
-
-    opacity: 0;
-    transform: translate3d(0, 25px, 0);
-    transition:
-      opacity 0.4s ease-in-out 0.3s,
-      transform 0.4s ease-in-out 0.3s;
-  }
-
-  .c-program-card__title {
-    font-size: 2rem;
-    font-weight: 800;
-    margin: 0;
-    text-align: center;
-    transform-origin: bottom center;
-    transition: transform 0.4s ease-in-out 0.1s;
-  }
-
-  .c-program-card__media {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-  }
-
-  .c-program-card__image {
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-    transition: transform 0.4s ease-in-out;
-  }
-
-  .c-program-card__media::before {
-    content: "";
-    position: absolute;
-    top: -20px;
-    left: -20px;
-    bottom: -20px;
-    right: -20px;
-
-    background: linear-gradient(
-        180deg,
-        rgba(23, 28, 56, 0) 60%,
-        rgba(18, 31, 47, 0.3) 100%
-      ),
-      linear-gradient(180deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.5) 100%);
-    mix-blend-mode: multiply;
-    filter: blur(10px);
-    z-index: 1;
-  }
-
-  /* Hover state */
-
-  .c-program-card:hover .c-program-card__date {
-    opacity: 9;
-    transform: translate3d(0, 0, 0);
-    transition:
-      opacity 0.4s ease-in-out 0.2s,
-      transform 0.4s ease-in-out 0.2s;
-  }
-
-  .c-program-card:hover .c-program-card__title {
-    opacity: 9;
-    transform: scale(1.05);
-
-    transition: transform 0.4s ease-in-out 0.1s;
-  }
-
-  .c-program-card:hover .c-program-card__image {
-    transform: scale(1.05);
-    transition: transform 0.4s ease-in-out;
-  }
 
   dialog {
     border: none;
@@ -224,9 +111,13 @@ const show = Astro.props;
     color: #fff;
     width: 85%;
     max-width: 650px;
-    height: fit-content;
-    max-height: 90%;
+    box-sizing: border-box;
     border-radius: 25px;
+
+    margin: auto;
+    margin-top: 0;
+
+    overflow-y: scroll;
   }
 
   @media all and (max-width: 750px) {
@@ -264,12 +155,12 @@ const show = Astro.props;
     align-items: center;
     gap: 24px;
     width: 100%;
-    margin-top: 75px;
     height: fit-content;
     overflow-y: visible;
   }
 
   .c-show-window__focus {
+    position: absolute;
     opacity: 0;
     height: 0;
     padding: 0;
@@ -279,20 +170,26 @@ const show = Astro.props;
 
   .c-show-window__media {
     position: relative;
+    display: flex;
+    justify-content: center;
 
     width: 85%;
     min-height: 200px;
-    height: 30vh;
-    overflow: hidden;
+    height: 40vh;
+    margin-top: 5vh;
     margin-bottom: 24px;
+
     z-index: 1000;
+
     filter: drop-shadow(0px 5px 30px rgba(0, 0, 0, 0.5));
   }
 
   .c-show-window__image {
-    width: 10%;
+    width: auto;
     height: 100%;
-    border-radius: 5px !important;
+    object-fit: contain;
+    border-radius: 25px;
+    transition: transform 0.4s ease-in-out;
   }
 
   .c-show-window__content {
@@ -415,6 +312,11 @@ const show = Astro.props;
   .c-show-window__channel-icon {
     height: 100% !important;
     transition: all 0.4s ease-in-out;
+  }
+
+  .c-show-window__retour {
+    position: relative;
+    margin: 0 75px;
   }
   
 </style>

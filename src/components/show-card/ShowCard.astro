@@ -1,18 +1,22 @@
 ---
+import Image from "astro/components/Image.astro";
+
 const show = Astro.props;
+
+const imageSrc:string = `/assets/images/show-posters/${show.slug}.jpg`;
+const imageAlt:string = `Affiche de ${show.title}`;
 ---
 
-<div class="c-show-card">
+<button class="c-show-card">
     <div class="c-show-card___content">
-        <img src={`/img/data-test/${show.slug}.jpg`} alt={`Image de ${show.title}`}>
-        <p>{show.date}</p>
         <h2>{show.title}</h2>
+        <Image src={imageSrc} alt={imageAlt}  loading="lazy"  decoding="async"  width=1200 height=1800 />
     </div>
-    <img class="c-show-card__backdrop" src={`/img/data-test/${show.slug}.jpg`} alt={`Image de ${show.title}`}>
-</div>
+    <Image class="c-show-card__backdrop" loading="lazy"  decoding="async" width=1200 height=1800 src={imageSrc} alt={imageAlt} />
+</button>
 
 <script>
-	import { openModal } from '../utils/openModal';
+	import { openModal } from '../../utils/openModal';
 	// Find all buttons with the `alert` class on the page.
 	const showCards = document.querySelectorAll('.c-show-card');
   
@@ -36,6 +40,7 @@ const show = Astro.props;
             position: relative;
             width: 100%;
             height: 100%;
+            
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -45,6 +50,13 @@ const show = Astro.props;
             border-radius: 12px;
             overflow: hidden;
 
+            background-color: beige;
+
+            h2{
+                position: relative;
+                z-index: 1;
+            }
+
             img {
                 position: absolute;
                 top: 0;
@@ -52,14 +64,6 @@ const show = Astro.props;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-                z-index: -1;
-            }
-
-            p {
-                font-size: 14px;
-                color: white;
-                padding: 4px 8px;
-                border-radius: 4px;
             }
         }
 

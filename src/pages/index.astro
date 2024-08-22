@@ -1,15 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import ShowCard from '../components/ShowCard.astro';
-import DialogWindow from '../components/DialogWindow.astro';
+import ShowCard from '../components/show-card/ShowCard.astro';
+import DialogWindow from '../components/show-card/DialogWindow.astro';
 
 import type { Show } from '../types/show';
 
-import shows from '../test-datas/shows.json';
+import shows from '../data/shows.json';
 
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="RTL POP CORN SHOW">
   <main>
     <h1>Shows</h1>
     <ul>
