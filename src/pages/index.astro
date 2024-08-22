@@ -1,18 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import ShowCard from '../components/show-card/ShowCard.astro';
-import DialogWindow from '../components/show-card/DialogWindow.astro';
 
 import ShowListing from '../components/ShowListing.astro';
 
-import type { Show } from '../types/show';
-
 import shows from '../data/shows.json';
+
+
+import '../scss/variables.scss';
+import '../scss/font-face.scss';
 
 ---
 
 <Layout title="RTL POP CORN SHOW">
   <main>
+    <h1>test</h1>
     <div class="l-container">
       <ShowListing shows={shows} />
     </div>
@@ -21,21 +22,17 @@ import shows from '../data/shows.json';
 
 <style>
 
-  /* colors variables */
-
-  :root {
-    --color-accent: #EB413D;
-    --color-white: #FFFAF2;
-
-    --colors-deco: #FFEECE;
-
-    --color-dark-900: #110806;
-    --color-dark-500: #201512;
-    --color-dark-300: #3B312E;
+  h1{
+    font-family: "Gilroy", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5;
   }
 
   body{
     background-color: var(--color-white);
+
+    font-family: "Gilroy", sans-serif;
 
     color: var(--color-dark-500);
   }
