@@ -18,7 +18,10 @@ const shows: Show[] = Astro.props.shows;
   ))}
 </ul>
 
-<style>
+<style lang="scss">
+
+  @import "../scss/mq.scss";
+
   .c-show-list {
     --grid-twist: 30px;
 
@@ -32,13 +35,14 @@ const shows: Show[] = Astro.props.shows;
 
     list-style: none;
     padding: 0;
+
   }
 
   .c-show-list__item {
     width: 100%;
   }
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: $mq-tablet) {
     .c-show-list {
       grid-template-columns: 1fr 1fr;
     }
@@ -51,7 +55,7 @@ const shows: Show[] = Astro.props.shows;
     }
   }
   
-  @media screen and (min-width: 1040px) {
+  @media screen and (min-width: $mq-desktop) {
     .c-show-list {
       grid-template-columns: 1fr 1fr 1fr;
     }
