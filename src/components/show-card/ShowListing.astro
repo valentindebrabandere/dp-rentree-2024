@@ -1,41 +1,44 @@
 ---
 // ShowListing.astro
 
-import ShowCard from './show-card/ShowCard.astro';
-import DialogWindow from './show-card/DialogWindow.astro';
+import ShowCard from "./ShowCard.astro";
+import DialogWindow from "./DialogWindow.astro";
 
-import type { Show } from '../types/Show';
+import type { Show } from "../../types/Show";
 
 const shows: Show[] = Astro.props.shows;
 ---
 
 <ul class="c-show-list">
-  {shows.map((show: Show) => (
-    <li class="c-show-list__item">
-      <ShowCard {...show} />
-      <DialogWindow {...show} />
-    </li>
-  ))}
+  {
+    shows.map((show: Show) => (
+      <li class="c-show-list__item">
+        <ShowCard {...show} />
+        <DialogWindow {...show} />
+      </li>
+    ))
+  }
 </ul>
 
 <style lang="scss">
-
-  @import "../scss/mq.scss";
+  @import "../../scss/mq.scss";
 
   .c-show-list {
     --grid-twist: 30px;
 
-    display: grid;
     width: 100%;
-    
-    grid-template-columns: 1fr;
-    gap: 24px;
     max-width: 1240px;
     margin: 0 auto;
-
-    list-style: none;
     padding: 0;
 
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    justify-content: center;
+    align-content: center;
+    place-items: center;
+
+    list-style: none;
   }
 
   .c-show-list__item {
@@ -46,7 +49,7 @@ const shows: Show[] = Astro.props.shows;
     .c-show-list {
       grid-template-columns: 1fr 1fr;
     }
-    
+
     .c-show-list__item:nth-child(2n-1) {
       margin-top: 0;
     }
@@ -54,7 +57,7 @@ const shows: Show[] = Astro.props.shows;
       margin-top: var(--grid-twist);
     }
   }
-  
+
   @media screen and (min-width: $mq-desktop) {
     .c-show-list {
       grid-template-columns: 1fr 1fr 1fr;

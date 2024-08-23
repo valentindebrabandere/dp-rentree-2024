@@ -1,0 +1,41 @@
+---
+import {
+  getShowsByCategory,
+} from "../../utils/categoryUtils";
+
+import CategorieTitle from "./CategoryTitle.astro";
+import CategorieSubTitle from "./CategorySubTitle.astro";
+import ShowListing from "../show-card/ShowListing.astro";
+
+import type { CategoryType } from "../../types/Category";
+interface Props {
+  category: CategoryType;
+}
+
+const { category } = Astro.props;
+
+const shows = getShowsByCategory(category.slug);
+
+const hasChildren = category.childrens !== undefined && category.childrens.length > 0;
+
+---
+
+<div class="l-container">
+  <div class="c-category">
+    <CategorieTitle category={category}/>
+
+    {hasChildren ? (
+      <>
+        {category.childrens?.map((child) => (
+          <div class="c-category__child">
+            <CategorieSubTitle category={child}/>
+            <ShowListing shows={getShowsByCategory(child.slug)} />
+          </div>
+        ))}
+      </>
+    ) : (
+      <ShowListing shows={shows} />
+    )}
+
+  </div>
+</div>
