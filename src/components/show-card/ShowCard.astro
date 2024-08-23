@@ -1,9 +1,9 @@
 ---
-import Image from "astro/components/Image.astro";
+import { Image } from 'astro:assets';
 
 const show = Astro.props;
 
-const imageSrc:string = `/assets/images/show-posters/${show.slug}.jpg`;
+const imageSrc:string = `../../assets/images/show-posters/${show.slug}.jpg`;
 const imageAlt:string = `Affiche de ${show.title}`;
 ---
 
