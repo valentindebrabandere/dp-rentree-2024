@@ -22,8 +22,8 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
   <button class="c-show-window__focus"></button>
   <div class="c-show-window__container">
     <div class="c-show-window__media">
-      <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText='Affiche de ${show.title}' width={1200} height={1800} className='c-show-window__image'/>
-      <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText='Affiche de ${show.title}' width={1200} height={1800} className='c-show-window__image c-show-window__image c-show-window__image--blurred'/>
+      <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText=`Affiche de ${show.title}` width={1200} height={1800} className='c-show-window__image'/>
+      <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText=`Affiche de ${show.title}` width={1200} height={1800} className='c-show-window__image c-show-window__image c-show-window__image--blurred'/>
     </div>
     <div class="c-show-window__content">
       <div class="c-show-window__title-group">
@@ -84,6 +84,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
 @import "../../scss/mq.scss";
 
 .c-show-window {
+    font-family: "Gilroy", sans-serif;
     border: none;
     z-index: 10;
 

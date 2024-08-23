@@ -7,9 +7,9 @@ const show = Astro.props;
 <button class="c-show-card">
     <div class="c-show-card___content">
         <h2>{show.title}</h2>
-        <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText='Affiche de ${show.title}' width={1200} height={1800}/>
+        <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText=`Affiche de ${show.title}` width={1200} height={1800}/>
     </div>
-    <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText='Affiche de ${show.title}' width={1200} height={1800} className='c-show-card__backdrop'/>
+    <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText=`Affiche de ${show.title}` width={1200} height={1800} className='c-show-card__backdrop'/>
 </button>
 
 <script>
@@ -54,6 +54,7 @@ const show = Astro.props;
 
             h2{
                 position: relative;
+                font-family: "Gilroy", sans-serif;
                 font-weight: 800;
                 font-size: 1.75rem;
                 line-height: 1.2;
