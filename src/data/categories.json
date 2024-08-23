@@ -1,46 +1,45 @@
 [
   {
-    "title":"Structure exemple",
-    "slug":"structure-exemple",
-    "order":0,
-    "icons":["Test","test"],
-    "video":"link",
-    "quote":[
+    "title": "Structure exemple",
+    "slug": "structure-exemple",
+    "order": 0,
+    "icons": ["Test", "test"],
+    "video": "link",
+    "quote": [
       {
-        "author":"Test",
-        "content":"Test"
+        "author": "Test",
+        "content": "Test"
       }
     ],
-    "childrens":[
+    "childrens": [
       {
-        "title":"Children 1",
-        "slug":"children-1",
-        "order":"a",
-        "icons":["Test","test"],
-        "video":"link",
-        "quote":[
-              {
-                "author":"Test",
-                "content":"Test"
-              }
-           ]
+        "title": "Children 1",
+        "slug": "children-1",
+        "order": "a",
+        "icons": ["Test", "test"],
+        "video": "link",
+        "quote": [
+          {
+            "author": "Test",
+            "content": "Test"
+          }
+        ]
       },
       {
-        "title":"Children 2",
-        "slug":"children-2",
-        "order":"b",
-        "icons":["Test","test"],
-        "video":"link",
-        "quote":[
-              {
-                "author":"Test",
-                "content":"Test"
-              }
-           ]
+        "title": "Children 2",
+        "slug": "children-2",
+        "order": "b",
+        "icons": ["Test", "test"],
+        "video": "link",
+        "quote": [
+          {
+            "author": "Test",
+            "content": "Test"
+          }
+        ]
       }
     ]
   },
-
   {
     "title": "Les nouveautés",
     "slug": "les-nouveautes",
@@ -49,7 +48,7 @@
     "childrens": [
       {
         "title": "Les nouvelles émissions",
-        "slug": "les-nouvelles-emissions",
+        "slug": "nouvelle-emissions",
         "order": "a",
         "icons": ["Test", "test"]
       },
@@ -147,6 +146,12 @@
     "title": "Events",
     "slug": "events",
     "order": 7,
+    "icons": ["Test", "test"]
+  },
+  {
+    "title": "Exemple",
+    "slug": "exemple",
+    "order": 8,
     "icons": ["Test", "test"]
   }
 ]
