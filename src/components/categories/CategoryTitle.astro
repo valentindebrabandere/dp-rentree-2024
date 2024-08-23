@@ -1,6 +1,35 @@
 ---
-const { category } = Astro.props;
+const { category, child } = Astro.props;
 
 ---
 
-<h2 class="c-category__title">{category.title}</h2>
+<div class="c-category-title-container">
+    <h2 class=`c-category__title ${child ? 'c-category__title--child' : ''}`>{category.title}</h2>
+</div>
+
+<style>
+
+    .c-category-title-container {
+        margin: 2rem 0;
+    }
+    .c-category__title {
+        width: fit-content;
+        
+
+        font-family: "Gilroy", sans-serif;
+        font-weight: 800;
+        font-size: 3.5rem;
+        text-align: center;
+        text-wrap: balance;
+
+        color: var(--color-accent);
+
+        margin: 0;
+    }
+
+    .c-category__title--child {
+       font-size: 3rem;
+    }
+
+
+</style>

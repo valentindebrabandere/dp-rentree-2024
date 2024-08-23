@@ -4,7 +4,6 @@ import {
 } from "../../utils/categoryUtils";
 
 import CategorieTitle from "./CategoryTitle.astro";
-import CategorieSubTitle from "./CategorySubTitle.astro";
 import ShowListing from "../show-card/ShowListing.astro";
 
 import type { CategoryType } from "../../types/Category";
@@ -27,8 +26,8 @@ const hasChildren = category.childrens !== undefined && category.childrens.lengt
     {hasChildren ? (
       <>
         {category.childrens?.map((child) => (
-          <div class="c-category__child">
-            <CategorieSubTitle category={child}/>
+          <div class="c-category c-category__child">
+            <CategorieTitle category={child} child={true}/>
             <ShowListing shows={getShowsByCategory(child.slug)} />
           </div>
         ))}
@@ -39,3 +38,14 @@ const hasChildren = category.childrens !== undefined && category.childrens.lengt
 
   </div>
 </div>
+
+<style lang="scss">
+
+    .c-category {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+</style>
