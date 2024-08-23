@@ -13,16 +13,25 @@ interface Props {
   height?: number;
 }
 
+// Destructuring props
 const { imagePath, altText, className, loading, decoding, width, height } = Astro.props;
 
+// Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/**/*.{jpg,jpeg,png,gif,webp,svg}');
 
-if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob`);
+// Define a placeholder image path
+const placeholderImagePath = '/src/assets/images/placeholder.jpg';
+
+// Check if the image exists in the glob, otherwise use the placeholder
+const resolvedImagePath = images[imagePath] ? imagePath : placeholderImagePath;
+const image = images[resolvedImagePath]();
+
+if (!image) throw new Error(`"${resolvedImagePath}" does not exist in glob`);
 ---
 
 <Image
-  src={images[imagePath]()}
-  alt={altText}
+  src={image}
+  alt={altText || "Placeholder image"}
   width={width}
   height={height}
   class={className}
