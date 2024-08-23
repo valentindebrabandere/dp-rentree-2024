@@ -1,18 +1,15 @@
 ---
-import { Image } from 'astro:assets';
+import DynImage from '../global/DynImage.astro';
 
 const show = Astro.props;
-
-const imageSrc:string = `../../assets/images/show-posters/${show.slug}.jpg`;
-const imageAlt:string = `Affiche de ${show.title}`;
 ---
 
 <button class="c-show-card">
     <div class="c-show-card___content">
         <h2>{show.title}</h2>
-        <Image src={imageSrc} alt={imageAlt}  loading="lazy"  decoding="async"  width=1200 height=1800 />
+        <DynImage imagePath={`/src/assets/images/${show.slug}.jpg`}  altText='Affiche de ${show.title}'/>
     </div>
-    <Image class="c-show-card__backdrop" loading="lazy"  decoding="async" width=1200 height=1800 src={imageSrc} alt={imageAlt} />
+    <DynImage imagePath={`/src/assets/images/${show.slug}.jpg`}  altText='Affiche de ${show.title}' className='c-show-card___backdrop'/>
 </button>
 
 <script>
