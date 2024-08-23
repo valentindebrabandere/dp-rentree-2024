@@ -1,12 +1,9 @@
 ---
 // Dialog-window.astro
-import Image from "astro/components/Image.astro";
+import DynImage from "../global/DynImage.astro";
 import Channels from "../../data/channels.json";
 
 const show = Astro.props;
-
-const imageSrc: string = `/assets/images/show-posters/${show.slug}.jpg`;
-const imageAlt: string = `Affiche de ${show.title}`;
 
 interface Channel {
   slug: string;
@@ -25,8 +22,8 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
   <button class="c-show-window__focus"></button>
   <div class="c-show-window__container">
     <div class="c-show-window__media">
-      <Image class="c-show-window__image" src={imageSrc} alt={imageAlt}  loading="lazy"  decoding="async"  width=1200 height=1800 />
-      <Image class="c-show-window__image c-show-window__image--blurred" src={imageSrc} alt={imageAlt}  loading="lazy"  decoding="async"  width=1200 height=1800 />
+      <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText='Affiche de ${show.title}' width={1200} height={1800} className='c-show-window__image'/>
+      <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText='Affiche de ${show.title}' width={1200} height={1800} className='c-show-window__image c-show-window__image c-show-window__image--blurred'/>
     </div>
     <div class="c-show-window__content">
       <div class="c-show-window__title-group">
@@ -56,14 +53,14 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
                 href={channel.link}
                 target="_blank"
               >
-                <Image
-                  class="c-show-window__channel-icon"
-                  src={`/assets/icons/channels/${channel.slug}.svg`}
-                  alt={`${channel.name} logo`}
+                <DynImage
+                  imagePath={`/src/assets/images/channels/${channel.slug}.svg`}
+                  altText={`${channel.name} logo`}
+                  className="c-show-window__channel-icon"
                   loading="lazy"
                   decoding="async"
-                  width=72
-                  height=72
+                  width={72}
+                  height={72}
                 />
               </a>
             </li>
@@ -82,7 +79,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
   </div>
 </dialog>
 
-<style lang="scss">
+<style lang="scss" is:global>
 
 @import "../../scss/mq.scss";
 
