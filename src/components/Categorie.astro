@@ -1,0 +1,13 @@
+---
+import ShowListing from "./ShowListing.astro";
+import { getShowsByCategory } from "../utils/categorieFilter";
+
+const { category } = Astro.props;
+
+const shows = getShowsByCategory(category);
+
+---
+
+<div class="l-container">
+  <ShowListing shows={shows} />
+</div>
