@@ -1,5 +1,5 @@
 ---
-import DynImage from '../global/DynImage.astro';
+import DynImage from "../global/DynImage.astro";
 
 const show = Astro.props;
 ---
@@ -7,9 +7,9 @@ const show = Astro.props;
 <button class="c-show-card">
     <div class="c-show-card___content">
         <h2>{show.title}</h2>
-        <DynImage imagePath={`/src/assets/images/${show.slug}.jpg`}  altText='Affiche de ${show.title}'/>
+        <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText='Affiche de ${show.title}' width={1200} height={1800}/>
     </div>
-    <DynImage imagePath={`/src/assets/images/${show.slug}.jpg`}  altText='Affiche de ${show.title}' className='c-show-card___backdrop'/>
+    <DynImage imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}  altText='Affiche de ${show.title}' width={1200} height={1800} className='c-show-card__backdrop'/>
 </button>
 
 <script>
@@ -26,7 +26,7 @@ const show = Astro.props;
 
 </script>
 
-<style lang="scss">
+<style lang="scss" is:global>
     .c-show-card {
         isolation: isolate;
 

@@ -13,14 +13,14 @@ import '../scss/font-face.scss';
 
 <Layout title="RTL POP CORN SHOW">
   <main>
-    <h1>test</h1>
+    <h1>test hello</h1>
     <div class="l-container">
       <ShowListing shows={shows} />
     </div>
   </main>
 </Layout>
 
-<style>
+<style lang="scss" is:global> 
 
   body{
     background-color: var(--color-white);
@@ -30,6 +30,13 @@ import '../scss/font-face.scss';
     color: var(--color-dark-500);
 
     -webkit-font-smoothing: antialiased;
+  }
+
+  button {
+    cursor: pointer;
+
+    border: none;
+    background-color: transparent;
   }
 
 
