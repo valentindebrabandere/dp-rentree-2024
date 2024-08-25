@@ -3,7 +3,7 @@
     "title": "Les nouveautés",
     "slug": "les-nouveautes",
     "order": 1,
-    "icons": ["test", "test"],
+    "icons": ["test", "test2"],
     "childrens": [
       {
         "title": "Les nouvelles émissions",
@@ -31,7 +31,7 @@
     "title": "Les références",
     "slug": "les-references",
     "order": 2,
-    "icons": ["test", "test"],
+    "icons": ["test", "test2"],
     "childrens": [
       {
         "title": "Très bientôt",
@@ -59,25 +59,25 @@
     "title": "Info",
     "slug": "info",
     "order": 3,
-    "icons": ["test", "test"]
+    "icons": ["test", "test2"]
   },
   {
     "title": "Sports",
     "slug": "sports",
     "order": 4,
-    "icons": ["test", "test"]
+    "icons": ["test", "test2"]
   },
   {
     "title": "Coproductions",
     "slug": "coproductions",
     "order": 5,
-    "icons": ["test", "test"]
+    "icons": ["test", "test2"]
   },
   {
     "title": "Les radios",
     "slug": "les-radios",
     "order": 6,
-    "icons": ["test", "test"],
+    "icons": ["test", "test2"],
     "childrens": [
       {
         "title": "Radio Contact",
@@ -95,6 +95,6 @@
     "title": "Events",
     "slug": "events",
     "order": 7,
-    "icons": ["test", "test"]
+    "icons": ["test", "test2"]
   }
 ]

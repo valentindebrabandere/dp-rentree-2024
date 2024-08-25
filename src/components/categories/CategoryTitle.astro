@@ -17,7 +17,7 @@ if (hasIcons) {
 ---
 
 <div
-  class=`c-category-title-container ${child ? 'c-category-title-container--child' : ''} `
+  class=`c-category-title-container ${child ? 'child' : 'main'} `
 >
   <h2 class=`c-category__title ${child ? 'c-category__title--child' : ''}`>
     {category.title}
@@ -44,16 +44,32 @@ if (hasIcons) {
   }
 </div>
 
-<style>
+<style lang="scss" is:global>
   .c-category-title-container {
     margin: 2rem 0;
   }
+
+  .c-category-title-container.main{
+    position: relative;
+
+    width: 100%;
+    padding: 72px 250px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: var(--color-deco);
+  }
+
   .c-category__title {
     width: fit-content;
 
     font-family: "Gilroy", sans-serif;
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: clamp(3rem, 10vw, 5rem);
     text-align: center;
     text-wrap: balance;
 
@@ -65,4 +81,30 @@ if (hasIcons) {
   .c-category__title--child {
     font-size: 3rem;
   }
+
+  .c-category__icon {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin: 0 1rem;
+
+    img{
+      object-fit: contain;
+    }
+  }
+
+  .c-category__icon--left {
+    top: -100px;
+    left: 0;
+
+    rotate: -15deg;
+  }
+
+  .c-category__icon--right{
+    bottom: -100px;
+    right: 0;
+
+    rotate: 15deg;
+  }
+
 </style>

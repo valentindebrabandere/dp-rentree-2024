@@ -57,8 +57,6 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
                   imagePath={`/src/assets/images/channels/${channel.slug}.svg`}
                   altText={`${channel.name} logo`}
                   className="c-show-window__channel-icon"
-                  loading="lazy"
-                  decoding="async"
                   width={72}
                   height={72}
                 />
@@ -100,7 +98,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     position: fixed;
     padding: 0px 0 75px 0;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #0e1b3e00 49.9999%, var(--colors-deco) 50%);
+    background: linear-gradient(180deg, #0e1b3e00 49.9999%, var(--color-deco) 50%);
 
     color: var(--color-dark-300);
     width: 85%;
@@ -140,7 +138,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     bottom: 0;
     right: 0;
     border-radius: 25px;
-    background-color: var(--colors-deco);
+    background-color: var(--color-deco);
   }
 
   .c-show-window__container {
@@ -195,8 +193,6 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     &--blurred {
       position: absolute;
       top: 0;
-      left: 0;
-      width: 100%;
       z-index: -1;
       filter: blur(8px);
 
@@ -215,7 +211,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     padding: 0px 75px;
     gap: 42px;
     z-index: 1;
-    background-color: var(--colors-deco);
+    background-color: var(--color-deco);
   }
   .c-show-window__content::before {
     content: "";
@@ -225,7 +221,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     bottom: 0;
     right: 0;
     z-index: -1;
-    background-color:var(--colors-deco);
+    background-color:var(--color-deco);
   }
 
   @media all and (max-width: 750px) {
