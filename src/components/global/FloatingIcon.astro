@@ -1,0 +1,59 @@
+---
+import DynImage from "./DynImage.astro";
+
+interface Props {
+  title: string;
+  pathFolder: string;
+  className?: string;
+
+  width?: number;
+  height?: number;
+}
+
+// Destructuring props
+const { title, className, pathFolder, width, height } =
+  Astro.props;
+---
+
+<div class="c-floating-img">
+
+  <DynImage
+    imagePath={`/src/assets/images/${pathFolder}/${title}.png`}
+    altText=`Icon 3D de ${title}`
+    width={width}
+    height={height}
+    className=`c-floating-img__icon ${className}`
+  />
+  
+  <DynImage
+    imagePath={`/src/assets/images/${pathFolder}/${title}.png`}
+    altText=`Icon 3D de ${title}`
+    width={width}
+    height={height}
+    className=`c-floating-img__icon c-floating-img__icon--blured ${className}`
+  />
+
+</div>
+
+<style lang="scss" is:global>
+
+  .c-floating-img {
+    position: relative;
+    isolation: isolate;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .c-floating-img__icon--blured {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(42px);
+    opacity: 0.75;
+    z-index: -1;
+  }
+
+
+</style>

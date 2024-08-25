@@ -3,31 +3,27 @@
     "title": "Les nouveautés",
     "slug": "les-nouveautes",
     "order": 1,
-    "icons": ["Test", "test"],
+    "icons": ["test", "test"],
     "childrens": [
       {
         "title": "Les nouvelles émissions",
         "slug": "nouvelle-emissions",
-        "order": "a",
-        "icons": ["Test", "test"]
+        "order": "a"
       },
       {
         "title": "Les séries",
         "slug": "les-series",
-        "order": "b",
-        "icons": ["Test", "test"]
+        "order": "b"
       },
       {
         "title": "Les films",
         "slug": "les-films",
-        "order": "c",
-        "icons": ["Test", "test"]
+        "order": "c"
       },
       {
         "title": "Crime",
         "slug": "crime",
-        "order": "d",
-        "icons": ["Test", "test"]
+        "order": "d"
       }
     ]
   },
@@ -35,31 +31,27 @@
     "title": "Les références",
     "slug": "les-references",
     "order": 2,
-    "icons": ["Test", "test"],
+    "icons": ["test", "test"],
     "childrens": [
       {
         "title": "Très bientôt",
         "slug": "tres-bientot",
-        "order": "a",
-        "icons": ["Test", "test"]
+        "order": "a"
       },
       {
         "title": "Humour",
         "slug": "humour",
-        "order": "b",
-        "icons": ["Test", "test"]
+        "order": "b"
       },
       {
         "title": "Evénementielles",
         "slug": "evenementielles",
-        "order": "c",
-        "icons": ["Test", "test"]
+        "order": "c"
       },
       {
         "title": "Récurrents",
         "slug": "recurrents",
-        "order": "d",
-        "icons": ["Test", "test"]
+        "order": "d"
       }
     ]
   },
@@ -67,37 +59,35 @@
     "title": "Info",
     "slug": "info",
     "order": 3,
-    "icons": ["Test", "test"]
+    "icons": ["test", "test"]
   },
   {
     "title": "Sports",
     "slug": "sports",
     "order": 4,
-    "icons": ["Test", "test"]
+    "icons": ["test", "test"]
   },
   {
     "title": "Coproductions",
     "slug": "coproductions",
     "order": 5,
-    "icons": ["Test", "test"]
+    "icons": ["test", "test"]
   },
   {
     "title": "Les radios",
     "slug": "les-radios",
     "order": 6,
-    "icons": ["Test", "test"],
+    "icons": ["test", "test"],
     "childrens": [
       {
         "title": "Radio Contact",
         "slug": "radio-contact",
-        "order": "a",
-        "icons": ["Test", "test"]
+        "order": "a"
       },
       {
         "title": "bel RTL",
         "slug": "bel-rtl",
-        "order": "b",
-        "icons": ["Test", "test"]
+        "order": "b"
       }
     ]
   },
@@ -105,6 +95,6 @@
     "title": "Events",
     "slug": "events",
     "order": 7,
-    "icons": ["Test", "test"]
+    "icons": ["test", "test"]
   }
 ]

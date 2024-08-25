@@ -6,15 +6,12 @@ interface Props {
   imagePath: string;
   altText: string;
   className?: string;
-  loading?: "lazy" | "eager";
-  decoding?: "sync" | "async";
-
   width?: number;
   height?: number;
 }
 
 // Destructuring props
-const { imagePath, altText, className, loading, decoding, width, height } = Astro.props;
+const { imagePath, altText, className, width, height } = Astro.props;
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/images/**/*.{jpg,jpeg,png,gif,webp,svg}');
@@ -35,6 +32,4 @@ if (!image) throw new Error(`"${resolvedImagePath}" does not exist in glob`);
   width={width}
   height={height}
   class={className}
-  loading={loading}
-  decoding={decoding}
 />

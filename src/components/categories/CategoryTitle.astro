@@ -1,35 +1,68 @@
 ---
+import FloatingIcon from "../global/FloatingIcon.astro";
+
 const { category, child } = Astro.props;
 
+const icons = category.icons;
+
+const hasIcons = icons !== undefined && icons.length > 0;
+
+let iconLeft: string = "";
+let iconRight: string = "";
+
+if (hasIcons) {
+  iconLeft = icons[0];
+  iconRight = icons[1];
+}
 ---
 
-<div class="c-category-title-container">
-    <h2 class=`c-category__title ${child ? 'c-category__title--child' : ''}`>{category.title}</h2>
+<div
+  class=`c-category-title-container ${child ? 'c-category-title-container--child' : ''} `
+>
+  <h2 class=`c-category__title ${child ? 'c-category__title--child' : ''}`>
+    {category.title}
+  </h2>
+
+  {
+    hasIcons && (
+      <FloatingIcon
+        title={iconLeft}
+        pathFolder="categories-icons"
+        className="c-category__icon c-category__icon--left"
+      />
+    )
+  }
+
+  {
+    hasIcons && (
+      <FloatingIcon
+        title={iconRight}
+        pathFolder="categories-icons"
+        className="c-category__icon c-category__icon--right"
+      />
+    )
+  }
 </div>
 
 <style>
+  .c-category-title-container {
+    margin: 2rem 0;
+  }
+  .c-category__title {
+    width: fit-content;
 
-    .c-category-title-container {
-        margin: 2rem 0;
-    }
-    .c-category__title {
-        width: fit-content;
-        
+    font-family: "Gilroy", sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-align: center;
+    text-wrap: balance;
 
-        font-family: "Gilroy", sans-serif;
-        font-weight: 800;
-        font-size: 3.5rem;
-        text-align: center;
-        text-wrap: balance;
+    color: var(--color-accent);
 
-        color: var(--color-accent);
+    margin: 0;
+  }
 
-        margin: 0;
-    }
-
-    .c-category__title--child {
-       font-size: 3rem;
-    }
-
-
+  .c-category__title--child {
+    font-size: 3rem;
+  }
 </style>
