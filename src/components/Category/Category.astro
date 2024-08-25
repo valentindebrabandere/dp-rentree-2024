@@ -2,8 +2,8 @@
 import { getShowsByCategory } from "../../utils/categoryUtils";
 
 import CategorieTitle from "./CategoryTitle.astro";
-import ShowListing from "../show-card/ShowListing.astro";
-import MoviesListing from "../show-card/MoviesListing.astro";
+import ShowListing from "../ShowCard/ShowListing.astro";
+import MoviesListing from "../ShowCard/MoviesListing.astro";
 
 import type { CategoryType } from "../../types/Category";
 interface Props {
@@ -19,7 +19,7 @@ const hasChildren =
 ---
 
 <div class="l-container">
-  <div class="c-category">
+  <div class="c-category" id = {category.slug}>
     <CategorieTitle category={category} />
 
     {

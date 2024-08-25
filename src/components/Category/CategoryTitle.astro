@@ -16,9 +16,7 @@ if (hasIcons) {
 }
 ---
 
-<div
-  class=`c-category-title-container ${child ? 'child' : 'main'} `
->
+<div class=`c-category-title-container ${child ? 'child' : 'main'} `>
   <h2 class=`c-category__title ${child ? 'c-category__title--child' : ''}`>
     {category.title}
   </h2>
@@ -46,22 +44,46 @@ if (hasIcons) {
 
 <style lang="scss" is:global>
   .c-category-title-container {
+    position: relative;
     margin: 2rem 0;
   }
 
-  .c-category-title-container.main{
+  .c-category-title-container.main {
     position: relative;
+    isolation: isolate;
 
     width: 100%;
     padding: 72px 250px;
     box-sizing: border-box;
-    border-radius: 25px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    background-color: var(--color-deco);
+
+    &::before {
+      --box-shadow-angle: 4px;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+
+      border-radius: 25px;
+
+      box-shadow:
+        calc(var(--box-shadow-angle) / 2) calc(var(--box-shadow-angle))
+          calc(var(--box-shadow-angle) * 4) rgba(32, 21, 18, 0.15),
+        inset calc(var(--box-shadow-angle) * -1)
+          calc(var(--box-shadow-angle) * -1) calc(var(--box-shadow-angle) * 2)
+          rgba(32, 21, 18, 0.15),
+        inset calc(var(--box-shadow-angle) * -1) calc(var(--box-shadow-angle))
+          calc(var(--box-shadow-angle) * 2) rgba(255, 255, 255, 0.15);
+
+
+      background-color: var(--color-deco);
+    }
   }
 
   .c-category__title {
@@ -76,6 +98,8 @@ if (hasIcons) {
     color: var(--color-accent);
 
     margin: 0;
+    line-height: 1;
+    margin-bottom: .2em;
   }
 
   .c-category__title--child {
@@ -88,7 +112,7 @@ if (hasIcons) {
     height: 250px;
     margin: 0 1rem;
 
-    img{
+    img {
       object-fit: contain;
     }
   }
@@ -100,11 +124,10 @@ if (hasIcons) {
     rotate: -15deg;
   }
 
-  .c-category__icon--right{
+  .c-category__icon--right {
     bottom: -100px;
     right: 0;
 
     rotate: 15deg;
   }
-
 </style>

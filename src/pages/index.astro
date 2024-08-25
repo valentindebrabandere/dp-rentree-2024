@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import CategorieListing from "../components/categories/CategoryListing.astro";
+import NavGrid from "../components/NavGrid/NavGrid.astro";
+import CategorieListing from "../components/Category/CategoryListing.astro";
 
 import "../scss/variables.scss";
 import "../scss/font-face.scss";
@@ -8,6 +9,7 @@ import "../scss/font-face.scss";
 
 <Layout title="RTL POP CORN SHOW">
   <main>
+    <NavGrid />
     <CategorieListing />
   </main>
 </Layout>

@@ -1,0 +1,18 @@
+---
+
+import categories from "../../data/categories.json";
+import NavGridItem from "./NavGridItem.astro";
+
+const categoriesData = categories;
+
+---
+
+
+<div class="c-nav-grid">
+
+    {
+        categoriesData.map((category) => (
+            <NavGridItem category={category} />
+        ))
+    }
+</div>
