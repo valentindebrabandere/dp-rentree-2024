@@ -21,7 +21,12 @@ const { title } = Astro.props;
   </body>
 </html>
 <style is:global>
-  body {
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
     background-color: var(--color-white);
 
     font-family: "Gilroy", sans-serif;
@@ -29,6 +34,10 @@ const { title } = Astro.props;
     color: var(--color-dark-500);
 
     -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+
+    overflow-x: clip;
   }
 
   button {

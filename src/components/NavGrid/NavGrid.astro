@@ -1,18 +1,74 @@
 ---
-
 import categories from "../../data/categories.json";
 import NavGridItem from "./NavGridItem.astro";
 
 const categoriesData = categories;
-
 ---
 
+  <nav class="c-nav-grid">
+    <ul class="c-navgrid__list">
+      {categoriesData.map((category) => <NavGridItem category={category} />)}
+    </ul>
+  </nav>
 
-<div class="c-nav-grid">
+<style lang="scss" is:global>
+  @import "../../scss/mq.scss";
 
-    {
-        categoriesData.map((category) => (
-            <NavGridItem category={category} />
-        ))
+  .c-nav-grid {
+    width: 100%;
+
+    max-width: 1040px;
+    margin: 0 auto;
+    margin-top: -100px;
+    padding: 0;
+  }
+
+  .c-navgrid__list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding: 0;
+  }
+
+  @media screen and (min-width: $mq-desktop) {
+    .c-navgrid__list {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+
+      grid-template-rows: repeat(3, 1fr);
+
+      grid-template-areas:
+        ". item1 item1 item2 item2 ."
+        "item3 item3 item4 item4 item5 item5"
+        ". item6 item6 item7 item7 .";
+
+      margin: 0 auto;
+
+      li:nth-child(1) {
+        grid-area: item1;
+      }
+      li:nth-child(2) {
+        grid-area: item2;
+      }
+      li:nth-child(3) {
+        grid-area: item3;
+      }
+      li:nth-child(4) {
+        grid-area: item4;
+      }
+      li:nth-child(5) {
+        grid-area: item5;
+      }
+      li:nth-child(6) {
+        grid-area: item6;
+      }
+      li:nth-child(7) {
+        grid-area: item7;
+      }
     }
-</div>
+  }
+</style>

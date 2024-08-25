@@ -2,18 +2,67 @@
 import Layout from "../layouts/Layout.astro";
 import NavGrid from "../components/NavGrid/NavGrid.astro";
 import CategorieListing from "../components/Category/CategoryListing.astro";
+import DynImage from "../components/global/DynImage.astro";
 
 import "../scss/variables.scss";
 import "../scss/font-face.scss";
 ---
 
 <Layout title="RTL POP CORN SHOW">
+
   <main>
+
+    <header class="c-header">
+
+      <DynImage
+        imagePath="/src/assets/images/pop-corn-show-logo.png"
+        altText="Logo RTL POP CORN SHOW"
+      />
+
+    </header>
+
     <NavGrid />
     <CategorieListing />
+  
   </main>
+  
 </Layout>
 
-<style>
-  
+<style lang="scss" is:global>
+
+    .c-header {
+      position: relative;
+      width: 100vw;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+
+      &::before {
+        --border-radius: 50px;
+
+        content: "";
+        position: absolute;
+
+        left: 0;
+        bottom: 0;
+
+        width: 100%;
+        height: var(--border-radius);
+
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+        
+        z-index: 1;
+        background-color: var(--color-white);
+      }
+
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
 </style>
