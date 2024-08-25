@@ -7,6 +7,7 @@ const show = Astro.props;
 <button class="c-show-card">
   <div class="c-show-card___content">
     <h2>{show.title}</h2>
+
     <DynImage
       imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}
       altText=`Affiche de ${show.title}`
@@ -14,6 +15,7 @@ const show = Astro.props;
       height={1800}
     />
   </div>
+
   <DynImage
     imagePath={`/src/assets/images/show-posters/${show.slug}.jpg`}
     altText=`Affiche de ${show.title}`

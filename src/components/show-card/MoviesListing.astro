@@ -1,20 +1,18 @@
 ---
 // ShowListing.astro
 
-import ShowCard from "./ShowCard.astro";
-import DialogWindow from "./DialogWindow.astro";
+import MovieCard from "./MovieCard.astro";
 
 import type { Show } from "../../types/Show";
 
 const shows: Show[] = Astro.props.shows;
 ---
 
-<ul class="c-show-list">
+<ul class="c-movie-list">
   {
     shows.map((show: Show) => (
-      <li class="c-show-list__item">
-        <ShowCard {...show} />
-        <DialogWindow {...show} />
+      <li class="c-movie-list__item">
+        <MovieCard {...show} />
       </li>
     ))
   }
@@ -24,8 +22,8 @@ const shows: Show[] = Astro.props.shows;
   @import "../../scss/mq.scss";
   @import "../../scss/mixins.scss";
 
-  .c-show-list {
-    --grid-twist: 42px;
+  .c-movie-list {
+    --grid-twist: 30px;
 
     width: 100%;
     max-width: 1240px;
@@ -42,24 +40,23 @@ const shows: Show[] = Astro.props.shows;
     list-style: none;
   }
 
-  .c-show-list__item {
+  .c-movie-list__item {
     width: 100%;
   }
 
   @media screen and (min-width: $mq-tablet) {
-    .c-show-list {
-      grid-template-columns: 1fr 1fr;
+    .c-movie-list {
+      grid-template-columns: 1fr 1fr 1fr;
     }
-    
-    @include apply-twist(2);
-   
+
+    @include apply-twist(3);
   }
 
   @media screen and (min-width: $mq-desktop) {
-    .c-show-list {
-      grid-template-columns: 1fr 1fr 1fr;
+    .c-movie-list {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-    
-    @include apply-twist(3);
+
+    @include apply-twist(4);
   }
 </style>

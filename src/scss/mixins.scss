@@ -1,0 +1,14 @@
+// mixins.scss
+
+@mixin apply-twist($columns: 3) {
+    @for $i from 0 through ($columns - 1) {
+      .c-movie-list__item:nth-child(#{$columns}n + #{$i + 1}) {
+        margin-top: calc(var(--grid-twist) * #{$i});
+        margin-bottom: calc(var(--grid-twist) * -#{$i});
+      }
+      .c-show-list__item:nth-child(#{$columns}n + #{$i + 1}) {
+        margin-top: calc(var(--grid-twist) * #{$i});
+        margin-bottom: calc(var(--grid-twist) * -#{$i});
+      }
+    }
+  }

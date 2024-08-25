@@ -1,10 +1,9 @@
 ---
-import {
-  getShowsByCategory,
-} from "../../utils/categoryUtils";
+import { getShowsByCategory } from "../../utils/categoryUtils";
 
 import CategorieTitle from "./CategoryTitle.astro";
 import ShowListing from "../show-card/ShowListing.astro";
+import MoviesListing from "../show-card/MoviesListing.astro";
 
 import type { CategoryType } from "../../types/Category";
 interface Props {
@@ -15,37 +14,46 @@ const { category } = Astro.props;
 
 const shows = getShowsByCategory(category.slug);
 
-const hasChildren = category.childrens !== undefined && category.childrens.length > 0;
-
+const hasChildren =
+  category.childrens !== undefined && category.childrens.length > 0;
 ---
 
 <div class="l-container">
   <div class="c-category">
-    <CategorieTitle category={category}/>
+    <CategorieTitle category={category} />
 
-    {hasChildren ? (
-      <>
-        {category.childrens?.map((child) => (
-          <div class="c-category c-category__child">
-            <CategorieTitle category={child} child={true}/>
-            <ShowListing shows={getShowsByCategory(child.slug)} />
-          </div>
-        ))}
-      </>
-    ) : (
-      <ShowListing shows={shows} />
-    )}
+    {
+      hasChildren ? (
+        <>
+          {category.childrens?.map((child) => (
+            <div class="c-category c-category__child">
+              <CategorieTitle category={child} child={true} />
 
+              {child.slug === "les-films" ? (
+                <MoviesListing shows={getShowsByCategory(child.slug)} />
+              ) : (
+                <ShowListing shows={getShowsByCategory(child.slug)} />
+              )}
+            </div>
+          ))}
+        </>
+      ) : (
+        <ShowListing shows={shows} />
+      )
+    }
   </div>
 </div>
 
 <style lang="scss">
+  .c-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 
-    .c-category {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 50px;
-    }
+    width: 100%;
+
+    margin-top: 120px;
+  }
 </style>
