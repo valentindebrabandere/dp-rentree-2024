@@ -35,7 +35,7 @@ fs.createReadStream("./data/datas.csv", { encoding: "latin1" }) // Change encodi
           : [],
         exluPlay: data["exclu play"] === "v",
         nouveau: data["nouveau"] === "v",
-        description: data["description"] || "",
+        description: data["description"] ? data["description"].replace(/\\n/g, '\n').replace(/\\r/g, '') : "",
       };
 
       // Add to results only if it's not empty
