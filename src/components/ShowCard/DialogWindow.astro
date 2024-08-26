@@ -4,6 +4,9 @@ import DynImage from "../global/DynImage.astro";
 import Channels from "../../data/channels.json";
 
 const show = Astro.props;
+// TODO : Add date if date == ""
+const date = show.date || "";
+console.log(date)
 
 interface Channel {
   slug: string;
@@ -27,7 +30,7 @@ const matchedChannels: Channel[] = show.channels.map((showChannelSlug: string) =
     </div>
     <div class="c-show-window__content">
       <div class="c-show-window__title-group">
-        {show.date && <h4 class="c-show-window__date">{show.date}</h4>}
+        {show.date && <h4 class="c-show-window__date">{date}</h4>}
         {show.title && <h3 class="c-show-window__name">{show.title}</h3>}
         {
           show.presenters && (

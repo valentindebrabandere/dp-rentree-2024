@@ -26,8 +26,9 @@ fs.createReadStream('./data/datas.csv', { encoding: 'latin1' }) // Change encodi
         channels: data['chaines'] ? data['chaines'].split(',').map(item => item.trim()) : [],
         date: data['date'] || '',
         presenters: data['presentateurs'] ? data['presentateurs'].split(',').map(item => item.trim()) : [],
-        categorie: data['catégiorie'] || '',
-        'exlu-play': data['exclu play'] === 'TRUE',
+        categorie: data['catégiorie'] ? data['catégiorie'].split(',').map(item => item.trim()) : [],
+        exluPlay: data['exclu play'] === 'v',
+        nouveau: data['nouveau'] === 'v',
         description: data['description'] || ''
       };
 

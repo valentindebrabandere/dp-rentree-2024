@@ -14,8 +14,11 @@
       "Eddy",
       "Arnaud"
     ],
-    "categorie": "exemple",
-    "exlu-play": false,
+    "categorie": [
+      "exemple"
+    ],
+    "exluPlay": true,
+    "nouveau": false,
     "description": "Blablablabla"
   },
   {
@@ -29,8 +32,11 @@
     "presenters": [
       "Sophie Pendeville"
     ],
-    "categorie": "nouvelle-emissions",
-    "exlu-play": false,
+    "categorie": [
+      "nouvelle-emissions"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -44,8 +50,11 @@
     "presenters": [
       "Bertrand Caroy"
     ],
-    "categorie": "nouvelle-emissions",
-    "exlu-play": false,
+    "categorie": [
+      "nouvelle-emissions"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Bertrand Caroy quitte son Hainaut natal pour simmerger quelques jours au sein des forces de police aux quatre coins du monde. En patrouillant aux côtés de ses nouveaux collègues, il partage leur quotidien, participe à des interventions, fait des interpellations et vit des missions improbables. De nouvelles amitiés et des apprentissages uniques l'attendent à chaque destination. Ces voyages hors du commun emmènent le premier inspecteur borain au cur des forces de police du Canada, de l'Espagne ou encore de Dubaï, avec un nouvel uniforme à chaque étape ! "
   },
   {
@@ -59,8 +68,11 @@
     "presenters": [
       "Vincenzo Ciuro"
     ],
-    "categorie": "nouvelle-emissions",
-    "exlu-play": false,
+    "categorie": [
+      "nouvelle-emissions"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Dans une ville, deux inconnus répondent à un appel qui va bouleverser leur quotidien. Vincenzo Ciuro, à l'autre bout du fil, leur lance un défi audacieux : tout abandonner immédiatement pour une aventure qui pourrait leur rapporter jusqu'à 25.000 euros. Jusqu'où seront-ils prêts à aller pour saisir cette opportunité ? Confrontés à leurs dilemmes, peurs et ambitions, ces deux participants verront leurs chemins, jusque-là distincts, se croiser de manière surprenante, les entraînant dans une aventure pleine de suspense, de défis et démotions. Leur audace, curiosité et détermination seront-elles récompensées ? Décrocher ce téléphone pourrait bien changer leur vie !  "
   },
   {
@@ -74,8 +86,11 @@
     "presenters": [
       "Benjamin Maréchal"
     ],
-    "categorie": "nouvelle-emissions",
-    "exlu-play": false,
+    "categorie": [
+      "nouvelle-emissions"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Un Belge sur trois a déjà eu des problèmes avec ses voisins, mais certains conflits dégénèrent en véritables guerres. \"La Guerre des Voisins\" s'intéresse à ces querelles qui empoisonnent la vie quotidienne. Tapages nocturnes, nuisances sonores ou olfactives, disputes de mitoyenneté, insultes, menaces, voire violences : les conflits de voisinage ont augmenté de 64 % en cinq ans. Benjamin Maréchal et son équipe interviennent pour tenter de rétablir la paix. "
   },
   {
@@ -89,8 +104,11 @@
     "presenters": [
       "Stéphane Rotenberg"
     ],
-    "categorie": "nouvelle-emissions",
-    "exlu-play": false,
+    "categorie": [
+      "nouvelle-emissions"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "À lheure où les seniors se montrent sans artifices et assument leur âge, cette émission leur propose de retrouver lamour pour prouver quaprès 60 ans, la séduction existe bel et bien. Une ode à lamour et un pied de nez aux diktats ! Vous allez rencontrer un Bachelor mature, sage, qui sest bonifié avec le temps ! Il a la soixantaine et cherche lamour avec une femme de son âge. Dans lémission, vous allez aussi découvrir des femmes accomplies, indépendantes qui savent ce quelles veulent. Le maitre-mot : il nest jamais trop tard pour (re)trouver lamour ! "
   },
   {
@@ -101,8 +119,11 @@
     "presenters": [
       "Stéphane Rotenberg"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "La course daventure emblématique est de retour pour une saison exceptionnelle avec 7 binômes stars du programme. Cest au cur de lInde et de la région du Rajasthan que les candidats découvriront les surprises que leur réserve ce pays. Cest au pied du célèbre Taj Mahal, lune des sept merveilles du monde moderne, que débutera cette course effrénée. "
   },
   {
@@ -116,8 +137,11 @@
     "presenters": [
       "Jean Dujardin"
     ],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "En 1821, Don Diego de la Vega devient maire de sa bien-aimée ville de Los Angeles quil compte bien faire prospérer. Cependant, la municipalité est confrontée à des problèmes financiers du fait de l'avidité d'un homme d'affaires local, Don Emmanuel, face auquel les pouvoirs du maire savèrent insuffisants pour combattre linjustice. Diego n'a pas fait appel à son double Zorro depuis 20 ans. Mais au nom de lintérêt général, il n'a plus d'autre choix que de ressortir son masque et son épée. Très vite, Diego va rencontrer des difficultés à concilier sa double identité de Zorro et de maire, ce qui met à rude épreuve son mariage avec Gabriella, qui ignore son secret. Diego pourra-t-il sauver son mariage et sa santé mentale au milieu du chaos ? \n\nUne série créée par Benjamin Charbit et Noé Debré, composée de 8 épisodes de 40 minutes et réalisée par Jean-Baptiste Saurel et Emilie Noblet. \n\nUne coproduction Paramount +/France Télévisions/RTL Belgium. "
   },
   {
@@ -133,8 +157,11 @@
       "Constance Labbé",
       "Claire Romain"
     ],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Vous les attendiez, elles sont là ! En 2023, dans la ville Lumière, Tam (Camille Lou), Sylia (Constance Labbé) et Alexia (Claire Romain) se retrouvent après des années de séparation. Au même moment, une uvre ayant appartenu à leur père disparu dix ans plus tôt dans le mystérieux incendie de sa galerie dart resurgit lors dune prestigieuse exposition à la Tour Eiffel. Elles décident alors de prendre tous les risques pour la dérober dans lespoir de comprendre enfin ce qui lui est arrivé. "
   },
   {
@@ -146,8 +173,11 @@
     ],
     "date": "Le 8 septembre à 20h40",
     "presenters": [],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -159,8 +189,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -174,8 +207,11 @@
     "presenters": [
       "Julien Doré"
     ],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -189,8 +225,11 @@
     "presenters": [
       "Booder"
     ],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -202,8 +241,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -214,8 +256,11 @@
     ],
     "date": "Le 2 septembre",
     "presenters": [],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": true,
+    "nouveau": false,
     "description": "Après Fatmagül et Innocence, une nouvelle télénovela turque débarque sur RTL play. \n\nFrères rivaux raconte l'histoire intense de deux frères, Kamal et Karim, engagés dans une lutte sans merci, unis par un terrible secret qui les sépare inexorablement. Leur seul lien : la grandeur de leurs ambitions et leur amour pour... la même femme. "
   },
   {
@@ -226,8 +271,11 @@
     ],
     "date": "Le 4 septembre",
     "presenters": [],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": true,
+    "nouveau": false,
     "description": "Découvrez les aventures du capitaine Flint vingt ans avant les événements du roman L'île au trésor de Robert Louis Stevenson. Au XVIIIe siècle, en plein âge d'or de la piraterie, le capitaine Flint domine les Caraïbes. Mais tandis que les pirates transforment l'ancienne colonie britannique de New Providence en un repaire de débauche, la flotte royale se prépare à reprendre le contrôle du territoire... \n\nSérie disponible en intégralité "
   },
   {
@@ -238,8 +286,11 @@
     ],
     "date": "Le 16 septembre",
     "presenters": [],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": true,
+    "nouveau": false,
     "description": "À l'occasion d'un mariage, famille et amis se rassemblent sur une île au large de Seattle, tristement célèbre pour un massacre survenu sept ans plus tôt. Alors que les festivités commencent, nul ne se doute encore de l'horreur qui les guette. Les amitiés sont mises à l'épreuve et les secrets refont surface lorsque des corps commencent à s'accumuler. Ce qui devait être un week-end festif se transforme en une lutte désespérée pour survivre... \n\nSérie disponible en intégralité "
   },
   {
@@ -250,8 +301,11 @@
     ],
     "date": "Le 25 septembre",
     "presenters": [],
-    "categorie": "les-series",
-    "exlu-play": false,
+    "categorie": [
+      "les-series"
+    ],
+    "exluPlay": true,
+    "nouveau": false,
     "description": "Night Shift suit les aventures d'une équipe de médecins travaillant aux urgences de nuit dans un hôpital de San Antonio, au Texas. Composée en grande partie de vétérans de guerre, cette équipe est habituée aux situations les plus extrêmes. Parmi eux, on retrouve Eoin Macken (Les Tudors), Jill Flint (The Good Wife), et Brendan Fehr (Bones). \n\nSérie disponible en intégralité "
   },
   {
@@ -263,8 +317,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "les-films",
-    "exlu-play": false,
+    "categorie": [
+      "les-films"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -276,8 +333,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "les-films",
-    "exlu-play": false,
+    "categorie": [
+      "les-films"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -289,8 +349,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "les-films",
-    "exlu-play": false,
+    "categorie": [
+      "les-films"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -302,8 +365,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "les-films",
-    "exlu-play": false,
+    "categorie": [
+      "les-films"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -315,8 +381,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "les-films",
-    "exlu-play": false,
+    "categorie": [
+      "les-films"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -328,8 +397,11 @@
     ],
     "date": "Le 12 septembre à 20h30",
     "presenters": [],
-    "categorie": "les-films",
-    "exlu-play": false,
+    "categorie": [
+      "les-films"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -341,8 +413,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "les-films",
-    "exlu-play": false,
+    "categorie": [
+      "les-films"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -354,8 +429,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "les-films",
-    "exlu-play": false,
+    "categorie": [
+      "les-films"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -369,8 +447,11 @@
     "presenters": [
       "Sylvester Stallone"
     ],
-    "categorie": "les-films",
-    "exlu-play": false,
+    "categorie": [
+      "les-films"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -384,8 +465,11 @@
     "presenters": [
       "Julie Denayer"
     ],
-    "categorie": "crime",
-    "exlu-play": false,
+    "categorie": [
+      "crime"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Meurtres irrésolus, grand banditisme, faux coupables, crimes passionnels, disparitions Julie Denayer revient sur plus grandes enquêtes judiciaires de ces dernières années. Découvrez les histoires criminelles les plus marquantes sous un angle nouveau avec un décryptage inédit, des témoignages exclusifs et de nouveaux éléments."
   },
   {
@@ -400,8 +484,11 @@
       "Julie Denayer",
       "Denis Goeman"
     ],
-    "categorie": "crime",
-    "exlu-play": false,
+    "categorie": [
+      "crime"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "\"Intime Conviction\" vous transporte au cur des affaires belges et françaises les plus marquantes. Chaque épisode dévoile un nouvel éclairage grâce aux témoignages exclusifs des principaux protagonistes et de leurs proches, révélant des détails et des perspectives rarement explorés. \n\nAvec l'expertise du juge Denis Goeman, vous êtes guidés à travers les moments clés et les défis de ces enquêtes judiciaires. De la collecte des témoignages aux stratégies denquête, en passant par les éléments cruciaux qui ont influencé le verdict final, \"Intime Conviction\" vous révèle les rouages cachés de la justice. \n\nSujet de la première affaire : Alexia, Autopsie dun féminicide \n\nParce que la mort dAlexia Daval a bouleversé tout un pays, parce quelle a été laffaire la plus médiatisée depuis laffaire Grégory, parce quelle est ancrée dans une région et incarnée par une famille digne, forte, qui a tenu face à lhorreur et suscité ladmiration de tous, parce que le profil du meurtrier est inédit et que son scénario est machiavélique, parce que lhistoire dAlexia est celle dune femme battue à mort, elle nest pas un simple fait divers. Elle est une histoire française. Une histoire universelle. "
   },
   {
@@ -419,8 +506,11 @@
       "Nathalie Gallant",
       "Christophe Giltay"
     ],
-    "categorie": "crime",
-    "exlu-play": false,
+    "categorie": [
+      "crime"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "\"Histoires de Crimes\" devient votre incontournable rendez-vous criminel sur RTL tvi. Chaque semaine, deux documentaires vous replongent dans les affaires criminelles les plus marquantes de ces dernières années en Belgique et en France... meurtres de sang-froid, règlements de compte, jalousie fatale ou encore infanticides. \n\nPour décrypter ces histoires, une équipe d'experts belges reconnus partage son analyse. Parmi eux, Luc Hennart, magistrat à la retraite, Alexandre Wilmotte, Gisèle Stuyck et Nathalie Gallant, avocats pénalistes, ainsi que Christophe Giltay, journaliste judiciaire.  "
   },
   {
@@ -442,8 +532,11 @@
       "Pierre Thys",
       "Dominique Demoulin"
     ],
-    "categorie": "crime",
-    "exlu-play": false,
+    "categorie": [
+      "crime"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Pour prolonger votre soirée Histoires de Crimes, RTL tvi vous propose un documentaire inédit qui vous emmène au cur des histoires saisissantes de tueurs en série et de criminels multirécidivistes issus du monde entier. À travers des témoignages exclusifs d'enquêteurs, de membres de la famille des tueurs, de proches des victimes, de journalistes, et parfois même de survivants, nous tentons de comprendre les mécanismes sombres qui ont poussé ces hommes et ces femmes à commettre l'irréparable.  \n\nChaque semaine, grâce à des images darchives, des reconstitutions et des témoignages exclusifs, \"Histoires de Crimes\" accueille de nouveaux experts. Parmi eux : Philippe Boxho, médecin légiste, Nathalie Penning, avocate pénaliste, Jessica Vanhaebost, médecin légiste, Grégory Schmit, médecin légiste, Samuel Leistedt, psychiatre, Oceane Gangi, criminologue, Aurélien Partoune, criminologue, Pierre Thys, psychologue et Dominique Demoulin, journaliste judiciaire. "
   },
   {
@@ -457,8 +550,11 @@
     "presenters": [
       "Philippe Boxho"
     ],
-    "categorie": "crime",
-    "exlu-play": false,
+    "categorie": [
+      "crime"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "\"Meurtre en Belgique\" vous emmène au cur des affaires criminelles belges, où la réalité dépasse souvent la fiction. Pour la première fois, des images et documents judiciaires authentiques seront dévoilés au public. Guidés par Philippe Boxho, vous découvrirez des témoignages saisissants de détectives, de juges d'instruction, de procureurs, de proches des victimes, et parfois des victimes elles-mêmes. "
   },
   {
@@ -472,8 +568,11 @@
     "presenters": [
       "Loïc"
     ],
-    "categorie": "tres-bientot",
-    "exlu-play": false,
+    "categorie": [
+      "tres-bientot"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Le plus grand concours de friteries jamais organisé en Wallonie et à Bruxelles revient pour une seconde saison pleine de nouveautés, avec notre fou de cuisine préféré aux commandes : Loïc. Cette année, 12 frituristes de tous horizons vont s'affronter pendant six semaines. Ils seront évalués par un jury d'experts composé de Patrick et Fabienne de Corte, d'Arnaud Delvenne et de David Antoine. À leurs côtés, un Fan Bus rempli des 20 amateurs de frites les plus affutés du Royaume. Chaque frituriste sera soutenu par un ambassadeur de sa province, parmi lesquels Jean-Michel Zecca, Emilie Dupuis, Sandrine Corman, Sabrina Jacobs, Benjamin Maréchal et Sophie Pendeville. \n\nQui succédera à Ben et Nati, vainqueurs de la 1ère saison de la Meilleure Friterie ? Réponse très bientôt ! "
   },
   {
@@ -487,12 +586,15 @@
     "presenters": [
       "Maria del Rio"
     ],
-    "categorie": "tres-bientot",
-    "exlu-play": false,
+    "categorie": [
+      "tres-bientot"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Pour cette nouvelle édition, \"Lamour est dans le pré\" accueille Maria Del Rio à la tête de la moisson 2024. Au printemps, ils nous ont émus à travers leurs histoires, leurs confidences et leur envie sincère de rencontrer lamour. Après avoir reçu des centaines de courriers de prétendant(e)s prêts à vivre une belle histoire, découvrez à présent les agriculteurs.rices de la saison 16 dans leur quête amoureuse ! Ils viennent des quatre coins de la Wallonie et partagent tous la même envie : vivre une love story. \n\nEt comme le dit la chanson : Love is in the air, et nos agriculteurs vont vous le prouver ! "
   },
   {
-    "title": "Les Traîtres : Seront-ils démasqués ? - Version française",
+    "title": "Les Traîtres - Version française",
     "slug": "traitres",
     "channels": [
       "tvi",
@@ -502,8 +604,11 @@
     "presenters": [
       "Eric Antoine"
     ],
-    "categorie": "tres-bientot",
-    "exlu-play": false,
+    "categorie": [
+      "tres-bientot"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Vingt personnalités françaises se lancent dans laventure palpitante du phénomène Les Traîtres. Un jeu aussi cruel que jubilatoire ! Les joueurs vont entrer dans un univers hors-norme où leur seul allié sera leur instinct car parmi les 20 personnalités se cachent des Traîtres prêts à tout pour remporter la partie. Ces derniers devront résister à la pression, mentir et manipuler pour passer inaperçus et conserver leur place dans le jeu. Sauront-ils duper les autres membres du château ? Qui trahira pour gagner ? Qui des Traîtres ou des Loyaux remporteront la partie ? Bienvenue dans un jeu impitoyable où la vérité est aussi cruelle que la trahison elle-même.  "
   },
   {
@@ -517,8 +622,11 @@
     "presenters": [
       "Laetitia Millot"
     ],
-    "categorie": "tres-bientot",
-    "exlu-play": false,
+    "categorie": [
+      "tres-bientot"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Le Meilleur Pâtissier revient sur RTL tvi avec une nouvelle saison présentée par Laëtitia Milot. Les pâtissiers amateurs s'affronteront sous l'il vigilant du jury composé du talentueux chef Cyril Lignac et de la blogueuse Mercotte. Ils devront relever des défis sucrés, mêlant technique et créativité, pour éblouir nos 2 juges. Qui représentera la Belgique, apportant une touche locale et gourmande à la compétition ? Entre créations audacieuses et moments de convivialité, cette saison promet dêtre un délice pour les amateurs de pâtisserie. "
   },
   {
@@ -533,8 +641,11 @@
       "Benjamin",
       "Adélina"
     ],
-    "categorie": "tres-bientot",
-    "exlu-play": false,
+    "categorie": [
+      "tres-bientot"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Benjamin et Adélina, ex-candidats du Meilleur Pâtissier, saffrontent dans une bataille de desserts pleine de bonne humeur ! Ils seront départagés chaque semaine par un invité spécial... Qui remportera le point avec sa création gourmande ? Une compétition amicale et sucrée, diffusée juste après le Meilleur Pâtissier. "
   },
   {
@@ -548,8 +659,11 @@
     "presenters": [
       "François Pirette"
     ],
-    "categorie": "humour",
-    "exlu-play": false,
+    "categorie": [
+      "humour"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "2024 est lannée de tous les records pour François Pirette : sa tournée \"XYZ - 3 générations\" a déjà réuni près de 20.000 personnes avec plus de 30 représentations marathon jouées à guichets fermés dont la plus longue au PBA de Charleroi aura duré 3h50 !  \n\nAvant de reprendre la route à lautomne pour une version « XYZ 2.0 », François Pirette nous offre un témoignage unique de cette performance, avec un regard inédit jeté depuis les coulisses de sa tournée-événement. \n\n\"XYZ - 3 générations, 3 soirées exceptionnelles à ne surtout pas manquer ! "
   },
   {
@@ -562,8 +676,11 @@
     "presenters": [
       "Pablo Andres"
     ],
-    "categorie": "humour",
-    "exlu-play": false,
+    "categorie": [
+      "humour"
+    ],
+    "exluPlay": true,
+    "nouveau": false,
     "description": "La toute première série en un seul épisode débarque sur RTL play ! L'agent Verhaegen se trouve, pour la première fois de sa carrière, confronté à l'intelligence... artificielle. Dans un commissariat typiquement bruxellois, l'arrivée d'un prototype de robot policier bouleverse la routine. Le commissaire Verschueren confie à l'agent Verhaegen la mission de présenter ce nouveau membre atypique à ses collègues. Comment ce \"Robocop\" ultra performant sera-t-il accueilli au sein de cette \"unité pas très spéciale\" ? Découvrez-le dans cet épisode unique rempli d'évasions pas si spectaculaires, de farniente administrative et de dégustation de tartines au gouda, une comédie d'inaction policière 100 % belge ! "
   },
   {
@@ -577,8 +694,11 @@
     "presenters": [
       "Véronique Gallo"
     ],
-    "categorie": "humour",
-    "exlu-play": false,
+    "categorie": [
+      "humour"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Après le succès de Vie de mère et plus de 300 dates de tournée, la comédienne et humoriste belge revient avec un nouveau spectacle Femme de Vie. \n\nVéronique Gallo décortique avec humour et émotion, la quarantaine au féminin ! La charge mentale, les enfants qui grandissent, les parents qui vieillissent, la peau qui se relâche, les bouffées de chaleur, la perfection quon simpose, la pression dêtre en couple, limage que lon a de soi, les injections au Botox \n\nSans complexe, Véronique Gallo nous interroge Et si la Nature apportait une réponse aux questions incessantes que lon se pose ? "
   },
   {
@@ -592,8 +712,11 @@
     "presenters": [
       "Jean-Michel Zecca"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Tic Tac, Tic Tac... Une famille a 30 minutes pour mettre la main sur les 100.000  cachés dans leur maison. Pour y parvenir, ils devront garder leur sang-froid, faire confiance à leur intuition et fouiller chaque recoin, car nos experts de la cachette ne manquent pas de ressources ! Soledad, la policière spécialiste des perquisitions, Michel, le décorateur aux inventions délirantes, et Javier, l'ouvrier créatif en construction, ont tout mis en uvre avant le tournage pour leur rendre la tâche ardue. Avec Jean-Michel Zecca, ils vont corser l'épreuve et faire suer la famille.  \n\nUnis dans une même mission, les membres dune famille feront-ils main basse sur une fortune cachée sous leurs yeux ? Sont-ils certains quaucun billet nait été laissé à lintérieur dune semelle de chaussure, derrière un papier-peint ou encore au fond dun paquet de poudre à lessiver ? "
   },
   {
@@ -607,8 +730,11 @@
     "presenters": [
       "Donovan"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Après le succès du premier rendez-vous, où il a surpris tout le monde, Donovan le Magicien est de retour, incognito dans vos lieux préférés, pour vous étonner encore de plus ! Imaginez Donovan le Magicien sous les traits dun mécanicien, dun caissier, dun animateur de marché, dun cuisinier, et bien plus encore. Filmée en caméra cachée, cette émission 100% inédite montre un Donovan surmotivé et prêt à tout pour vous épater. Il vendra même un sac à dos multifonctions improbable pour vos randonnées, contenant tous les accessoires nécessaires pour dormir, manger, se réchauffer et se changer. En réparateur de téléphone excentrique, il testera la solidité d'un nouveau film anti-choc invisible sur votre appareil, qui résiste à tout sauf à tout. "
   },
   {
@@ -622,8 +748,11 @@
     "presenters": [
       "Christophe Dechavanne"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Christophe Dechavanne rencontre des personnalités et des anonymes dont la vie a basculé du jour au lendemain. À travers des entretiens sincères et sans filtre, chacun partage ses joies, ses peines et ses moments charnières. Pour ce nouvel épisode, Lorie raconte son combat contre lendométriose et son expérience après lablation de son utérus. Nous retrouvons également Riton Liebman. Star à 13 ans, entouré du tandem Depardieu-Dewaere sur Préparez vos mouchoirs, le Bruxellois a connu livresse et le poison de la célébrité. De retour au théâtre, il se livre et raconte lhistoire dune véritable descente aux enfers."
   },
   {
@@ -637,8 +766,11 @@
     "presenters": [
       "Michaël Miraglia"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Accidents sur la route, à domicile ou dans des lieux publics, chacun peut un jour avoir besoin d'une intervention rapide des secours. Michaël Miraglia vous fait découvrir le quotidien intense des membres du Centre Médical Héliporté et de Mike, leur hélicoptère, opérant dans les vastes territoires des provinces de Liège et de Luxembourg. Suivez des missions toujours plus périlleuses et spectaculaires où la rapidité et l'efficacité des secours peuvent faire la différence et sauver des vies. "
   },
   {
@@ -650,8 +782,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Partez en immersion dans lunivers de la protection de lenvironnement. Chaque jour, des citoyens sont confrontés à des problèmes de pollution sonore et sanitaire, de dégradations et d'incivilités. Notre biodiversité na jamais été aussi menacée. Dans nos forêts, nos campagnes et même en ville, des agents de lenvironnement veillent, interviennent et traquent sans relâche les pollueurs ou les braconniers pour préserver la nature des excès en tout genre."
   },
   {
@@ -663,8 +798,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Pour sa 19e saison, \"Vu à la Télé\" revient avec un look renouvelé et deux nouveaux canapés de téléspectateurs. Leurs opinions tranchées et truculentes apporteront un éclairage plein d'humour et d'émotion sur les programmes de cet automne.   "
   },
   {
@@ -678,8 +816,11 @@
     "presenters": [
       "Emilie Dupuis"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Gyrophares, sirènes, voitures bleues et blanches filant à toute allure sur les routes de Bruxelles et de Wallonie : Emilie Dupuis vous embarque à nouveau dans les véhicules de la police pour partager le quotidien et la réalité des forces de lordre. Découvrez des missions et des interventions essentielles, parfois étonnantes ou musclées. Avec l'augmentation annuelle du nombre de véhicules sur les routes, Emilie part à la rencontre des conducteurs belges pour recueillir leurs émotions, leur colère, mais aussi leurs rires et leurs histoires. "
   },
   {
@@ -693,8 +834,11 @@
     "presenters": [
       "Ludovic Daxhelet"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Pour cette 10ème saison d'Expédition Pairi Daiza, Ludovic Daxhelet part explorer le plus beau parc animalier dEurope ! Accompagné de soigneurs et autres acteurs de terrain, Ludo nous fait découvrir de nombreuses espèces et, à travers son enthousiasme communicatif et sa curiosité, il nous permet den apprendre toujours plus sur les animaux mais aussi sur le travail de soigneur, la conservation des espèces ou encore le patrimoine, l'histoire et larchitecture.  \n\nCette année est également spéciale pour Pairi Daiza, qui célèbre ses 30 ans d'existence depuis son ouverture le 11 mai 1994. Pour marquer cet anniversaire, Expédition Pairi Daiza vous offre un voyage dans le temps, retraçant l'évolution spectaculaire du parc au fil des décennies. "
   },
   {
@@ -708,8 +852,11 @@
     "presenters": [
       "Sophie Pendeville"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Dans un contexte immobilier difficile et face à des taux dintérêt en hausse, vendre son bien au juste prix est devenu un véritable parcours du combattant pour de nombreux propriétaires. Que ce soit pour partir en retraite sous le soleil, alléger un fardeau ou réaliser un rêve, chaque vente est une étape cruciale aux répercussions importantes sur la vie des vendeurs. \n\n\"Je vends ma maison\" suit les histoires touchantes de 16 propriétaires, accompagnés par Sophie Pendeville et une équipe de 5 agents immobiliers de We Invest, venus de toute la Wallonie. Aux côtés dAnouchka Déco, experte en home staging, ils relèvent le défi de rafraîchir, rénover et mettre en valeur ces biens pour les vendre au meilleur prix. \n\nCette saison, lémission va plus loin en réalisant des travaux plus importants pour réussir des ventes en un temps record, même pour des biens réputés invendables ou atypiques... comme une péniche.  "
   },
   {
@@ -719,12 +866,15 @@
       "tvi",
       "play"
     ],
-    "date": "",
+    "date": "Le dimanche à 18h20 jusqu'au 6/10",
     "presenters": [
       "Sandrine Dans (Voix off)"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Suivez les coulisses du plus grand aquarium dEurope à travers les yeux de celles et ceux qui se battent au quotidien pour la préservation de la biodiversité. Les soigneurs, Mélanie, Coralie, Louise et Nicolas vont devoir relever dimportants défis avec la construction dun nouvel espace abyssal, le suivi des raies et des otaries, ainsi que des naissances de manchots. Ces bébés sadditionneront aux 58.000 animaux déjà présents, dont 1.600 espèces différentes. Plus de 2.000 naissances sont comptabilisées chaque année ! "
   },
   {
@@ -734,12 +884,15 @@
       "tvi",
       "play"
     ],
-    "date": "Dès le 7 septembre",
+    "date": "Dès le 7 septembre à 18h30",
     "presenters": [
       "Jean-Michel Zecca"
     ],
-    "categorie": "evenementielles",
-    "exlu-play": false,
+    "categorie": [
+      "evenementielles"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Dès le 7 septembre, lémission « Septante et un » diffusée le samedi, évolue !  \n\nTous les weekends, Jean-Michel Zecca invite 70 candidats uniques ayant éliminé l'entièreté du gradin lors de leur passage dans l'émission. Pour pimenter la partie, ce n'est pas un, mais 2 candidats aux côtés de Jean-Michel, qui affronteront le public !  \n\n\"Un duo contre tous\", avec des amis d'enfance, collègues de travail, parents ou voisins ayant tous le même objectif : éliminer les 70 candidats du public.   \n\nRetrouvez le 71 dans sa formule classique, tous les jours à 18h30 sur RTL tvi & RTL play. \n\nEt ce nest pas tout ! Pour les 20 ans de 71, RTL embarque avec des téléspectateurs pour une croisière inoubliable en Méditerranée, à bord du MSC Grandiosa du 13 au 21 octobre 2024. "
   },
   {
@@ -753,8 +906,11 @@
     "presenters": [
       "Benjamin Maréchal"
     ],
-    "categorie": "recurrents",
-    "exlu-play": false,
+    "categorie": [
+      "recurrents"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "À la suite des crises successives, les questions dargent sont plus que jamais au cur des préoccupations des Belges. Benjamin Maréchal et son équipe se penchent sur ces préoccupations avec des enquêtes approfondies, des astuces pratiques et des tests rigoureux pour identifier les meilleures options de consommation."
   },
   {
@@ -768,8 +924,11 @@
     "presenters": [
       "Loïc"
     ],
-    "categorie": "recurrents",
-    "exlu-play": false,
+    "categorie": [
+      "recurrents"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Pour sa 25e saison, \"Tout sexplique\", présenté par Loïc, continue de nous surprendre avec des sujets fascinants et inattendus. Des aéroports les plus dangereux au monde aux nettoyeurs de lextrême, en passant par le monde passionnant des fermes et un voyage en Italie à la découverte des meilleures tomates, chaque épisode promet de nouvelles découvertes."
   },
   {
@@ -781,8 +940,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "recurrents",
-    "exlu-play": false,
+    "categorie": [
+      "recurrents"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Dans chaque émission, un fait de société ou d'actualité brûlant est traité de manière factuelle, claire et complète. Reporters traite de l'actualité chaude à travers le regard de ses témoins. Le magazine ne se concentre pas uniquement sur les faits, mais accorde une importance primordiale aux témoignages qui en découlent. L'humain est au cur du sujet et le témoignage au cur du traitement de l'information. "
   },
   {
@@ -796,8 +958,11 @@
     "presenters": [
       "Bertrand Caroy"
     ],
-    "categorie": "recurrents",
-    "exlu-play": false,
+    "categorie": [
+      "recurrents"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Depuis plus de 20 ans, \"Enquêtes\" vous transporte dans les coulisses des interventions des forces de police à travers le pays. Flagrants délits, cambriolages, traques de pickpockets, courses-poursuites... Chaque épisode dévoile l'action et la tension du quotidien policier. Aux côtés de Bertrand Caroy, premier inspecteur et chef du service circulation de la police boraine, découvrez la réalité de nos forces de lordre au quotidien."
   },
   {
@@ -811,8 +976,11 @@
     "presenters": [
       "Salima Belabbas"
     ],
-    "categorie": "recurrents",
-    "exlu-play": false,
+    "categorie": [
+      "recurrents"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Après plus de 20 saisons, \"Images à l'appui\" revient avec une nouvelle identité visuelle et une ligne éditoriale modernisée. Fidèle à sa mission, l'émission continue de traquer les arnaques, les litiges et les injustices auxquels nous pouvons tous être confrontés. Notre équipe d'enquêteurs parcourt la Belgique, se posant en médiateurs dans divers conflits, révélant les scandales et dénonçant les escroqueries."
   },
   {
@@ -826,8 +994,11 @@
     "presenters": [
       "Alix Battard"
     ],
-    "categorie": "recurrents",
-    "exlu-play": false,
+    "categorie": [
+      "recurrents"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "En 2024, l'actualité royale est plus que jamais à la mode ! Chaque samedi en début de soirée, rejoignez Alix Battard pour décrypter l'actualité, les tendances et l'histoire des monarchies européennes et internationales. Comment ces institutions évoluent-elles avec le temps ? Quelles sont les futures reines et rois ? Que se passe-t-il derrière les portes fermées des palais ? Découvrez les anecdotes secrètes de l'histoire et les célibataires les plus en vue du Gotha. \"Place Royale\" allie glamour et information pour répondre à toutes vos questions royales ! "
   },
   {
@@ -845,8 +1016,11 @@
       "Caroline Fontenoy",
       "Martin Buxant"
     ],
-    "categorie": "info",
-    "exlu-play": false,
+    "categorie": [
+      "info"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Le 13 octobre, la rédaction de RTL info vous accompagne tout au long de la journée, sur toutes nos plateformes, pour couvrir le scrutin des élections communales et provinciales. Dès laprès-midi et jusquen soirée, suivez lévolution de cette élection en direct sur le digital et lors de nos RDV télé dès 17h et radio toute la journée en direct, avec un relais sur bel RTL.  "
   },
   {
@@ -862,8 +1036,11 @@
       "Justine Pons",
       "Mathieu Col"
     ],
-    "categorie": "info",
-    "exlu-play": false,
+    "categorie": [
+      "info"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Les équipes de RTL info seront en direct des États-Unis pour suivre les élections américaines. Qui deviendra le 47e président des États-Unis ? Rendez-vous le 6 novembre sur RTL info pour le découvrir. "
   },
   {
@@ -880,8 +1057,11 @@
       "Martin Buxant",
       "Christophe Deborsu"
     ],
-    "categorie": "info",
-    "exlu-play": false,
+    "categorie": [
+      "info"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Caroline Fontenoy, Martin Buxant et Christophe Deborsu vous proposent de découvrir le bilan des six années de mandat des bourgmestres wallons et bruxellois à travers une série d'interviews exclusives. Ils vont à la rencontre des 270 bourgmestres de Wallonie et des 19 bourgmestres de Bruxelles. Retrouvez ces interviews en direct ou en streaming sur lapp RTL info et RTL play. "
   },
   {
@@ -894,8 +1074,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "info",
-    "exlu-play": false,
+    "categorie": [
+      "info"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Événement mondial en Belgique, le Pape sera en visite dans notre pays du 27 au 29 septembre. Pendant ces trois jours, riches en rendez-vous, RTL info couvrira chaque moment de cette visite historique. Suivez lintégralité de la visite en direct lors de deux éditions spéciales, samedi et dimanche de 9h30 à 13h, avec des analyses approfondies de notre spécialiste Christophe Giltay et des invités."
   },
   {
@@ -910,8 +1093,11 @@
     "presenters": [
       "Julie Denayer"
     ],
-    "categorie": "crime",
-    "exlu-play": false,
+    "categorie": [
+      "crime"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "À loccasion du 20e anniversaire de l'un des procès les plus marquants et médiatisés de l'histoire criminelle belge, ce docu-fiction examine une question controversée : à quoi ressemblerait la vie de Marc Dutroux en cas de libération anticipée ? Un document controversé et hautement sensible qui pose de très nombreuses interrogations sur la réinsertion dans notre pays et au sein de notre société. A laide de témoins directs, nous essayerons de comprendre pourquoi Dutroux ne pourra jamais sortir de prison   "
   },
   {
@@ -928,8 +1114,11 @@
       "Vincenzo Ciuro",
       "Anne Ruwet"
     ],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Anne Ruwet et Vincenzo Ciuro vous ouvrent les portes du vestiaire de RTL sports. Chaque semaine, ils sont accompagnés dune équipe de choc composée de Marc Delire, Silvio Proto, Kevin Sauvage mais aussi des consultants RTL sports et des invités de renom.  \n\n\"Dans le vestiaire\" propose un débriefing des matchs, des analyses et des débats autour du football belge. Coups de cur, coups de gueule, avis tranchés : nos experts nauront pas leur langue en poche.  \n\nCette saison sannonce passionnante : Anderlecht remportera-t-il enfin son 35e titre de champion ? LUnion Saint-Gilloise décrochera-t-elle le graal ? Le Standard et Charleroi seront-ils au rendez-vous après une saison décevante ?  \n\nVous l'avez compris, Dans le vestiaire on vous dit tout sur le championnat de Belgique ! "
   },
   {
@@ -942,8 +1131,11 @@
     ],
     "date": "- Vendredi 6/9 : BELGIQUE-ISRAËL dès 20h sur RTL club puis à 20h25 sur RTL tvi \n\n- Lundi 9/9 : FRANCE-BELGIQUE dès 20h sur RTL club puis à 20h25 sur RTL tvi \n\n- Jeudi 10/10 : ITALIE-BELGIQUE dès 20h sur RTL club puis à 20h25 sur RTL tvi \n\n- Lundi 14/10 : BELGIQUE-FRANCE dès 20h sur RTL club puis à 20h25 sur RTL tvi \n\n- Jeudi 14/11 : BELGIQUE-ITALIE dès 20h sur RTL club puis à 20h25 sur RTL tvi \n\n- Dimanche 17/11 : ISRAËL-BELGIQUE dès 20h sur RTL club puis à 20h25 sur RTL tvi ",
     "presenters": [],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "La Ligue des Nations revient bientôt sur nos antennes avec RTL sports ! Ne manquez pas l'occasion de suivre les performances de nos Diables Rouges. La Belgique affrontera Israël, mais surtout deux géants du football européen : la France et l'Italie. Après la victoire de l'Espagne cette année, la prochaine édition s'annonce encore plus riche en émotions.  "
   },
   {
@@ -956,8 +1148,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Des barrages fin août jusquà la finale à Munich, lensemble de la Ligue des champions 2024-25 sera à suivre avec RTL sports ! Tirage au sort, saison régulière, phase finale Pour sa 70e édition, lUEFA a décidé doffrir une toute nouvelle formule à la Ligue des champions. La compétition accueillera maintenant 36 équipes, contre 32 précédemment. À cela sajoute la saison régulière, qui offrira des affiches chocs dès le mois de septembre. "
   },
   {
@@ -970,8 +1165,11 @@
     ],
     "date": "Du 3 au 8 septembre",
     "presenters": [],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Du 3 au 8 septembre, les coureurs traverseront de nombreuses villes du Royaume-Uni. Cette 16e édition s'annonce particulièrement exigeante. Les concurrents, dont le belge Remco Evenepoel, partiront de Glasgow et termineront à Londres, comme lors des éditions précédentes. Cette année, le parcours couvrira 1308,5 km. Malgré une augmentation des étapes de montagne, certains participants estiment que le parcours ne sera pas beaucoup plus facile que celui de l'année dernière. En revanche, les deux dernières étapes seront relativement plates, offrant un contraste avec le reste du parcours majoritairement vallonné. "
   },
   {
@@ -984,8 +1182,11 @@
     ],
     "date": "Le 18 septembre",
     "presenters": [],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Le 18 septembre 2024, le Grand Prix de Wallonie partira de Beaufays pour atteindre Namur, traversant les paysages vallonnés et les difficiles ascensions des Ardennes. Cette course incontournable du calendrier belge, intégrée à l'UCI ProSeries, propose aux coureurs une compétition intense sur 205,5 kilomètres. RTL sports sera sur place pour couvrir la course en direct avec son émission \"Dans le peloton\". "
   },
   {
@@ -998,8 +1199,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Pour les véritables passionnés de cyclisme, la SUPER 8 Classic na plus besoin de présentation. Cet hommage aux légendaires cyclistes Raymond Impanis et Peter Van Petegem est depuis des années un événement incontournable pour les amateurs de sprint... et de bière.  "
   },
   {
@@ -1016,8 +1220,11 @@
       "Tanguy Borra",
       "Antoni Coppi"
     ],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": true,
+    "nouveau": false,
     "description": "Le Flanders Darts Trophy se déroulera à Anvers en septembre 2024. Cet événement fait partie du PDC European Tour et sera le deuxième tournoi de cette série à se tenir sur le sol belge, aux côtés de l'Open de Fléchettes belge Blåkläder à Wieze.  \n\nLes passionnés de fléchettes Marc Delire et Alex Vizorek, accompagnés de Tanguy Borra et Antoni Coppi, apporteront leur expertise aux commentaires pour RTL sports. \n\nLe tournoi aura lieu à l'Antwerp Expo, l'un des plus grands lieux d'événements de la ville glamour d'Anvers. Il se déroulera sur trois jours, et les 16 meilleurs joueurs du classement PDC sont automatiquement qualifiés pour participer à cet événement.  "
   },
   {
@@ -1034,8 +1241,11 @@
       "Tanguy Borra",
       "Antoni Coppi"
     ],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": true,
+    "nouveau": false,
     "description": "Pour la seconde fois en Belgique francophone, RTL sports diffusera le Championnat du Monde de Fléchettes du 13 décembre au 3 janvier ! Les meilleurs joueurs belges et internationaux s'affronteront pour décrocher le titre le plus prestigieux de la discipline, remporté par Luke Humphries en début d'année 2024.  \n\nLe Championnat sera à nouveau commenté par un duo de choc composé d'Alex Vizorek et de Marc Delire, qui nourrissent une passion incroyable pour ce sport si particulier. "
   },
   {
@@ -1048,8 +1258,11 @@
     ],
     "date": "Du 13 au 20 octobre",
     "presenters": [],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Du 13 au 20 octobre, vivez l'European Open au Lotto Arena avec RTL sports. Ce prestigieux tournoi de tennis ATP 250, le seul de ce niveau en Belgique, attire les meilleurs joueurs du monde entier pour une semaine de tennis de haut niveau. "
   },
   {
@@ -1062,8 +1275,11 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Parmi les équipes en lice, on retrouvera des noms prestigieux comme Anderlecht, le Club Brugge, le Standard de Liège, ainsi que l'Union Saint-Gilloise, vainqueur de la dernière édition. À l'issue de la compétition, le vainqueur se verra automatiquement qualifié pour l'Europa League. "
   },
   {
@@ -1074,23 +1290,31 @@
     ],
     "date": "",
     "presenters": [],
-    "categorie": "sports",
-    "exlu-play": false,
+    "categorie": [
+      "sports"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Pour la deuxième année consécutive, RTL sports diffusera 7 manches de Cyclocross Exact Cross/X2O. Les compétitions féminines et masculines seront diffusées en décembre et janvier sur nos antennes. "
   },
   {
     "title": "La nuit se traîne",
     "slug": "lanuitsetraine",
-    "channels": [],
-    "date": "",
+    "channels": [
+      "belgium"
+    ],
+    "date": "Dès le 4 septembre au cinéma",
     "presenters": [
       "Romain Duris",
       "Mustii",
       "Jonas Bloquet",
       "Sam Louwyck"
     ],
-    "categorie": "coprod",
-    "exlu-play": false,
+    "categorie": [
+      "coprod"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "RTL Belgium est heureux de participer en tant que co-producteur à cette nouvelle aventure cinématographique. \"La nuit se traîne\", un thriller captivant, tourné entièrement à Bruxelles, marque les débuts prometteurs du réalisateur belge Michiel Blanchart.  \n \nDéjà récompensé par le Prix du public lors de son ouverture au Biarritz Film Festival  Nouvelles Vagues, \"La nuit se traîne\" confirme le talent incontestable de Michiel Blanchart. \n\nSynopsis : Cette nuit est comme toutes les autres pour Mady, étudiant le jour, serrurier la nuit. Mais Claire, l'énigmatique jeune fille qu'il aide ce soir-là, n'est pas celle qu'elle prétend être. Mady n'a qu'une nuit pour prouver son innocence. "
   },
   {
@@ -1106,8 +1330,11 @@
       "Valentino Palumbo",
       "Gary Moonen"
     ],
-    "categorie": "radio-contact",
-    "exlu-play": false,
+    "categorie": [
+      "radio-contact"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Chaque matin de 6h à 10h, réveillez-vous du bon pied avec Maria, Olivier, Gary et Valentino. Au programme : délires en direct, superbes cadeaux, vos jeux favoris, les meilleurs hits feel good et toutes vos séquences préférées pour bien démarrer la journée. "
   },
   {
@@ -1123,13 +1350,16 @@
       "Thibaut Fassuleto",
       "Max Nihoul"
     ],
-    "categorie": "radio-contact",
-    "exlu-play": false,
+    "categorie": [
+      "radio-contact"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Tous les jours de 15h à 19h, embarquez avec David et sa bande pour un retour à la maison plein de rires et de bonne humeur. Leur objectif ? Vous faire sourire et vous divertir ! Avec David, Thibaut, Lucile et Max, découvrez les actus et les buzz qui font le tour du web, de quoi pimenter vos conversations autour de la machine à café.  "
   },
   {
     "title": "Contact DJ's",
-    "slug": "",
+    "slug": "djs",
     "channels": [
       "contact"
     ],
@@ -1140,18 +1370,26 @@
       "Maya Cox",
       "Simon B"
     ],
-    "categorie": "radio-contact",
-    "exlu-play": false,
+    "categorie": [
+      "radio-contact"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Tous les vendredis et samedis de 21h à 1h, 4 DJs prennent les commandes de Radio Contact. Cette saison, Maya Cox et Simon B rejoignent Lost Frequencies et Henry PFR aux platines pour enflammer vos soirées. "
   },
   {
     "title": "Les apéros du Good Morning",
     "slug": "apero",
-    "channels": [],
+    "channels": [
+      "contact"
+    ],
     "date": "Retrouvez-les à ces dates, de 13h à 15h : \n\n- 28/08 : Parc dEnée, Gembloux \n- 04/09 : Hydrion, Arlon \n- 11/09 : Ville de Ciney \n- 18/09 : Ville de Waremme \n- 25/09 : Les Dauphins, Mouscron ",
     "presenters": [],
-    "categorie": "radio-contact",
-    "exlu-play": false,
+    "categorie": [
+      "radio-contact"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Pour bien débuter cette nouvelle saison, le Good Morning part à la rencontre de ses auditeurs ! Loccasion de rencontrer Maria, Olivier, Gary et Valentino autour dun bon apéro et de partager un moment bien Feel Good. \n\nCette année, un grand concours sera organisé afin de gagner un voyage en Corse ! "
   },
   {
@@ -1162,8 +1400,11 @@
     ],
     "date": "Le 27 septembre au WEX de Marche-en-Famenne",
     "presenters": [],
-    "categorie": "radio-contact",
-    "exlu-play": false,
+    "categorie": [
+      "radio-contact"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Après le succès de la seconde édition, la Playlist de Tonton est de retour pour une soirée à la hauteur de vos espérances. Tonton a vu plus grand, plus fou ! Il vous donne rendez-vous le 27 septembre au WEX de Marche-en-Famenne pour un évènement que vous n'êtes pas prêts d'oublier. Au programme : une playlist composée des titres préférés de Tonton et des surprises préparées par les animateurs de Radio Contact pour faire la fête jusqu'au bout de la nuit ! "
   },
   {
@@ -1177,8 +1418,11 @@
       "Sandrine Dans",
       "Thomas de Bergeyck"
     ],
-    "categorie": "bel-rtl",
-    "exlu-play": false,
+    "categorie": [
+      "bel-rtl"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Dès 7h, bel RTL matin avec Sandrine Dans et Thomas de Bergeyck cest le parfait cocktail dinfos, dhumeur et dhumour pour démarrer la journée du bon pied ! Retrouvez tous les ¼ dheure le point sur lactu régionale, nationale et internationale, mais aussi les rendez-vous interactifs de la rédaction « RTL info répond à vos questions » et « Ça vous parle », sans oublier les incontournables « Signé Giltay » et « Linvité de 7h50 » de Martin Buxant. A 8h15 André Lamy et Olivier Leborgne revisitent lactu dans leur légendaire « Votez pour moi » avant de retrouver « La valise bel RTL ». "
   },
   {
@@ -1191,8 +1435,11 @@
     "presenters": [
       "Benjamin Maréchal"
     ],
-    "categorie": "bel-rtl",
-    "exlu-play": false,
+    "categorie": [
+      "bel-rtl"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Benjamin Maréchal rebondit sur lactualité et creuse linfo avec les intervenants en prise directe avec LE sujet qui fait lactu du jour. "
   },
   {
@@ -1205,8 +1452,11 @@
     "presenters": [
       "Benjamin Maréchal"
     ],
-    "categorie": "bel-rtl",
-    "exlu-play": false,
+    "categorie": [
+      "bel-rtl"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Benjamin Maréchal reçoit celles et ceux qui mériteraient dêtre dans le journal. Des personnalités connues ou inconnues issues de tous les horizons qui méritent dêtre dans la lumière. Leur point commun ? Une histoire à partager avec vous ! "
   },
   {
@@ -1220,8 +1470,11 @@
       "Thibaut Roland",
       "Peggy Simono"
     ],
-    "categorie": "bel-rtl",
-    "exlu-play": false,
+    "categorie": [
+      "bel-rtl"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Chaque soir à 18h, vous êtes dans le journal et vous êtes au cur de linfo !  Vous partagez, en direct et en toute liberté, votre opinion sur les grands sujets dactualité.  En studio, deux personnalités réagissent et partagent leur point de vue qui vous fera parfois douter ou changer davis.  De son côté, la rédaction apporte, au cur de ces échanges, un complément dinfo qui pourrait, lui aussi, tout faire basculer.  Au terme des discussions, cest à vous et uniquement à vous que revient le dernier mot : à vous de nous dire si les échanges de point de vue vous ont fait changer davis  ou pas ! "
   },
   {
@@ -1234,8 +1487,11 @@
     "presenters": [
       "Jean-Michel Zecca"
     ],
-    "categorie": "bel-rtl",
-    "exlu-play": false,
+    "categorie": [
+      "bel-rtl"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "bel RTL vous régale cest votre gourmandise du samedi matin !  Lémission qui vous met leau à la bouche et vous donne envie de partir à la rencontre des producteurs à côté de chez vous, de découvrir la cuisine de nos restaurateurs et de tester les recettes que lon vous partage.  Retrouvez toutes les tendances culinaires dans votre balade gourmande du samedi matin sur bel RTL. "
   },
   {
@@ -1246,8 +1502,11 @@
     ],
     "date": "Du lundi au vendredi à 8h25, 10h25 et 12h25",
     "presenters": [],
-    "categorie": "bel-rtl",
-    "exlu-play": false,
+    "categorie": [
+      "bel-rtl"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "La valise fait son retour sur bel RTL ! Découvrez le code secret qui permet douvrir la valise bel RTL et remportez largent cash quelle contient !  Tentez votre chance en direct, en donnant un code secret à 4 chiffres à lantenne.  Si le code est le bon, vous repartez avec tout le contenu de la valise ! Dans le cas contraire, on remet le montant de la valise en jeu en y ajoutant automatiquement de largent !  Le premier qui trouve le code secret, remporte lintégralité du montant cash contenu dans la valise bel RTL !  \n\nLes rendez-vous de la valise bel RTL sont programmés du lundi au vendredi à 8h25, 10h25 et 12h25 ! "
   },
   {
@@ -1260,8 +1519,11 @@
     "presenters": [
       "Bérénice"
     ],
-    "categorie": "bel-rtl",
-    "exlu-play": false,
+    "categorie": [
+      "bel-rtl"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "Bérénice reçoit une personnalité ou un anonyme qui lui raconte les anecdotes les plus folles, les histoires les plus surprenantes qui lui sont arrivées... ou pas.  Mensonge ou vérité ?  Cest à vous de le déterminer !  Lhumour, la mauvaise foi et les surprises ont rendez-vous chaque vendredi matin sur bel RTL. "
   },
   {
@@ -1270,8 +1532,11 @@
     "channels": [],
     "date": "jusqu'au 3 novembre 2024 à Tour & Taxis",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1280,8 +1545,11 @@
     "channels": [],
     "date": "Du 6 septembre au 8 septembre",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1290,8 +1558,11 @@
     "channels": [],
     "date": "Du 13 septembre au 15 septembre à Mons",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1300,8 +1571,11 @@
     "channels": [],
     "date": "Le 1er octobre au Sportpaleis d'Anvers",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1310,8 +1584,11 @@
     "channels": [],
     "date": "Du 5 octobre au 10 novembre",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1320,8 +1597,11 @@
     "channels": [],
     "date": "Les 23 et 24 novembre à Forest National",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1330,8 +1610,11 @@
     "channels": [],
     "date": "Du 10 octobre au 12 janvier à Fleurus",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1340,8 +1623,11 @@
     "channels": [],
     "date": "Du 26 octobre au 3 novembre à la Citadelle de Namur",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1350,8 +1636,11 @@
     "channels": [],
     "date": "Les 6 et 7 décembre à Forest National",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1360,18 +1649,24 @@
     "channels": [],
     "date": "Les 12 et 13 décembre à Forest National",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
     "title": "Lanterna Magica",
     "slug": "lm24",
     "channels": [],
-    "date": "Du 22 noevembre au 5 janvier dans le parc du Château de La Hulpe",
+    "date": "Du 22 novembre au 5 janvier dans le parc du Château de La Hulpe",
     "presenters": [],
-    "categorie": "events",
-    "exlu-play": false,
+    "categorie": [
+      "events"
+    ],
+    "exluPlay": false,
+    "nouveau": false,
     "description": ""
   },
   {
@@ -1385,8 +1680,9 @@
     "presenters": [
       "Jacques van den Biggelaar"
     ],
-    "categorie": "",
-    "exlu-play": false,
+    "categorie": [],
+    "exluPlay": false,
+    "nouveau": false,
     "description": "À l'occasion de ses 40 ans sur RTL tvi et après 30 ans à la tête du magazine I Comme, Jacques van den Biggelaar prendra une retraite bien méritée. Pour célébrer cette carrière exceptionnelle, \"J. Comme Jacques\" vous propose une émission événementielle retraçant la vie et la carrière de lun des animateurs les plus aimés des Belges francophones. Accompagné de ses amis Ludo Daxhelet, Sandrine Dans, Sandrine Corman, Sophie Pendeville & Sabrina Jacobs, Jacques revient sur les moments marquants de sa carrière et relève les derniers défis proposés par ses anciens collègues. "
   }
 ]
