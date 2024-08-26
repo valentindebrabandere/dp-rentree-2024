@@ -1,5 +1,6 @@
 ---
 import DynImage from "../global/DynImage.astro";
+import CardTag from "./CardTag.astro";
 
 const show = Astro.props;
 ---
@@ -23,6 +24,15 @@ const show = Astro.props;
     height={1800}
     className="c-show-card__backdrop"
   />
+
+  {
+    (show.exluPlay || show.nouveau) && (
+      <div class="c-show-card__tags">
+        {show.exluPlay && <CardTag label="Exclu RTL Play" />}
+        {show.nouveau && <CardTag label="Nouveau" />}
+      </div>
+    )
+  }
 </button>
 
 <script>
@@ -39,6 +49,8 @@ const show = Astro.props;
 </script>
 
 <style lang="scss" is:global>
+  @import "../../scss/mq.scss";
+
   .c-show-card {
     isolation: isolate;
 
@@ -70,7 +82,7 @@ const show = Astro.props;
         position: relative;
         font-family: "Gilroy", sans-serif;
         font-weight: 800;
-        font-size: 1.75rem;
+        font-size: 1.2rem;
         line-height: 1.2;
         text-wrap: balance;
         z-index: 1;
@@ -130,6 +142,17 @@ const show = Astro.props;
       -moz-transform: translate3d(0, 0, 0);
     }
 
+    &__tags {
+      position: absolute;
+      top: 30px;
+      right: -12px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 6px;
+    }
+
     &:hover {
       scale: 1.01;
       transform: translate(0, -5px);
@@ -143,6 +166,14 @@ const show = Astro.props;
 
       & .c-show-card__backdrop {
         transform: translate(0, 18px);
+      }
+    }
+  }
+
+  @media all and (min-width: $mq-tablet) {
+    .c-show-card {
+      h2 {
+        font-size: 1.75rem;
       }
     }
   }

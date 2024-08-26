@@ -33,13 +33,15 @@ const shows: Show[] = Astro.props.shows;
     padding: 0;
 
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 42px;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
     justify-content: center;
     align-content: center;
     place-items: center;
 
     list-style: none;
+
+    @include apply-twist(2);
   }
 
   .c-show-list__item {
@@ -48,18 +50,17 @@ const shows: Show[] = Astro.props.shows;
 
   @media screen and (min-width: $mq-tablet) {
     .c-show-list {
-      grid-template-columns: 1fr 1fr;
+      --grid-twist: 42px;
     }
-    
-    @include apply-twist(2);
    
   }
 
   @media screen and (min-width: $mq-desktop) {
     .c-show-list {
       grid-template-columns: 1fr 1fr 1fr;
+      
+      @include apply-twist(3);
     }
     
-    @include apply-twist(3);
   }
 </style>

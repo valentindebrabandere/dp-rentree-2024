@@ -43,6 +43,7 @@ if (hasIcons) {
 </div>
 
 <style lang="scss" is:global>
+  @import "../../scss/mq.scss";
   .c-category-title-container {
     position: relative;
     margin: 2rem 0;
@@ -53,7 +54,7 @@ if (hasIcons) {
     isolation: isolate;
 
     width: 100%;
-    padding: 72px 250px;
+    padding: 120px 250px;
     box-sizing: border-box;
 
     display: flex;
@@ -81,7 +82,6 @@ if (hasIcons) {
         inset calc(var(--box-shadow-angle) * -1) calc(var(--box-shadow-angle))
           calc(var(--box-shadow-angle) * 2) rgba(255, 255, 255, 0.15);
 
-
       background-color: var(--color-deco);
     }
   }
@@ -91,25 +91,28 @@ if (hasIcons) {
 
     font-family: "Gilroy", sans-serif;
     font-weight: 800;
-    font-size: clamp(3rem, 10vw, 5rem);
+    font-size: clamp(2.5rem, 7vw, 5rem);
     text-align: center;
     text-wrap: balance;
 
     color: var(--color-accent);
+    filter: drop-shadow(0px 4px 12px rgba(235, 65, 61, .40));
 
     margin: 0;
     line-height: 1;
-    margin-bottom: .2em;
+    margin-bottom: 0.2em;
+
+    text-wrap: nowrap;
   }
 
   .c-category__title--child {
-    font-size: 3rem;
+    font-size: clamp(2rem, 5vw, 3rem);
   }
 
   .c-category__icon {
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin: 0 1rem;
 
     img {
@@ -130,4 +133,20 @@ if (hasIcons) {
 
     rotate: 15deg;
   }
+
+  @media all and (min-width: $mq-tablet) {
+    .c-category__icon {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  @media all and (min-width: $mq-desktop) {
+    .c-category__icon {
+      width: 250px;
+      height: 250px;
+    }
+  }
+    
+
 </style>

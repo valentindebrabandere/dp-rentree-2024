@@ -1,0 +1,22 @@
+---
+
+const { label } = Astro.props
+
+---
+
+<span class="c-tag">{label}</span>
+
+<style lang="scss" is:global>
+    .c-tag{
+        color: var(--color-white);
+        background-color: var(--color-accent);
+        padding: 8px 12px;
+        border-radius: 100px;
+        width: fit-content;
+
+        font-size: 14px;
+        font-weight: 600;
+
+        filter: drop-shadow(0px 4px 8px rgba(235, 65, 61, .60));
+    }
+</style>

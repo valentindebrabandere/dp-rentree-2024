@@ -22,9 +22,11 @@ const { slug, quote, author } = Astro.props;
 </blockquote>
 
 <style lang="scss" is:global>
+    @import "../../scss/mq.scss";
+  
   .c-quote {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     place-items: center;
 
     box-sizing: border-box;
@@ -50,9 +52,10 @@ const { slug, quote, author } = Astro.props;
       font-size: 20px;
       line-height: 175%;
 
+      padding: 0 12px;
+
       gap: 24px;
 
-      padding-top: 20%;
     }
     
     p{
@@ -64,4 +67,14 @@ const { slug, quote, author } = Astro.props;
         font-weight: 600;
     }
   }
+
+  @media all and (min-width: $mq-tablet) {
+      .c-quote{
+        grid-template-columns: 1fr 1fr;
+
+        .c-quote__content {
+          padding-top: 20%;
+        }
+      }
+    }
 </style>
