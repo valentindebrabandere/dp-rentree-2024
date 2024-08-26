@@ -46,7 +46,7 @@ const matchedChannels: Channel[] = show.channels
       {
         (show.exluPlay || show.nouveau) && (
           <div class="c-show-window__tags">
-            {show.exluPlay && <CardTag label="Exclu RTL Play" />}
+            {show.exluPlay && <CardTag label="Exclu RTL play" />}
             {show.nouveau && <CardTag label="Nouveau" />}
           </div>
         )
@@ -115,7 +115,7 @@ const matchedChannels: Channel[] = show.channels
   @import "../../scss/mq.scss";
 
   .c-show-window {
-    font-family: "Gilroy", sans-serif;
+    font-family: var(--font-family);
     border: none;
     z-index: 10;
 

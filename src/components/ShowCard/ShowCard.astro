@@ -28,7 +28,7 @@ const show = Astro.props;
   {
     (show.exluPlay || show.nouveau) && (
       <div class="c-show-card__tags">
-        {show.exluPlay && <CardTag label="Exclu RTL Play" />}
+        {show.exluPlay && <CardTag label="Exclu RTL play" />}
         {show.nouveau && <CardTag label="Nouveau" />}
       </div>
     )
@@ -80,7 +80,7 @@ const show = Astro.props;
 
       h2 {
         position: relative;
-        font-family: "Gilroy", sans-serif;
+        font-family: var(--font-family);
         font-weight: 800;
         font-size: 1.2rem;
         line-height: 1.2;

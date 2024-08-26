@@ -510,7 +510,7 @@
       "crime"
     ],
     "exluPlay": false,
-    "nouveau": false,
+    "nouveau": true,
     "description": "\"Histoires de Crimes\" devient votre incontournable rendez-vous criminel sur RTL tvi. Chaque semaine, deux documentaires vous replongent dans les affaires criminelles les plus marquantes de ces dernières années en Belgique et en France... meurtres de sang-froid, règlements de compte, jalousie fatale ou encore infanticides. \n\nPour décrypter ces histoires, une équipe d'experts belges reconnus partage son analyse. Parmi eux, Luc Hennart, magistrat à la retraite, Alexandre Wilmotte, Gisèle Stuyck et Nathalie Gallant, avocats pénalistes, ainsi que Christophe Giltay, journaliste judiciaire.  "
   },
   {
@@ -1455,8 +1455,8 @@
     "categorie": [
       "bel-rtl"
     ],
-    "exluPlay": false,
-    "nouveau": false,
+    "exluPlay": true,
+    "nouveau": true,
     "description": "Benjamin Maréchal reçoit celles et ceux qui mériteraient dêtre dans le journal. Des personnalités connues ou inconnues issues de tous les horizons qui méritent dêtre dans la lumière. Leur point commun ? Une histoire à partager avec vous ! "
   },
   {
