@@ -19,6 +19,7 @@ const { category } = Astro.props;
       altText=`Affiche de ${category.title}`
       width={1200}
       height={1800}
+      loading="eager"
     />
   </a>
 
@@ -28,6 +29,7 @@ const { category } = Astro.props;
     width={1200}
     height={1800}
     className="c-nav-grid-item__backdrop"
+    loading="eager"
   />
 </li>
 
